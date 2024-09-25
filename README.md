@@ -1,0 +1,1 @@
+# plugins-price-by-user-role-for-woocommerce
