@@ -3,16 +3,19 @@
  * Plugin Name: Product Prices by User Roles for WooCommerce
  * Plugin URI: https://woocommerce.com/products/product-prices-by-user-roles-for-woocommerce/
  * Description: Display WooCommerce products prices by user roles.
- * Version: 1.9.1
+ * Version: 1.10.0
  * Author: Tyche Softwares
  * Author URI: https://www.tychesoftwares.com/
  * Text Domain: price-by-user-role-for-woocommerce
  * Domain Path: /langs
  * Copyright: © 2021 Tyche Softwares
- * WC tested up to: 9.1.2
+ * WC tested up to: 9.3.3
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
- * Requires PHP: 5.6
+ * Requires PHP: 7.4
+ * WC requires at least: 5.0.0
+ * Tested up to: 6.6.2
+ * Requires Plugins: woocommerce
  *
  * @package PriceByUserRole
  **/
@@ -61,7 +64,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role' ) ) :
 		 * @var   string
 		 * @since 1.0.0
 		 */
-		public $version = '1.9.1';
+		public $version = '1.10.0';
 
 		/**
 		 * Instance variable
@@ -154,30 +157,34 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role' ) ) :
 			require_once 'includes/alg-wc-price-by-user-role-functions.php';
 			// Core.
 			require_once 'includes/class-alg-wc-price-by-user-role-core.php';
-			// plugin deactivation survey v2.
-			require_once 'includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php';
-			new Tyche_Plugin_Deactivation(
-				array(
-					'plugin_name'       => 'Product Prices by User Roles for WooCommerce',
-					'plugin_base'       => 'price-by-user-role-for-woocommerce/price-by-user-role-for-woocommerce.php',
-					'script_file'       => plugins_url() . '/price-by-user-role-for-woocommerce/assets/js/plugin-deactivation.js',
-					'plugin_short_name' => 'pbur_lite',
-					'version'           => $this->version,
-					'plugin_locale'     => 'price-by-user-role-for-woocommerce',
-				)
-			);
-			$doc_link = 'https://www.tychesoftwares.com/docs/docs/price-based-on-user-role-for-woocommerce/';
-			require_once 'includes/component/plugin-tracking/class-tyche-plugin-tracking.php';
-			require_once 'includes/class-pbur-tracking-functions.php';
-			new Tyche_Plugin_Tracking(
-				array(
-					'plugin_name'       => 'Product Prices by User Roles for WooCommerce',
-					'plugin_locale'     => 'price-by-user-role-for-woocommerce',
-					'plugin_short_name' => 'pbur_lite',
-					'version'           => $this->version,
-					'blog_link'         => $doc_link,
-				)
-			);
+			// plugin deactivation survey.
+			if ( is_admin() ) {
+				if ( strpos( $_SERVER['REQUEST_URI'], 'plugins.php' ) !== false || strpos( $_SERVER['REQUEST_URI'], 'action=deactivate' ) !== false || ( strpos( $_SERVER['REQUEST_URI'], 'admin-ajax.php' ) !== false && isset( $_POST['action'] ) && $_POST['action'] === 'tyche_plugin_deactivation_submit_action' ) ) { //phpcs:ignore
+					require_once 'includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php';
+					new Tyche_Plugin_Deactivation(
+						array(
+							'plugin_name'       => 'Product Prices by User Roles for WooCommerce',
+							'plugin_base'       => 'price-by-user-role-for-woocommerce/price-by-user-role-for-woocommerce.php',
+							'script_file'       => plugins_url() . '/price-by-user-role-for-woocommerce/assets/js/plugin-deactivation.js',
+							'plugin_short_name' => 'pbur_lite',
+							'version'           => $this->version,
+							'plugin_locale'     => 'price-by-user-role-for-woocommerce',
+						)
+					);
+				}
+				$doc_link = 'https://www.tychesoftwares.com/docs/docs/price-based-on-user-role-for-woocommerce/';
+				require_once 'includes/component/plugin-tracking/class-tyche-plugin-tracking.php';
+				require_once 'includes/class-pbur-tracking-functions.php';
+				new Tyche_Plugin_Tracking(
+					array(
+						'plugin_name'       => 'Product Prices by User Roles for WooCommerce',
+						'plugin_locale'     => 'price-by-user-role-for-woocommerce',
+						'plugin_short_name' => 'pbur_lite',
+						'version'           => $this->version,
+						'blog_link'         => $doc_link,
+					)
+				);
+			}
 		}
 
 		/**

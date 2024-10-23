@@ -425,6 +425,15 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 		 * @since   1.0.0
 		 */
 		public function enqueue_scripts_admin() {
+			if ( is_admin() ) {
+				wp_register_script(
+					'tyche',
+					plugins_url() . '/price-by-user-role-for-woocommerce/assets/js/tyche.js',
+					array( 'jquery' ),
+					true
+				);
+				wp_enqueue_script( 'tyche' );
+			}
 			global $theorder,$post;
 			if ( ! is_admin() ) {
 				return;
