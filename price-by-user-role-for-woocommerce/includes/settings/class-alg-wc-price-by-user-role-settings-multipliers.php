@@ -43,9 +43,16 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Settings_Multipliers' ) ) :
 		 * @since   1.0.0
 		 */
 		public function __construct() {
-			$this->id   = 'multipliers';
-			$this->desc = __( 'Multipliers', 'price-by-user-role-for-woocommerce' );
+			$this->id = 'multipliers';
+			add_action( 'init', array( &$this, 'add_pbur_desc_multipliers' ) );
 			parent::__construct();
+		}
+
+		/**
+		 * Add desc to setting page.
+		 */
+		public function add_pbur_desc_multipliers() {
+			$this->desc = __( 'Multipliers', 'price-by-user-role-for-woocommerce' );
 		}
 
 		/**

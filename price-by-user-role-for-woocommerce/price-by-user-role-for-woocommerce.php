@@ -3,18 +3,18 @@
  * Plugin Name: Product Prices by User Roles for WooCommerce
  * Plugin URI: https://woocommerce.com/products/product-prices-by-user-roles-for-woocommerce/
  * Description: Display WooCommerce products prices by user roles.
- * Version: 1.10.0
+ * Version: 1.11.0
  * Author: Tyche Softwares
  * Author URI: https://www.tychesoftwares.com/
  * Text Domain: price-by-user-role-for-woocommerce
  * Domain Path: /langs
  * Copyright: © 2021 Tyche Softwares
- * WC tested up to: 9.3.3
+ * WC tested up to: 9.4.2
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * Requires PHP: 7.4
  * WC requires at least: 5.0.0
- * Tested up to: 6.6.2
+ * Tested up to: 6.7.1
  * Requires Plugins: woocommerce
  *
  * @package PriceByUserRole
@@ -64,7 +64,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role' ) ) :
 		 * @var   string
 		 * @since 1.0.0
 		 */
-		public $version = '1.10.0';
+		public $version = '1.11.0';
 
 		/**
 		 * Instance variable
@@ -101,7 +101,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role' ) ) :
 		public function __construct() {
 
 			// Set up localisation.
-			load_plugin_textdomain( 'price-by-user-role-for-woocommerce', false, dirname( plugin_basename( __FILE__ ) ) . '/langs/' );
+			add_action( 'init', array( $this, 'pbur_load_text_domain' ) );
 
 			// Include required files.
 			$this->includes();
@@ -126,7 +126,13 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role' ) ) :
 				add_action( 'pbur_lite_init_tracker_completed', array( __CLASS__, 'init_tracker_completed' ), 10, 2 );
 				add_filter( 'pbur_lite_ts_tracker_data', array( 'Pbur_Tracking_Functions', 'pbur_lite_plugin_tracking_data' ), 10, 1 );
 			}
+		}
 
+		/**
+		 * Added plugin text domain.
+		 */
+		public function pbur_load_text_domain() {
+			load_plugin_textdomain( 'price-by-user-role-for-woocommerce', false, dirname( plugin_basename( __FILE__ ) ) . '/langs/' );
 		}
 
 		/**

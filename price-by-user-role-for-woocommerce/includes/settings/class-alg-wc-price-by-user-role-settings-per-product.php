@@ -44,7 +44,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Settings_Per_Product' ) ) :
 		 */
 		public function __construct() {
 			$this->id   = 'per_product';
-			$this->desc = __( 'Per Product', 'price-by-user-role-for-woocommerce' );
+			add_action( 'init', array( &$this, 'add_pbur_desc_per_product' ) );
 			parent::__construct();
 
 			if ( 'yes' === get_option( 'alg_wc_price_by_user_role_enabled', 'yes' ) ) {
@@ -56,6 +56,13 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Settings_Per_Product' ) ) :
 					add_action( 'admin_init', array( $this, 'price_enqueue' ) );
 				}
 			}
+		}
+
+		/**
+		 * Add desc to setting page.
+		 */
+		public function add_pbur_desc_per_product() {
+			$this->desc = __( 'Per Product', 'price-by-user-role-for-woocommerce' );
 		}
 
 		/**
