@@ -79,7 +79,6 @@ if ( ! class_exists( 'Alg_WC_Settings_Price_By_User_Role' ) ) :
 			parent::save();
 			$this->maybe_reset_settings();
 		}
-
 	}
 
 endif;

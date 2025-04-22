@@ -44,7 +44,7 @@ if ( is_multisite() ) {
 		$pbur_multisite_prefix_options  = "{$pbur_multisite_prefix}options";
 
 		// Product Settings.
-		$wpdb->query(
+		$wpdb->query( // phpcs:ignore
 			$wpdb->prepare(
 				'DELETE FROM `' . $pbur_multisite_prefix_postmeta . '` WHERE meta_key LIKE %s', // phpcs:ignore
 				'_alg_wc_price_by_user_role_%'
@@ -52,7 +52,7 @@ if ( is_multisite() ) {
 		); // WPCS: db call ok, WPCS: cache ok.
 
 		// General Settings.
-		$wpdb->query(
+		$wpdb->query( // phpcs:ignore
 			$wpdb->prepare(
 				'DELETE FROM `' . $pbur_multisite_prefix_options . '` WHERE option_name LIKE %s',  // phpcs:ignore
 				'alg_wc_price_by_user_role_%'
@@ -66,10 +66,10 @@ if ( is_multisite() ) {
 } else {
 
 	// Product Settings.
-	$wpdb->query( $wpdb->prepare( 'DELETE FROM `' . $wpdb->prefix . 'postmeta` WHERE meta_key LIKE %s', '_alg_wc_price_by_user_role_%' ) ); // WPCS: db call ok, WPCS: cache ok.
+	$wpdb->query( $wpdb->prepare( 'DELETE FROM `' . $wpdb->prefix . 'postmeta` WHERE meta_key LIKE %s', '_alg_wc_price_by_user_role_%' ) ); // phpcs:ignore
 
 	// General Settings.
-	$wpdb->query( $wpdb->prepare( 'DELETE FROM `' . $wpdb->prefix . 'options` WHERE option_name LIKE %s', 'alg_wc_price_by_user_role_%' ) ); // WPCS: db call ok, WPCS: cache ok.
+	$wpdb->query( $wpdb->prepare( 'DELETE FROM `' . $wpdb->prefix . 'options` WHERE option_name LIKE %s', 'alg_wc_price_by_user_role_%' ) ); // phpcs:ignore
 
 	// Version Number.
 	delete_option( 'alg_wc_price_by_user_role_version' );

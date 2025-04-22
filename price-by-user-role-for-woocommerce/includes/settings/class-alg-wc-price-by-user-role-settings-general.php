@@ -90,7 +90,6 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Settings_General' ) ) :
 			);
 			return $settings;
 		}
-
 	}
 
 endif;

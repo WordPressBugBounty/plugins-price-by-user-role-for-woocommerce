@@ -43,7 +43,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Settings_Per_Product' ) ) :
 		 * @since   1.0.0
 		 */
 		public function __construct() {
-			$this->id   = 'per_product';
+			$this->id = 'per_product';
 			add_action( 'init', array( &$this, 'add_pbur_desc_per_product' ) );
 			parent::__construct();
 
@@ -126,7 +126,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Settings_Per_Product' ) ) :
 			<div class="error"><p>
 			<?php echo '<div class="message">'; ?>
 			<?php /* translators: %s: Link to pro version */ ?>
-			<?php echo sprintf( wp_kses_post( __( 'Free plugins version is limited to only one "price by user role per products settings" product enabled at a time. You will need to get <strong><a href="%s" target="_blank">Product Prices by User Roles for WooCommerce Pro</a></strong> to add unlimited number of "price by user role per product settings" products.', 'price-by-user-role-for-woocommerce' ) ), esc_url( 'https://woocommerce.com/products/product-prices-by-user-roles-for-woocommerce/' ) ); ?>
+			<?php echo sprintf( wp_kses_post( __( 'Free plugins version is limited to only one "price by user role per products settings" product enabled at a time. You will need to get <strong><a href="%s" target="_blank">Product Prices by User Roles for WooCommerce Pro</a></strong> to add unlimited number of "price by user role per product settings" products.', 'price-by-user-role-for-woocommerce' ) ), esc_url( 'https://woocommerce.com/products/product-prices-by-user-roles-for-woocommerce/' ) ); // phpcs:ignore ?> 
 			<?php echo '</div>'; ?>
 			</p></div>
 			<?php
@@ -142,7 +142,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Settings_Per_Product' ) ) :
 		 */
 		public function save_meta_box( $post_id, $post ) {
 			// Check that we are saving with current metabox displayed.
-			if ( ! isset( $_POST[ 'alg_wc_price_by_user_role_' . $this->id . '_save_post' ] ) ) {
+			if ( ! isset( $_POST[ 'alg_wc_price_by_user_role_' . $this->id . '_save_post' ] ) ) { // phpcs:ignore
 				return;
 			}
 			// Save options.
@@ -152,7 +152,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Settings_Per_Product' ) ) :
 				}
 				$is_enabled = ( isset( $option['enabled'] ) && 'no' === $option['enabled'] ) ? false : true;
 				if ( $is_enabled ) {
-					$option_value  = ( isset( $_POST[ $option['name'] ] ) ) ? sanitize_text_field( wp_unslash( $_POST[ $option['name'] ] ) ) : $option['default'];
+					$option_value  = ( isset( $_POST[ $option['name'] ] ) ) ? sanitize_text_field( wp_unslash( $_POST[ $option['name'] ] ) ) : $option['default']; // phpcs:ignore
 					$the_post_id   = ( isset( $option['product_id'] ) ) ? $option['product_id'] : $post_id;
 					$the_meta_name = ( isset( $option['meta_name'] ) ) ? $option['meta_name'] : '_' . $option['name'];
 					update_post_meta( $the_post_id, $the_meta_name, apply_filters( 'alg_wc_price_by_user_role_save_meta_box_value', $option_value, $option['name'] ) );
@@ -413,7 +413,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Settings_Per_Product' ) ) :
 		 * @since 1.3
 		 */
 		public function price_enqueue() {
-			if ( isset( $_GET['post'] ) && $_GET['post'] > 0 && get_post_type( sanitize_text_field( wp_unslash( $_GET['post'] ) ) ) === 'product' ) {
+			if ( isset( $_GET['post'] ) && $_GET['post'] > 0 && get_post_type( sanitize_text_field( wp_unslash( $_GET['post'] ) ) ) === 'product' ) { // phpcs:ignore
 				wp_enqueue_script( 'price-roles-admin-js', plugins_url() . '/price-by-user-role-for-woocommerce/assets/js/product-settings-admin.js', array( 'jquery' ), alg_wc_price_by_user_role()->version, true );
 			}
 		}

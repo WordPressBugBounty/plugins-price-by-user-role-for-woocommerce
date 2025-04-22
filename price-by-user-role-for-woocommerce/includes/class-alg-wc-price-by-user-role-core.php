@@ -228,7 +228,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 		 * @version 1.0.0
 		 * @since   1.0.0
 		 */
-		public function change_price_by_role_shipping( $package_rates, $package ) {
+		public function change_price_by_role_shipping( $package_rates, $package ) { // phpcs:ignore
 			if ( 'yes' === get_option( 'alg_wc_price_by_user_role_shipping_enabled', 'no' ) ) {
 				$current_user_role      = alg_get_current_user_first_role();
 				$koef                   = get_option( 'alg_wc_price_by_user_role_' . $current_user_role, 1 );
@@ -310,7 +310,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 				if ( 'yes' === get_post_meta( alg_get_product_id_or_variation_parent_id( $_product ), '_alg_wc_price_by_user_role_per_product_settings_enabled', true ) ) {
 					$_product_id = alg_get_product_id( $_product );
 					if ( 'yes' === get_post_meta( $_product_id, '_alg_wc_price_by_user_role_empty_price_' . $current_user_role, true ) ) {
-						return '';
+						return 0.0; // Return 0.0 instead of an empty string.
 					}
 					$regular_price_per_product = get_post_meta( $_product_id, '_alg_wc_price_by_user_role_regular_price_' . $current_user_role, true );
 					if ( '' !== $regular_price_per_product ) {
@@ -323,7 +323,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 							),
 							true
 						) ) {
-							return alg_get_product_display_price( $_product );
+							return floatval( alg_get_product_display_price( $_product ) );
 						} elseif ( in_array(
 							$_current_filter,
 							array(
@@ -340,16 +340,15 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 							}
 							if ( 'yes' === get_option( 'alg_wc_price_by_user_role_multipliers_enabled', 'yes' ) ) {
 								if ( 'yes' === get_option( 'alg_wc_price_by_user_role_empty_price_' . $current_user_role, 'no' ) ) {
-									return '';
+									return 0.0;
 								}
 								$koef = get_option( 'alg_wc_price_by_user_role_' . $current_user_role, 1 );
 
 								if ( 1 !== ( $koef ) ) {
-									return ( '' === $sale_price_per_product ) ? $sale_price_per_product : $sale_price_per_product * (float) $koef;
+									return floatval( ( '' === $sale_price_per_product ) ? $sale_price_per_product : $sale_price_per_product * (float) $koef );
 								}
 							}
-							return ( '' !== $sale_price_per_product && $sale_price_per_product < $regular_price_per_product ) ?
-								$sale_price_per_product : $regular_price_per_product;
+							return floatval( ( '' !== $sale_price_per_product && $sale_price_per_product < $regular_price_per_product ) ? $sale_price_per_product : $regular_price_per_product );
 						} elseif ( in_array(
 							$_current_filter,
 							array(
@@ -360,7 +359,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 							),
 							true
 						) ) {
-							return $regular_price_per_product;
+							return floatval( $regular_price_per_product );
 						} elseif ( in_array(
 							$_current_filter,
 							array(
@@ -372,8 +371,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 							true
 						) ) {
 							$sale_price_per_product = get_post_meta( $_product_id, '_alg_wc_price_by_user_role_sale_price_' . $current_user_role, true );
-							return ( '' !== $sale_price_per_product ) ?
-								$sale_price_per_product : $price;
+							return floatval( ( '' !== $sale_price_per_product ) ? $sale_price_per_product : $price );
 						}
 					}
 				}
@@ -382,16 +380,16 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 			// Global.
 			if ( 'yes' === get_option( 'alg_wc_price_by_user_role_multipliers_enabled', 'yes' ) ) {
 				if ( 'yes' === get_option( 'alg_wc_price_by_user_role_empty_price_' . $current_user_role, 'no' ) ) {
-					return '';
+					return 0.0;
 				}
 				$koef = get_option( 'alg_wc_price_by_user_role_' . $current_user_role, 1 );
 				if ( 1 !== $koef ) {
-					return ( '' === $price ) ? $price : $price * $koef;
+					return floatval( ( '' === $price ) ? $price : $price * $koef );
 				}
 			}
 
 			// No changes.
-			return $price;
+			return floatval( $price );
 		}
 
 		/**
@@ -404,7 +402,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 		 * @version 1.0.0
 		 * @since   1.0.0
 		 */
-		public function get_variation_prices_hash( $price_hash, $_product, $display ) {
+		public function get_variation_prices_hash( $price_hash, $_product, $display ) { // phpcs:ignore
 			$user_role                   = alg_get_current_user_first_role();
 			$koef                        = get_option( 'alg_wc_price_by_user_role_' . $user_role, 1 );
 			$is_empty                    = get_option( 'alg_wc_price_by_user_role_empty_price_' . $user_role, 'no' );
@@ -426,7 +424,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 		 */
 		public function enqueue_scripts_admin() {
 			if ( is_admin() ) {
-				wp_register_script(
+				wp_register_script( // phpcs:ignore
 					'tyche',
 					plugins_url() . '/price-by-user-role-for-woocommerce/assets/js/tyche.js',
 					array( 'jquery' ),
@@ -434,7 +432,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 				);
 				wp_enqueue_script( 'tyche' );
 			}
-			global $theorder,$post;
+			global $theorder, $post;
 			if ( ! is_admin() ) {
 				return;
 			}
@@ -445,7 +443,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 			} else {
 				$screen_type = $screen->post_type;
 			}
-			if ( 'shop_order' === $screen_type || 'woocommerce_page_wc-orders' === $screen_type && 'new' === $action || 'edit' === $action ) {
+			if ( 'shop_order' === $screen_type || 'woocommerce_page_wc-orders' === $screen_type && 'new' === $action || 'edit' === $action ) { // phpcs:ignore
 				if ( 'woocommerce_page_wc-orders' === $screen_type ) {
 					$order_id = $theorder->get_id();
 				} else {
@@ -621,27 +619,48 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 		 * @param object $post Post object.
 		 */
 		public function alg_wc_pbur_update_order_role_options( $post_id, $post ) {
-			if ( 'shop_order' !== $post->post_type ) {
+			if ( empty( $post_id ) || empty( $post ) ) {
 				return;
 			}
+			// Ensure this is an order, and avoid execution during auto-save.
+			if ( 'shop_order' !== get_post_type( $post_id ) ) {
+				return;
+			}
+			if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+				return;
+			}
+			if ( defined( 'DOING_AJAX' ) && DOING_AJAX ) {
+				return;
+			}
+			if ( wp_is_post_revision( $post_id ) || wp_is_post_autosave( $post_id ) ) {
+				return;
+			}
+			// Verify nonce to prevent security issues.
 			if ( empty( $_POST['pbur_userole_checkbox_nonce'] ) || ! wp_verify_nonce( sanitize_key( $_POST['pbur_userole_checkbox_nonce'] ), 'pbur_userole_checkbox_nonce' ) ) {
 				return;
 			}
+			// Ensure required fields exist in POST request.
 			if ( ! isset( $_POST['alg_wc_pbur_select_role'] ) || ! isset( $_POST['checkbox_pbur'] ) ) {
 				return;
 			}
+			// Sanitize input values.
 			$pbur_checkbox_selected   = sanitize_text_field( wp_unslash( $_POST['checkbox_pbur'] ) );
 			$pbur_order_role_selected = sanitize_text_field( wp_unslash( $_POST['alg_wc_pbur_select_role'] ) );
-			if ( $this->pbur_wc_hpos_enabled() ) {
-				$order = wc_get_order( $post_id );
-				$order->update_meta_data( 'alg_wc_price_by_user_role_order_page_checkbox', $pbur_checkbox_selected );
-				$order->update_meta_data( 'alg_wc_price_by_user_role_order_role', $pbur_order_role_selected );
-				$order->save();
-
-			} else {
-				update_post_meta( $post_id, 'alg_wc_price_by_user_role_order_page_checkbox', $pbur_checkbox_selected );
-				update_post_meta( $post_id, 'alg_wc_price_by_user_role_order_role', $pbur_order_role_selected );
+			// Get order object - Use HPOS-compatible method.
+			$order = wc_get_order( $post_id );
+			if ( ! $order ) {
+				return;
 			}
+			// Prevent infinite loop by checking if the meta is already set.
+			$existing_checkbox = $order->get_meta( 'alg_wc_price_by_user_role_order_page_checkbox', true );
+			$existing_role     = $order->get_meta( 'alg_wc_price_by_user_role_order_role', true );
+			if ( $existing_checkbox === $pbur_checkbox_selected && $existing_role === $pbur_order_role_selected ) {
+				return; // Avoid unnecessary save.
+			}
+			// Update order meta.
+			$order->update_meta_data( 'alg_wc_price_by_user_role_order_page_checkbox', $pbur_checkbox_selected );
+			$order->update_meta_data( 'alg_wc_price_by_user_role_order_role', $pbur_order_role_selected );
+			$order->save();
 		}
 
 		/**
