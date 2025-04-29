@@ -3,7 +3,7 @@ Contributors: tychesoftwares
 Tags: woocommerce, price by user role, role based pricing, user role
 Requires at least: 4.4
 Tested up to: 6.8.0
-Stable tag: 1.12.0
+Stable tag: 1.13.0
 Requires PHP: 7.4
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -91,8 +91,11 @@ You can also **hide product prices** for selected user roles.
 This plugin communicates with our tracking server to send usage data **only** if the user has explicitly opted in to usage tracking. For detailed information about what is tracked, please refer to our [usage tracking documentation](https://www.tychesoftwares.com/docs/docs/price-based-on-user-role-for-woocommerce/).
 
 == Changelog ==
+= 1.13.0 - 29/04/2025 =
+* Fix - Issue where the multiplier was not correctly applying to the regular price on the product page when a sale price was also set.
+* Fix - Regular price displayed twice or as sale price on the frontend, with or without user role-based settings.
 
-= 1.12.0 ( 22.04.2025)
+= 1.12.0 - 22/04/2025 = 
 * Fix - A critical error was appearing while manually creating an order in a case where we enable the "Set a user role for this order?" option but don't select any user role.
 * Fix - Resolved all PHPCS warnings and aligned the code with WordPress Coding Standards to enhance quality and maintainability.
 * Tweak - Updated for compatibility with WordPress 6.8.0

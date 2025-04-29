@@ -1,4 +1,8 @@
 *** Product Prices by User Roles for WooCommerce ***
+2025-04-29 - version 1.13.0
+* Fix - Issue where the multiplier was not correctly applying to the regular price on the product page when a sale price was also set.
+* Fix - Regular price displayed twice or as sale price on the frontend, with or without user role-based settings.
+
 2024-11-22 - version 1.11.0
 * Fix - Translation loading was triggered too early, causing errors when changing the site language in WordPress 6.7.
 * Tweak - Removed the call to our tracking server to fetch the deactivation reasons and added them in the plugin itself.
