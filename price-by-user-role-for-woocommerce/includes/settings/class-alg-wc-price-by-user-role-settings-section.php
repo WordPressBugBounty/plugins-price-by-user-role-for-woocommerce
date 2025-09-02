@@ -53,7 +53,7 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Settings_Section' ) ) :
 		 * @since   1.0.0
 		 */
 		public function get_settings() {
-			return array_merge(
+			$settings = array_merge(
 				$this->get_section_settings(),
 				array(
 					array(
@@ -68,20 +68,24 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Settings_Section' ) ) :
 						'default' => 'no',
 						'type'    => 'checkbox',
 					),
-					array(
-						'title'   => __( 'Reset Usage Tracking', 'price-by-user-role-for-woocommerce' ),
-						'desc'    => __( 'This will reset your usage tracking settings, causing it to show the opt-in banner again and not sending any data.', 'price-by-user-role-for-woocommerce' ),
-						'id'      => 'alg_wc_price_by_user_role_reset_usage_tracking',
-						'default' => 'no',
-						'type'    => 'checkbox',
-					),
-					array(
-						'type' => 'sectionend',
-						'id'   => 'alg_wc_price_by_user_role_' . $this->id . '_reset_options',
-					),
 				)
 			);
+			// Show Reset Usage Tracking only on the "main" section (when no section is set).
+			$current_section = isset( $_GET['section'] ) ? sanitize_text_field( wp_unslash( $_GET['section'] ) ) : ''; // phpcs:ignore
+			if ( $current_section === '' ) {
+				$settings[] = array(
+					'title'   => __( 'Reset Usage Tracking', 'price-by-user-role-for-woocommerce' ),
+					'desc'    => __( 'This will reset your usage tracking settings, causing it to show the opt-in banner again and not sending any data.', 'price-by-user-role-for-woocommerce' ),
+					'id'      => 'alg_wc_price_by_user_role_reset_usage_tracking',
+					'default' => 'no',
+					'type'    => 'checkbox',
+				);
+			}
+			$settings[] = array(
+				'type' => 'sectionend',
+				'id'   => 'alg_wc_price_by_user_role_' . $this->id . '_reset_options',
+			);
+			return $settings;
 		}
 	}
-
 endif;

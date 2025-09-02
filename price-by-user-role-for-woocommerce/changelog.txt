@@ -1,4 +1,8 @@
 *** Product Prices by User Roles for WooCommerce ***
+2025-09-02 - version 1.14.0
+* Fix - Multiplier was not being applied when creating orders manually.
+* Fix - PHP warning displayed when creating a new manual order.
+
 2025-04-29 - version 1.13.0
 * Fix - Issue where the multiplier was not correctly applying to the regular price on the product page when a sale price was also set.
 * Fix - Regular price displayed twice or as sale price on the frontend, with or without user role-based settings.

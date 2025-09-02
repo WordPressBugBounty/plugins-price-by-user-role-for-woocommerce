@@ -166,7 +166,29 @@ if ( ! function_exists( 'alg_get_current_user_first_role' ) ) {
 	 * @todo    (maybe) check all user roles instead of first one?
 	 */
 	function alg_get_current_user_first_role() {
+		// phpcs:disable
+		if ( is_admin() ) {
+			$order_id = 0;
+			if ( isset( $_GET['post'] ) ) {
+				$order_id = absint( $_GET['post'] );
+			}
+			if ( empty( $order_id ) && isset( $_POST['order_id'] ) ) {
+				$order_id = absint( $_POST['order_id'] );
+			}
+			if ( empty( $order_id ) && isset( $_REQUEST['post'] ) ) {
+				$order_id = absint( $_REQUEST['post'] );
+			}
+			if ( $order_id ) {
+				$manual_role = get_post_meta( $order_id, 'alg_wc_price_by_user_role_order_role', true );
+				$checkbox    = get_post_meta( $order_id, 'alg_wc_price_by_user_role_order_page_checkbox', true );
+				if ( ! empty( $manual_role ) && ( 'on' === $checkbox || 'true' === $checkbox ) ) {
+					return $manual_role;
+				}
+			}
+		}
+		// phpcs:enable
 		$current_user = wp_get_current_user();
-		return ( isset( $current_user->roles[0] ) && '' !== $current_user->roles[0] ) ? $current_user->roles[0] : 'guest';
+		$role         = ( isset( $current_user->roles[0] ) && '' !== $current_user->roles[0] ) ? $current_user->roles[0] : 'guest';
+		return $role;
 	}
 }

@@ -790,11 +790,6 @@ if ( ! class_exists( 'Alg_WC_Price_By_User_Role_Core' ) ) :
 		 * @param float  $pbur_price product price.
 		 */
 		public function pbur_check_price_by_role_admin_order( $product_id, $current_user_role, $pbur_price ) {
-			if ( 'fixed_price' !== get_post_meta( $product_id, '_alg_wc_price_by_user_role_adjusment_type_' . $current_user_role, true ) ) {
-					$adjustment_types = get_post_meta( $product_id, '_alg_wc_price_by_user_role_adjusment_type_' . $current_user_role, true );
-					$price            = get_post_meta( $product_id, '_price', true );
-					$pbur_price       = $this->change_price_by_role_adjucement_type( $price, $pbur_price, $adjustment_types );
-			}
 			if ( 'yes' === get_option( 'alg_wc_price_by_user_role_multipliers_enabled', 'yes' ) ) {
 				if ( 'yes' === get_option( 'alg_wc_price_by_user_role_empty_price_' . $current_user_role, 'no' ) ) {
 					return '';
