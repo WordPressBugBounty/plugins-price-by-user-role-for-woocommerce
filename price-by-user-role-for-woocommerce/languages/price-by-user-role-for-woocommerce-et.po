@@ -1,0 +1,944 @@
+# Copyright (C) 2026 Tyche Softwares
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Prices by User Roles for WooCommerce Pro 2.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/price-by-user-role-for-woocommerce\n"
+"POT-Creation-Date: 2026-06-16T10:26:32+00:00\n"
+"PO-Revision-Date: 2026-05-12T12:11:34+00:00\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: price-by-user-role-for-woocommerce\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: price-by-user-role-for-woocommerce.php build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:16
+#. Plugin Name of the plugin
+msgid "Product Prices by User Roles for WooCommerce"
+msgstr "Toote hinnad kasutaja rollide kaupa WooCommerce jaoks"
+
+#: price-by-user-role-for-woocommerce.php
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.tychesoftwares.com"
+msgstr "https://www.tychesoftwares.com"
+
+#: price-by-user-role-for-woocommerce.php
+#. Description of the plugin
+msgid ""
+"Set role-based product prices in WooCommerce. Apply global multipliers or "
+"fixed per-product prices per role. Upgrade to Pro for rules, quantity "
+"discounts, adjustment types, and more."
+msgstr ""
+"Määra WooCommerce’is rollipõhised tootehinnad. Rakenda rollide kaupa üldisi "
+"kordajaid või kindlaid tootehindu. Uuenda Pro-versioonile, et saada "
+"juurdepääs reeglitele, kogusemüügi soodustustele, korrigeerimistüüpidele ja "
+"muule."
+
+#: price-by-user-role-for-woocommerce.php build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:44
+#. Author of the plugin
+msgid "Tyche Softwares"
+msgstr "Tyche tarkvara"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:142
+#: includes/admin/class-backend.php:142
+msgid "Set a user role for this order?"
+msgstr "Kas määrata selle tellimuse jaoks kasutaja roll?"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:145
+#: includes/admin/class-backend.php:145
+msgid "Select a role:"
+msgstr "Valige roll:"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:147
+#: includes/admin/class-backend.php:147
+msgid "Select a role"
+msgstr "Valige roll"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-menu.php:43
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-menu.php:49
+#: includes/admin/class-menu.php:43 includes/admin/class-menu.php:49
+msgid "Product Prices by User Roles"
+msgstr "Toote hinnad kasutajate rollide kaupa"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-notices.php:110
+#: includes/admin/class-notices.php:110
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Tegevus ebaõnnestus. Palun värskendage lehte ja proovige uuesti."
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-notices.php:114
+#: includes/admin/class-notices.php:114
+msgid "You don't have the permission to hide the selected notice."
+msgstr "Teil ei ole luba valitud teate varjamiseks."
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:55
+#: includes/admin/class-product-meta-box.php:55
+msgid "Product Prices by User Roles: Per Product Settings"
+msgstr "Toote hinnad kasutajate rollide kaupa: Toote seadete kaupa"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:121
+#: includes/admin/class-product-meta-box.php:121
+msgid "Enable per-product pricing"
+msgstr "Võimaldage tootepõhine hinnakujundus"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:122
+#: includes/admin/class-product-meta-box.php:122
+msgid "Configure individual role pricing for this product"
+msgstr "Selle toote individuaalse rolli hinnakujunduse seadistamine"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:143
+#: includes/admin/class-product-meta-box.php:143
+msgid "User Role"
+msgstr "Kasutaja roll"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:144
+#: includes/admin/class-product-meta-box.php:144
+msgid "Regular Price"
+msgstr "Tavaline hind"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:145
+#: includes/admin/class-product-meta-box.php:145
+msgid "Sale Price"
+msgstr "Müügihind"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:146
+#: includes/admin/class-product-meta-box.php:146
+msgid "Empty Price"
+msgstr "Tühi hind"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:323
+#: includes/admin/class-product-meta-box.php:323
+msgid "Any"
+msgstr "Mis tahes"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:360
+#: includes/admin/class-product-meta-box.php:360
+#, php-format
+msgid ""
+"The free version is limited to one product with per-product pricing enabled "
+"at a time. <a href=\"%s\" target=\"_blank\">Upgrade to Pro</a> for "
+"unlimited products."
+msgstr ""
+"Tasuta versioonis saab korraga kasutada vaid ühte toodet, mille puhul on "
+"aktiveeritud tootekohane hinnakujundus. <a href=\"%s\" "
+"target=\"_blank\">Uuenda Pro-versioonile</a>, et saada piiramatu arv "
+"tooteid."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:158
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:189
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:250
+#: includes/api/class-settings.php:158 includes/api/class-settings.php:189
+#: includes/api/class-settings.php:250
+msgid "Authentication has failed."
+msgstr "Autentimine on ebaõnnestunud."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:168
+#: includes/api/class-settings.php:168
+msgid "Plugin usage tracking has been reset."
+msgstr "Plugin'i kasutamise jälgimine on lähtestatud."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:203
+#: includes/api/class-settings.php:203
+msgid "Invalid section."
+msgstr "Vale sektsioon."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:209
+#: includes/api/class-settings.php:209 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:10
+msgid "General"
+msgstr "Üldine"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:210
+#: includes/api/class-settings.php:210 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:11
+msgid "Multipliers"
+msgstr "Korrutajad"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:211
+#: includes/api/class-settings.php:211 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:12
+msgid "Per Product"
+msgstr "Toote kohta"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:230
+#: includes/api/class-settings.php:230
+#. translators: %s: settings section name
+#, php-format
+msgid "%s Settings have been reset to default."
+msgstr "%s Seaded on lähtestatud vaikimisi."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:261
+#: includes/api/class-settings.php:261
+msgid "No data received."
+msgstr "Andmeid ei ole saadud."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:280
+#: includes/api/class-settings.php:280
+msgid "Settings saved successfully."
+msgstr "Seaded salvestatud edukalt."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:181
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:190
+#: includes/class-price-by-user-role-for-woocommerce.php:181
+#: includes/class-price-by-user-role-for-woocommerce.php:190
+msgid "Not allowed."
+msgstr "Ei ole lubatud."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:293
+#: includes/class-price-by-user-role-for-woocommerce.php:293
+#. translators: 1. Plugin Name, 2. WordPress Version
+#, php-format
+msgid ""
+"You are using an outdated version of WordPress. %1$s requires WP version "
+"%2$s or higher."
+msgstr ""
+"Sa kasutad WordPressi vananenud versiooni. %1$s nõuab WP versiooni %2$s või "
+"uuemat versiooni."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:299
+#: includes/class-price-by-user-role-for-woocommerce.php:299
+#. translators: 1. Plugin Name, 2. PHP Version
+#, php-format
+msgid ""
+"%1$s requires PHP version %2$s or above. Please update PHP to run this "
+"plugin."
+msgstr ""
+"%1$s nõuab PHP versiooni %2$s või uuemat versiooni. Palun värskendage PHP, "
+"et seda pluginat kasutada."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:305
+#: includes/class-price-by-user-role-for-woocommerce.php:305
+#. translators: 1. Plugin Name, 2. WooCommerce Version
+#, php-format
+msgid "WooCommerce not found. %1$s requires WooCommerce v%2$s or higher."
+msgstr "WooCommerce ei leitud. %1$s nõuab WooCommerce v%2$s või uuemat versiooni."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:308
+#: includes/class-price-by-user-role-for-woocommerce.php:308
+#. translators: 1. Plugin Name, 2. WooCommerce Version
+#, php-format
+msgid ""
+"You are using an outdated version of WooCommerce. %1$s requires WooCommerce "
+"v%2$s or higher."
+msgstr ""
+"Te kasutate WooCommerce'i vananenud versiooni. %1$s nõuab WooCommerce v%2$s "
+"või uuemat versiooni."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:174
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:174
+msgid "I only needed the plugin for a short period."
+msgstr "Mul oli pluginat vaja ainult lühikest aega."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:180
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:180
+msgid "I found a better plugin."
+msgstr "Ma leidsin parema plugina."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:182
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:182
+msgid "Please let us have the plugin's name so that we can make improvements"
+msgstr "Palun andke meile plugina nimi, et saaksime teha parandusi."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:186
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:186
+msgid "The plugin is not working."
+msgstr "Plugin ei tööta."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:188
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:188
+msgid ""
+"Please share what was faulty with the plugin so that we may get the issue "
+"fixed."
+msgstr "Palun jagage, mis oli vigane plugin, et me saaksime probleemi lahendada."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:192
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:192
+msgid "The plugin is causing issues on my site"
+msgstr "Plugin põhjustab probleeme minu saidil"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:194
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:194
+msgid "We're sorry! Please tell us about the issues so that we can get them fixed."
+msgstr ""
+"Meil on kahju! Palun teavitage meid probleemidest, et me saaksime need "
+"parandada."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:198
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:198
+msgid "Some features I need are not working as per my expectations"
+msgstr "Mõned funktsioonid, mida ma vajan, ei tööta minu ootuste kohaselt."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:200
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:200
+msgid "Please tell us about these features."
+msgstr "Palun rääkige meile nendest funktsioonidest."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:204
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:204
+msgid "The plugin is not compatible with another plugin/theme"
+msgstr "Plugin ei ühildu teise pluginaga/teemaga"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:206
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:206
+msgid ""
+"We're sorry! We would like you to tell us the plugin/theme so that we can "
+"work on the compatibility."
+msgstr ""
+"Meil on kahju! Me soovime, et te ütleksite meile plugin/teema, et me "
+"saaksime ühilduvuse kallal töötada."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:210
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:210
+msgid "Other"
+msgstr "Muud"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:224
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:224
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Kui teil on aega, palun andke meile teada, miks te deaktiveerite:"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:233
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:233
+msgid "Skip & Deactivate"
+msgstr "Jätke vahele ja deaktiveerige"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:234
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:234
+msgid "Submit & Deactivate"
+msgstr "Esita ja deaktiveeri"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:235
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:235
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:26
+msgid "Cancel"
+msgstr "Tühista"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:248
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:248
+msgid "Please select a reason for deactivation!"
+msgstr "Palun valige deaktiveerimise põhjus!"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-tracking/class-plugin-tracking.php:276
+#: includes/components/plugin-tracking/class-plugin-tracking.php:276
+#. translators: 1: plugin name, 2: link to privacy/tracking info
+#, php-format
+msgid ""
+"Want to help make %1$s even more awesome? Allow %1$s to collect "
+"non-sensitive diagnostic data and usage information and get 20%% off on "
+"your next purchase. <a href=\"%2$s\" target=\"_blank\">Find out more</a>."
+msgstr ""
+"Tahad aidata muuta %1$s veelgi vingemaks? Luba %1$sil koguda tundmatuid "
+"diagnostilisi andmeid ja kasutamisandmeid ning saada 20% allahindlust oma "
+"järgmisest ostust. <a href=\"%2$s\" target=\"_blank\">Vaadake "
+"lisateavet</a>."
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:36
+#: includes/core/class-hooks.php:36
+msgid "Go to the settings page"
+msgstr "Mine seadete lehele"
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:37
+#: includes/core/class-hooks.php:37 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:6 src/admin/pages/settings/index.js:20
+msgid "Settings"
+msgstr "Seaded"
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:45
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:46
+#: includes/core/class-hooks.php:45 includes/core/class-hooks.php:46
+msgid "Upgrade to Pro"
+msgstr "Uuenda Pro-versioonile"
+
+#: dist/price-by-user-role-for-woocommerce/includes/helpers/class-utils.php:45
+#: dist/price-by-user-role-for-woocommerce/includes/helpers/class-utils.php:217
+#: includes/helpers/class-utils.php:45 includes/helpers/class-utils.php:217
+msgid "Guest"
+msgstr "Külaline"
+
+#: dist/price-by-user-role-for-woocommerce/price-by-user-role-for-woocommerce.php:55
+#: price-by-user-role-for-woocommerce.php:55
+msgid ""
+"Product Prices by User Roles for WooCommerce Pro is active. You do not need "
+"the Lite version — please deactivate it to avoid conflicts."
+msgstr ""
+"WooCommerce Pro lisamoodul „Tootehinnad kasutajarollide järgi“ on "
+"aktiveeritud. Lite-versiooni pole vaja – palun deaktiveerige see, et "
+"vältida konflikte."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:5
+msgid "Dashboard"
+msgstr "Armatuurlaud"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:7
+msgid "Rules"
+msgstr "Reeglid"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:8
+msgid "FAQs"
+msgstr "KKK"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:17
+msgid "Manage product prices by user roles for WooCommerce"
+msgstr "Halda toodete hindu kasutaja rollide kaupa WooCommerce'i jaoks"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:20
+msgid "Plugin navigation"
+msgstr "Plugin navigeerimine"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:33 src/admin/components/SubNav.js:19
+msgid "Pro"
+msgstr "Pro"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:18
+msgid "Open the support forum for this plugin on WordPress.org"
+msgstr "Avage selle plugina tugifoorum aadressil WordPress.org"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:20
+msgid "Need Support?"
+msgstr "Kas vajate tuge?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:22
+msgid "We're always happy to help you."
+msgstr "Me oleme alati rõõmsad, kui saame teid aidata."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:25
+msgid "If this plugin helped you,"
+msgstr "Kui see plugin aitas teid,"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:30
+msgid "Leave a review for this plugin on WordPress.org"
+msgstr "Jäta selle plugina kohta ülevaade WordPress.org'is"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:32
+msgid "please rate it"
+msgstr "palun hinnake seda"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:37
+msgid "Check out more plugins by"
+msgstr "Vaadake rohkem pluginaid"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:42
+msgid "Visit Tyche Softwares to explore more WooCommerce plugins"
+msgstr "Külastage Tyche Tarkvara, et uurida rohkem WooCommerce pluginaid"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:15
+msgid "Enable the plugin"
+msgstr "Lubage plugin sisse lülitada"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:16
+msgid "Set up at least one pricing method"
+msgstr "Seadistage vähemalt üks hinnakujundusmeetod"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:17
+msgid "Assign prices to a product"
+msgstr "Määra tootele hinnad"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:7
+msgid "How do I set different prices for different user roles?"
+msgstr "Kuidas määrata erinevatele kasutajarollidele erinevaid hindu?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:8
+msgid ""
+"Enable the plugin in Settings → General, then use one of two methods: "
+"Multipliers (percentage-based adjustments across all products) or Per "
+"Product settings (exact prices set directly on each product's edit page for "
+"specific roles)."
+msgstr ""
+"Luba pistikprogramm menüüs „Seaded“ → „Üldine“ ja kasuta seejärel ühte "
+"kahest meetodist: „Kordajad“ (protsendipõhised kohandused kõigi toodete "
+"puhul) või „Seaded toote kaupa“ (konkreetsetele rollidele määratud täpsed "
+"hinnad, mis seatakse otse iga toote redigeerimislehel)."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:11
+msgid "What is the difference between Multipliers and Per Product pricing?"
+msgstr "Mis vahe on korrutusteguritel ja tootepõhisel hinnakujundusel?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:12
+msgid ""
+"Multipliers apply a single multiplier value across all products for a given "
+"role. Per Product pricing lets you set exact prices directly on each "
+"product's edit page for specific roles, giving you granular per-product "
+"control."
+msgstr ""
+"Korrutajad kohaldavad ühte korrutajat kõikide toodete puhul antud rolli "
+"jaoks. Tootepõhine hinnakujundus võimaldab teil määrata täpseid hindu otse "
+"iga toote redigeerimislehel konkreetsete rollide jaoks, andes teile "
+"granulaarse tootepõhise kontrolli."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:15
+msgid "What does 'Make empty price' mean?"
+msgstr "Mida tähendab \"Tee tühja hinda\"?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:16
+msgid ""
+"When \"Make empty price\" is enabled for a role in Multipliers or Per "
+"Product settings, the product price is hidden entirely for that role."
+msgstr ""
+"Kui rolli jaoks on seadetes „Kordajad“ või „Toote kaupa“ aktiveeritud valik "
+"„Näita tühja hinda“, peidetakse selle rolli jaoks toote hind täielikult."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:19
+msgid "Why should I disable the plugin for search engine bots?"
+msgstr "Miks ma peaksin otsingumootorite robotite jaoks pluginat välja lülitama?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:20
+msgid ""
+"Search engines index product prices. If bots see role-specific prices (e.g. "
+"a restricted or empty price), it can affect SEO and how products appear in "
+"search results. Disabling for bots ensures crawlers always see standard "
+"WooCommerce prices."
+msgstr ""
+"Otsingumootorid indekseerivad toodete hindu. Kui robotid näevad "
+"rollispetsiifilisi hindu (nt piiratud või tühja hinda), võib see mõjutada "
+"SEO-d ja seda, kuidas tooted otsingutulemustes ilmuvad. Robotite jaoks "
+"keelamine tagab, et roomikud näevad alati standardseid WooCommerce'i hindu."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:23
+msgid "What happens if I have both Multipliers and Per Product pricing enabled?"
+msgstr ""
+"Mis juhtub, kui mul on lubatud nii kordajad kui ka tootepõhine "
+"hinnakujundus?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:24
+msgid ""
+"Per Product prices take precedence over Multipliers by default. If a "
+"product has a per-product price set for a role, that price is used. "
+"Otherwise, the Multiplier is applied to the standard WooCommerce price."
+msgstr ""
+"Tootepõhised hinnad on vaikimisi ülimuslikud võrreldes kordajatega. Kui "
+"tootele on määratud tootepõhine hind, kasutatakse seda hinda. Vastasel "
+"juhul kohaldatakse korrutustegurit WooCommerce'i standardhinnale."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:27
+msgid "Can I apply role-based pricing to shipping costs?"
+msgstr "Kas ma saan kohaldada rollipõhist hinnakujundust saatmiskuludele?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:28
+msgid ""
+"Yes. In Settings → Multipliers, enable the \"Apply to Shipping\" option. "
+"The same multiplier configured for a role's product prices will also be "
+"applied to shipping costs at checkout."
+msgstr ""
+"Jah. Seadistustes → Korrutajad, lülitage sisse valik \"Kohaldada "
+"saatmisele\". Sama korrutust, mis on määratud rolli tootehindadele, "
+"kohaldatakse ka saatmiskuludele kassas."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:22
+msgid "Save Changes"
+msgstr "Muudatuste salvestamine"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:32
+msgid "Reset Settings"
+msgstr "Seadete lähtestamine"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:38
+msgid "Yes, I want to"
+msgstr "Jah, ma tahan"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:39
+msgid "No, cancel"
+msgstr "Ei, tühistage"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:41
+msgid ""
+"Are you sure you want to reset this section to default settings? This "
+"cannot be undone."
+msgstr ""
+"Kas olete kindel, et soovite selle jaotise vaikimisi seaded taastada? Seda "
+"ei saa tühistada."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:13
+msgid "Messages"
+msgstr "Sõnumid"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:21
+msgid "Configure plugin options and preferences"
+msgstr "Plugina valikute ja eelistuste konfigureerimine"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:28
+msgid "Read the documentation"
+msgstr "Loe dokumentatsiooni"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:14
+msgid "Pricing Rules"
+msgstr "Hinnakujunduse reeglid"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:15
+msgid ""
+"Build condition-based rules that automatically apply the right price to the "
+"right products, users, and quantities."
+msgstr ""
+"Looge tingimuspõhised reeglid, mis määravad automaatselt õige hinna "
+"õigetele toodetele, kasutajatele ja kogustele."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:17
+msgid "Apply prices per user role, product, or category"
+msgstr "Kohalda hindu kasutajarolli, toote või kategooria kaupa"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:18
+msgid "Set percentage or fixed-amount price adjustments"
+msgstr "Määra protsentuaalsed või kindlasummalised hinnakorrektsioonid"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:19
+msgid "Quantity-range discounts (e.g. buy 10+ units, get 20% off)"
+msgstr ""
+"Kogusest sõltuvad allahindlused (nt osta 10 või enam toodet ja saa 20% "
+"allahindlust)"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:20
+msgid "Multiple rules with priority ordering"
+msgstr "Mitmed reeglid prioriteetsuse järjekorras"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:21
+msgid "Combine role-based and category-based conditions"
+msgstr "Kombineeri rollipõhised ja kategooriatel põhinevad tingimused"
+
+#: src/admin/components/Alert.js:22
+msgid "Dismiss"
+msgstr "Lase lahti"
+
+#~ msgid "Product Prices by User Roles for WooCommerce Pro"
+#~ msgstr "Toote hinnad kasutaja rollide kaupa WooCommerce Pro jaoks"
+
+#~ msgid ""
+#~ "Show different product prices to different user roles. Set fixed prices, "
+#~ "percentage adjustments, bulk rules, quantity-range discounts, and "
+#~ "multipliers."
+#~ msgstr ""
+#~ "Näita erinevatele kasutajarollidele erinevaid tootehindu. Määrake "
+#~ "fikseeritud hinnad, protsentuaalsed kohandused, hulgi reeglid, koguselised "
+#~ "allahindlused ja kordajad."
+
+#~ msgid "http://www.tychesoftwares.com"
+#~ msgstr "http://www.tychesoftwares.com"
+
+#~ msgid "Fixed Price"
+#~ msgstr "Fikseeritud hind"
+
+#~ msgid "Fixed Increase"
+#~ msgstr "Fikseeritud kasv"
+
+#~ msgid "Fixed Decrease"
+#~ msgstr "Fikseeritud vähenemine"
+
+#~ msgid "Percentage Increase"
+#~ msgstr "Protsentuaalne kasv"
+
+#~ msgid "Percentage Decrease"
+#~ msgstr "Protsentuaalne vähenemine"
+
+#~ msgid "No"
+#~ msgstr "Ei"
+
+#~ msgid "Yes"
+#~ msgstr "Jah"
+
+#~ msgid "Adjustment Type"
+#~ msgstr "Kohandamise tüüp"
+
+#~ msgid "Min Qty"
+#~ msgstr "Min kogus"
+
+#~ msgid "Max Qty"
+#~ msgstr "Maksimaalne kogus"
+
+#~ msgid "Please enter a license key."
+#~ msgstr "Palun sisestage litsentsi võti."
+
+#~ msgid "Could not connect to the license server."
+#~ msgstr "Ei saanud litsentsi serveriga ühendust luua."
+
+#~ msgid "Invalid response from license server."
+#~ msgstr "Litsentsiserverilt saadud vastus on kehtetu."
+
+#~ msgid "License activated successfully."
+#~ msgstr "Litsents on edukalt aktiveeritud."
+
+#~ msgid "No license key found."
+#~ msgstr "Litsentsivõtit ei leitud."
+
+#~ msgid "License deactivated."
+#~ msgstr "Litsents deaktiveeritud."
+
+#~ msgid "Failed to deactivate license."
+#~ msgstr "Litsentsi deaktiveerimine ebaõnnestus."
+
+#~ msgid "Your license key has expired."
+#~ msgstr "Teie litsentsi võti on aegunud."
+
+#~ msgid "Your license key has been revoked."
+#~ msgstr "Teie litsentsi võti on tühistatud."
+
+#~ msgid "Invalid license key."
+#~ msgstr "Vigane litsentsivõti."
+
+#~ msgid "License key is not valid for this product."
+#~ msgstr "Litsentsivõti ei kehti selle toote puhul."
+
+#~ msgid "Your license is not active for this URL."
+#~ msgstr "Teie litsents ei ole selle URL-i jaoks aktiivne."
+
+#~ msgid "License key does not match this product."
+#~ msgstr "Litsentsivõti ei vasta sellele tootele."
+
+#~ msgid "You have reached your license activation limit."
+#~ msgstr "Te olete jõudnud oma litsentsi aktiveerimise piirini."
+
+#~ msgid "License activation failed."
+#~ msgstr "Litsentsi aktiveerimine ebaõnnestus."
+
+#~ msgid "Rule not found."
+#~ msgstr "Reeglit ei leitud."
+
+#~ msgid "Rule created."
+#~ msgstr "Loodud reegel."
+
+#~ msgid "Rule updated."
+#~ msgstr "Reeglit ajakohastati."
+
+#~ msgid "Rule deleted."
+#~ msgstr "Eeskiri välja jäetud."
+
+#~ msgid "Rule duplicated."
+#~ msgstr "Reegel dubleeritud."
+
+#~ msgid "No rules selected."
+#~ msgstr "Ühtegi reeglit ei ole valitud."
+
+#~ msgid "Unknown action."
+#~ msgstr "Tundmatu tegevus."
+
+#~ msgid "Bulk action applied."
+#~ msgstr "Kohaldatakse massimeetodit."
+
+#, php-format
+#~ msgid "Copy of %s"
+#~ msgstr "Koopia %s"
+
+#~ msgid ""
+#~ "Special offer for {role}s: buy {range} units of {product} to get it at "
+#~ "{price} per unit."
+#~ msgstr ""
+#~ "Eripakkumine {rollidele}: osta {vahemiku} ühikut {toodet}, et saada see "
+#~ "{hinnaga} ühiku kohta."
+
+#~ msgid ""
+#~ "Special offer for {role}s: Add {range} units of {product} to get it at "
+#~ "{price} per unit."
+#~ msgstr ""
+#~ "Eripakkumine {rollidele}: Lisage {vahemik} ühikut {toode}, et saada see "
+#~ "{hinnaga} ühiku kohta."
+
+#~ msgid ""
+#~ "The Lite version of the plugin has been deactivated automatically. All your "
+#~ "settings have been preserved."
+#~ msgstr ""
+#~ "Plugina Lite versioon on automaatselt deaktiveeritud. Kõik teie seaded on "
+#~ "säilinud."
+
+#, php-format
+#~ msgid ""
+#~ "The license for Product Prices by User Roles for WooCommerce Pro is not "
+#~ "active. To receive automatic updates & support, please activate the license "
+#~ "%1$shere%2$s."
+#~ msgstr ""
+#~ "WooCommerce Pro tootehindade litsents kasutajate rollide kaupa ei ole "
+#~ "aktiivne. Automaatsete uuenduste ja toetuse saamiseks aktiveerige litsents "
+#~ "%1$shere%2$s."
+
+#~ msgid "Role"
+#~ msgstr "Rolli"
+
+#~ msgid "Price"
+#~ msgstr "Hind"
+
+#~ msgid "License"
+#~ msgstr "Litsents"
+
+#~ msgid "Assign prices to a product or rule"
+#~ msgstr "Määrata tootele või reeglile hindu"
+
+#~ msgid "Configure price visibility"
+#~ msgstr "Hinna nähtavuse konfigureerimine"
+
+#~ msgid "Plugin Status"
+#~ msgstr "Plugini staatus"
+
+#~ msgid "Enabled"
+#~ msgstr "Lubatud"
+
+#~ msgid "Disabled"
+#~ msgstr "Puudega inimesed"
+
+#~ msgid "Active Rules"
+#~ msgstr "Aktiivsed reeglid"
+
+#~ msgid "rule configured"
+#~ msgid_plural "rules configured"
+#~ msgstr[0] "reegel konfigureeritud"
+#~ msgstr[1] "konfigureeritud reeglid"
+
+#~ msgid "Active"
+#~ msgstr "Aktiivne"
+
+#~ msgid "Inactive"
+#~ msgstr "Mitteaktiivne"
+
+#~ msgid "Per-Product"
+#~ msgstr "Toote kohta"
+
+#~ msgid ""
+#~ "Enable the plugin in Settings → General, then use one of three methods: "
+#~ "Multipliers (percentage-based adjustments across all products), Rules "
+#~ "(targeted adjustments by product or category), or Per Product settings "
+#~ "(exact prices set directly on each product's edit page for specific roles)."
+#~ msgstr ""
+#~ "Lubage plugin seadetes → Üldine, seejärel kasutage ühte kolmest meetodist: "
+#~ "Korrutajad (protsentuaalsed kohandused kõigi toodete kohta), reeglid "
+#~ "(sihipärased kohandused toote või kategooria kaupa) või tootepõhised seaded "
+#~ "(täpsed hinnad, mis on määratud otse iga toote redigeerimislehel "
+#~ "konkreetsete rollide jaoks)."
+
+#~ msgid "Can I create pricing rules for specific product categories?"
+#~ msgstr "Kas ma saan luua hinnakujunduseeskirju konkreetsete tootekategooriate jaoks?"
+
+#~ msgid ""
+#~ "Yes. When creating a Rule, you can target products by category. The rule "
+#~ "will apply the configured price adjustment to all products within those "
+#~ "categories for the selected roles."
+#~ msgstr ""
+#~ "Jah. Reegli loomisel saate tooteid suunata kategooria järgi. Reegel "
+#~ "kohaldab konfigureeritud hinnakorrektsiooni kõigile valitud rollide "
+#~ "kategooriatesse kuuluvatele toodetele."
+
+#~ msgid "How does the override option work in Rules?"
+#~ msgstr "Kuidas toimib reeglites käsuülesandmise võimalus?"
+
+#~ msgid ""
+#~ "By default, per-product prices take precedence over Rules. Enabling "
+#~ "\"Override product level configuration\" inside a Rule forces the Rule to "
+#~ "apply even when a per-product price is set, giving Rules higher priority."
+#~ msgstr ""
+#~ "Vaikimisi on tootepõhised hinnad ülimuslikud reeglite suhtes. Kui lubate "
+#~ "reegli sees valida \"Toote tasandi konfiguratsiooni tühistamine\", siis "
+#~ "kohaldatakse reeglit ka siis, kui on määratud tootepõhine hind, andes "
+#~ "reeglitele kõrgema prioriteedi."
+
+#~ msgid ""
+#~ "When \"Make empty price\" is enabled for a role in Multipliers or Rules, "
+#~ "the product price is hidden entirely for that role. A custom message from "
+#~ "Settings → Messages is shown in its place."
+#~ msgstr ""
+#~ "Kui \"Tee tühi hind\" on rolli jaoks lubatud Multiplikaatorites või "
+#~ "Reeglites, on toote hind selle rolli jaoks täielikult peidetud. Selle "
+#~ "asemel kuvatakse kohandatud sõnum seadetest → Sõnumid."
+
+#~ msgid "Can I set minimum and maximum quantities for role-based pricing?"
+#~ msgstr ""
+#~ "Kas ma saan määrata miinimum- ja maksimumkogused rollipõhise hinnakujunduse "
+#~ "jaoks?"
+
+#~ msgid ""
+#~ "Yes. Rules support quantity ranges, letting you define different prices for "
+#~ "different purchase quantities — for example, a lower price when a customer "
+#~ "buys 10 or more units."
+#~ msgstr ""
+#~ "Jah. Reeglid toetavad koguste vahemikke, mis võimaldab teil määratleda "
+#~ "erinevad hinnad erinevate ostukoguste puhul - näiteks madalam hind, kui "
+#~ "klient ostab 10 või rohkem ühikut."
+
+#~ msgid "How do I exclude certain product categories from role-based pricing?"
+#~ msgstr "Kuidas jätta teatud tootekategooriad rollipõhisest hinnakujundusest välja?"
+
+#~ msgid ""
+#~ "Go to Settings → General and add categories to the \"Exclude Product "
+#~ "Categories\" field. Products in those categories will always show default "
+#~ "WooCommerce prices, regardless of the user's role."
+#~ msgstr ""
+#~ "Minge seadistuste → Üldine ja lisage kategooriad väljale \"Välja arvatud "
+#~ "tootekategooriad\". Nendes kategooriates olevad tooted näitavad alati "
+#~ "WooCommerce'i vaikimisi hindu, olenemata kasutaja rollist."
+
+#~ msgid "Can I customize the messages shown to customers about special pricing?"
+#~ msgstr "Kas ma saan kohandada klientidele kuvatavaid sõnumeid erihindade kohta?"
+
+#~ msgid ""
+#~ "Yes. Go to Settings → Messages and enable the Messages feature. You can set "
+#~ "custom messages for the product page, cart, and checkout, using "
+#~ "placeholders like {role}, {price}, {product}, and {range}."
+#~ msgstr ""
+#~ "Jah. Minge seadistustesse → Sõnumid ja lubage funktsioon Sõnumid. Saate "
+#~ "määrata kohandatud sõnumeid tooteleheküljele, ostukorvi ja kassasse, "
+#~ "kasutades selliseid paigutussätteid nagu {role}, {hind}, {product} ja "
+#~ "{range}."
+
+#~ msgid "Do I need to activate my license key?"
+#~ msgstr "Kas ma pean oma litsentsivõtme aktiveerima?"
+
+#~ msgid ""
+#~ "Yes. Activating your license key enables automatic plugin updates and "
+#~ "access to premium support. Go to the License page and enter the key from "
+#~ "your purchase confirmation email or Tyche Softwares account dashboard."
+#~ msgstr ""
+#~ "Jah. Litsentsivõtme aktiveerimine võimaldab automaatseid pluginate uuendusi "
+#~ "ja juurdepääsu premium-tugiteenusele. Minge litsentsilehele ja sisestage "
+#~ "ostu kinnituse e-kirjast või Tyche Softwares konto armatuurlaualt saadud "
+#~ "võti."

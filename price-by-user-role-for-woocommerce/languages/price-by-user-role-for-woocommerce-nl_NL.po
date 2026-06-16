@@ -1,0 +1,947 @@
+# Copyright (C) 2026 Tyche Softwares
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Prices by User Roles for WooCommerce Pro 2.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/price-by-user-role-for-woocommerce\n"
+"POT-Creation-Date: 2026-06-16T10:26:32+00:00\n"
+"PO-Revision-Date: 2026-05-12T12:11:34+00:00\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: price-by-user-role-for-woocommerce\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: price-by-user-role-for-woocommerce.php build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:16
+#. Plugin Name of the plugin
+msgid "Product Prices by User Roles for WooCommerce"
+msgstr "Productprijzen per gebruikersrol voor WooCommerce"
+
+#: price-by-user-role-for-woocommerce.php
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.tychesoftwares.com"
+msgstr "https://www.tychesoftwares.com"
+
+#: price-by-user-role-for-woocommerce.php
+#. Description of the plugin
+msgid ""
+"Set role-based product prices in WooCommerce. Apply global multipliers or "
+"fixed per-product prices per role. Upgrade to Pro for rules, quantity "
+"discounts, adjustment types, and more."
+msgstr ""
+"Stel op rollen gebaseerde productprijzen in WooCommerce in. Pas algemene "
+"vermenigvuldigingsfactoren of vaste prijzen per product per rol toe. "
+"Upgrade naar Pro voor regels, kwantumkortingen, aanpassingstypen en meer."
+
+#: price-by-user-role-for-woocommerce.php build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:44
+#. Author of the plugin
+msgid "Tyche Softwares"
+msgstr "Tyche Softwares"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:142
+#: includes/admin/class-backend.php:142
+msgid "Set a user role for this order?"
+msgstr "Een gebruikersrol instellen voor deze bestelling?"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:145
+#: includes/admin/class-backend.php:145
+msgid "Select a role:"
+msgstr "Selecteer een rol:"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:147
+#: includes/admin/class-backend.php:147
+msgid "Select a role"
+msgstr "Selecteer een rol"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-menu.php:43
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-menu.php:49
+#: includes/admin/class-menu.php:43 includes/admin/class-menu.php:49
+msgid "Product Prices by User Roles"
+msgstr "Productprijzen per gebruikersrol"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-notices.php:110
+#: includes/admin/class-notices.php:110
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Actie mislukt. Vernieuw de pagina en probeer het opnieuw."
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-notices.php:114
+#: includes/admin/class-notices.php:114
+msgid "You don't have the permission to hide the selected notice."
+msgstr "Je hebt geen toestemming om de geselecteerde melding te verbergen."
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:55
+#: includes/admin/class-product-meta-box.php:55
+msgid "Product Prices by User Roles: Per Product Settings"
+msgstr "Productprijzen per gebruikersrol: Per productinstelling"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:121
+#: includes/admin/class-product-meta-box.php:121
+msgid "Enable per-product pricing"
+msgstr "Prijzen per product inschakelen"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:122
+#: includes/admin/class-product-meta-box.php:122
+msgid "Configure individual role pricing for this product"
+msgstr "Prijzen voor individuele rollen configureren voor dit product"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:143
+#: includes/admin/class-product-meta-box.php:143
+msgid "User Role"
+msgstr "Rol gebruiker"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:144
+#: includes/admin/class-product-meta-box.php:144
+msgid "Regular Price"
+msgstr "Normale prijs"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:145
+#: includes/admin/class-product-meta-box.php:145
+msgid "Sale Price"
+msgstr "Verkoopprijs"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:146
+#: includes/admin/class-product-meta-box.php:146
+msgid "Empty Price"
+msgstr "Lege prijs"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:323
+#: includes/admin/class-product-meta-box.php:323
+msgid "Any"
+msgstr "Elke"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:360
+#: includes/admin/class-product-meta-box.php:360
+#, php-format
+msgid ""
+"The free version is limited to one product with per-product pricing enabled "
+"at a time. <a href=\"%s\" target=\"_blank\">Upgrade to Pro</a> for "
+"unlimited products."
+msgstr ""
+"De gratis versie is beperkt tot één product tegelijk waarbij de prijs per "
+"product is ingeschakeld. <a href=\"%s\" target=\"_blank\">Upgrade naar "
+"Pro</a> voor een onbeperkt aantal producten."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:158
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:189
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:250
+#: includes/api/class-settings.php:158 includes/api/class-settings.php:189
+#: includes/api/class-settings.php:250
+msgid "Authentication has failed."
+msgstr "Authenticatie is mislukt."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:168
+#: includes/api/class-settings.php:168
+msgid "Plugin usage tracking has been reset."
+msgstr "Het bijhouden van het gebruik van plug-ins is gereset."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:203
+#: includes/api/class-settings.php:203
+msgid "Invalid section."
+msgstr "Ongeldige sectie."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:209
+#: includes/api/class-settings.php:209 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:10
+msgid "General"
+msgstr "Algemeen"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:210
+#: includes/api/class-settings.php:210 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:11
+msgid "Multipliers"
+msgstr "Multipliers"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:211
+#: includes/api/class-settings.php:211 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:12
+msgid "Per Product"
+msgstr "Per product"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:230
+#: includes/api/class-settings.php:230
+#. translators: %s: settings section name
+#, php-format
+msgid "%s Settings have been reset to default."
+msgstr "%s Instellingen zijn teruggezet naar standaard."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:261
+#: includes/api/class-settings.php:261
+msgid "No data received."
+msgstr "Geen gegevens ontvangen."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:280
+#: includes/api/class-settings.php:280
+msgid "Settings saved successfully."
+msgstr "Instellingen succesvol opgeslagen."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:181
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:190
+#: includes/class-price-by-user-role-for-woocommerce.php:181
+#: includes/class-price-by-user-role-for-woocommerce.php:190
+msgid "Not allowed."
+msgstr "Niet toegestaan."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:293
+#: includes/class-price-by-user-role-for-woocommerce.php:293
+#. translators: 1. Plugin Name, 2. WordPress Version
+#, php-format
+msgid ""
+"You are using an outdated version of WordPress. %1$s requires WP version "
+"%2$s or higher."
+msgstr ""
+"U gebruikt een verouderde versie van WordPress. %1$s vereist WP versie %2$s "
+"of hoger."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:299
+#: includes/class-price-by-user-role-for-woocommerce.php:299
+#. translators: 1. Plugin Name, 2. PHP Version
+#, php-format
+msgid ""
+"%1$s requires PHP version %2$s or above. Please update PHP to run this "
+"plugin."
+msgstr ""
+"%1$s vereist PHP versie %2$s of hoger. Werk PHP bij om deze plugin te "
+"kunnen gebruiken."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:305
+#: includes/class-price-by-user-role-for-woocommerce.php:305
+#. translators: 1. Plugin Name, 2. WooCommerce Version
+#, php-format
+msgid "WooCommerce not found. %1$s requires WooCommerce v%2$s or higher."
+msgstr "WooCommerce niet gevonden. %1$s vereist WooCommerce v%2$s of hoger."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:308
+#: includes/class-price-by-user-role-for-woocommerce.php:308
+#. translators: 1. Plugin Name, 2. WooCommerce Version
+#, php-format
+msgid ""
+"You are using an outdated version of WooCommerce. %1$s requires WooCommerce "
+"v%2$s or higher."
+msgstr ""
+"Je gebruikt een verouderde versie van WooCommerce. %1$s vereist WooCommerce "
+"v%2$s of hoger."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:174
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:174
+msgid "I only needed the plugin for a short period."
+msgstr "Ik had de plugin maar korte tijd nodig."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:180
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:180
+msgid "I found a better plugin."
+msgstr "Ik heb een betere plugin gevonden."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:182
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:182
+msgid "Please let us have the plugin's name so that we can make improvements"
+msgstr "Geef ons de naam van de plugin zodat we verbeteringen kunnen aanbrengen"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:186
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:186
+msgid "The plugin is not working."
+msgstr "De plugin werkt niet."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:188
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:188
+msgid ""
+"Please share what was faulty with the plugin so that we may get the issue "
+"fixed."
+msgstr ""
+"Deel alsjeblieft wat er mis was met de plugin, zodat we het probleem kunnen "
+"oplossen."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:192
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:192
+msgid "The plugin is causing issues on my site"
+msgstr "De plugin veroorzaakt problemen op mijn site"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:194
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:194
+msgid "We're sorry! Please tell us about the issues so that we can get them fixed."
+msgstr "Het spijt ons! Vertel ons over de problemen zodat we ze kunnen oplossen."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:198
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:198
+msgid "Some features I need are not working as per my expectations"
+msgstr "Sommige functies die ik nodig heb, werken niet volgens mijn verwachtingen"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:200
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:200
+msgid "Please tell us about these features."
+msgstr "Vertel ons over deze functies."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:204
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:204
+msgid "The plugin is not compatible with another plugin/theme"
+msgstr "De plugin is niet compatibel met een andere plugin/thema"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:206
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:206
+msgid ""
+"We're sorry! We would like you to tell us the plugin/theme so that we can "
+"work on the compatibility."
+msgstr ""
+"Het spijt ons! We willen graag dat je ons de plugin/het thema vertelt, "
+"zodat we aan de compatibiliteit kunnen werken."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:210
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:210
+msgid "Other"
+msgstr "Andere"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:224
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:224
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Als je even tijd hebt, laat ons dan weten waarom je deactiveert:"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:233
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:233
+msgid "Skip & Deactivate"
+msgstr "Overslaan & Deactiveren"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:234
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:234
+msgid "Submit & Deactivate"
+msgstr "Indienen & Deactiveren"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:235
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:235
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:26
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:248
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:248
+msgid "Please select a reason for deactivation!"
+msgstr "Selecteer een reden voor deactivering!"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-tracking/class-plugin-tracking.php:276
+#: includes/components/plugin-tracking/class-plugin-tracking.php:276
+#. translators: 1: plugin name, 2: link to privacy/tracking info
+#, php-format
+msgid ""
+"Want to help make %1$s even more awesome? Allow %1$s to collect "
+"non-sensitive diagnostic data and usage information and get 20%% off on "
+"your next purchase. <a href=\"%2$s\" target=\"_blank\">Find out more</a>."
+msgstr ""
+"Wil je %1$s helpen om nog ontzagwekkender te worden? Laat %1$s "
+"niet-gevoelige diagnostische gegevens en gebruiksinformatie verzamelen en "
+"krijg 20% korting op uw volgende aankoop. <a href=\"%2$s\" "
+"target=\"_blank\">Vind meer informatie</a>."
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:36
+#: includes/core/class-hooks.php:36
+msgid "Go to the settings page"
+msgstr "Ga naar de instellingenpagina"
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:37
+#: includes/core/class-hooks.php:37 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:6 src/admin/pages/settings/index.js:20
+msgid "Settings"
+msgstr "Instellingen"
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:45
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:46
+#: includes/core/class-hooks.php:45 includes/core/class-hooks.php:46
+msgid "Upgrade to Pro"
+msgstr "Upgrade naar Pro"
+
+#: dist/price-by-user-role-for-woocommerce/includes/helpers/class-utils.php:45
+#: dist/price-by-user-role-for-woocommerce/includes/helpers/class-utils.php:217
+#: includes/helpers/class-utils.php:45 includes/helpers/class-utils.php:217
+msgid "Guest"
+msgstr "Gast"
+
+#: dist/price-by-user-role-for-woocommerce/price-by-user-role-for-woocommerce.php:55
+#: price-by-user-role-for-woocommerce.php:55
+msgid ""
+"Product Prices by User Roles for WooCommerce Pro is active. You do not need "
+"the Lite version — please deactivate it to avoid conflicts."
+msgstr ""
+"De plug-in ‘Productprijzen per gebruikersrol voor WooCommerce Pro’ is "
+"geactiveerd. Je hebt de Lite-versie niet nodig — schakel deze uit om "
+"conflicten te voorkomen."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:5
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:7
+msgid "Rules"
+msgstr "Regels"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:8
+msgid "FAQs"
+msgstr "FAQs"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:17
+msgid "Manage product prices by user roles for WooCommerce"
+msgstr "Productprijzen beheren per gebruikersrol voor WooCommerce"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:20
+msgid "Plugin navigation"
+msgstr "Plugin navigatie"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:33 src/admin/components/SubNav.js:19
+msgid "Pro"
+msgstr "Pro"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:18
+msgid "Open the support forum for this plugin on WordPress.org"
+msgstr "Open het ondersteuningsforum voor deze plugin op WordPress.org"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:20
+msgid "Need Support?"
+msgstr "Ondersteuning nodig?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:22
+msgid "We're always happy to help you."
+msgstr "We helpen je graag."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:25
+msgid "If this plugin helped you,"
+msgstr "Als deze plugin je heeft geholpen,"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:30
+msgid "Leave a review for this plugin on WordPress.org"
+msgstr "Laat een beoordeling achter voor deze plugin op WordPress.org"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:32
+msgid "please rate it"
+msgstr "geef een cijfer"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:37
+msgid "Check out more plugins by"
+msgstr "Bekijk meer plugins van"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:42
+msgid "Visit Tyche Softwares to explore more WooCommerce plugins"
+msgstr "Bezoek Tyche Softwares voor meer WooCommerce plugins"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:15
+msgid "Enable the plugin"
+msgstr "De plugin inschakelen"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:16
+msgid "Set up at least one pricing method"
+msgstr "Ten minste één prijsbepalingsmethode instellen"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:17
+msgid "Assign prices to a product"
+msgstr "Prijzen aan een product toewijzen"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:7
+msgid "How do I set different prices for different user roles?"
+msgstr "Hoe stel ik verschillende prijzen in voor verschillende gebruikersrollen?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:8
+msgid ""
+"Enable the plugin in Settings → General, then use one of two methods: "
+"Multipliers (percentage-based adjustments across all products) or Per "
+"Product settings (exact prices set directly on each product's edit page for "
+"specific roles)."
+msgstr ""
+"Schakel de plug-in in via Instellingen → Algemeen en kies vervolgens een "
+"van de twee methoden: Vermenigvuldigingsfactoren (procentuele aanpassingen "
+"voor alle producten) of Instellingen per product (exacte prijzen die "
+"rechtstreeks op de bewerkingspagina van elk product worden ingesteld voor "
+"specifieke rollen)."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:11
+msgid "What is the difference between Multipliers and Per Product pricing?"
+msgstr "Wat is het verschil tussen multipliers en prijzen per product?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:12
+msgid ""
+"Multipliers apply a single multiplier value across all products for a given "
+"role. Per Product pricing lets you set exact prices directly on each "
+"product's edit page for specific roles, giving you granular per-product "
+"control."
+msgstr ""
+"Multipliers passen een enkele vermenigvuldigingswaarde toe op alle "
+"producten voor een bepaalde rol. Met Prijzen per product kun je de exacte "
+"prijzen direct instellen op de bewerkingspagina van elk product voor "
+"specifieke rollen, zodat je per product de touwtjes in handen hebt."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:15
+msgid "What does 'Make empty price' mean?"
+msgstr "Wat betekent 'Lege prijs maken'?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:16
+msgid ""
+"When \"Make empty price\" is enabled for a role in Multipliers or Per "
+"Product settings, the product price is hidden entirely for that role."
+msgstr ""
+"Wanneer de optie \"Prijs verbergen\" is ingeschakeld voor een rol in de "
+"instellingen voor vermenigvuldigingsfactoren of per product, wordt de "
+"productprijs volledig verborgen voor die rol."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:19
+msgid "Why should I disable the plugin for search engine bots?"
+msgstr "Waarom zou ik de plugin uitschakelen voor zoekmachine bots?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:20
+msgid ""
+"Search engines index product prices. If bots see role-specific prices (e.g. "
+"a restricted or empty price), it can affect SEO and how products appear in "
+"search results. Disabling for bots ensures crawlers always see standard "
+"WooCommerce prices."
+msgstr ""
+"Zoekmachines indexeren productprijzen. Als bots rolspecifieke prijzen zien "
+"(bijvoorbeeld een beperkte of lege prijs), kan dit invloed hebben op SEO en "
+"hoe producten worden weergegeven in zoekresultaten. Uitschakelen voor bots "
+"zorgt ervoor dat crawlers altijd standaard WooCommerce-prijzen zien."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:23
+msgid "What happens if I have both Multipliers and Per Product pricing enabled?"
+msgstr ""
+"Wat gebeurt er als ik zowel Multipliers als Prijzen per product heb "
+"ingeschakeld?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:24
+msgid ""
+"Per Product prices take precedence over Multipliers by default. If a "
+"product has a per-product price set for a role, that price is used. "
+"Otherwise, the Multiplier is applied to the standard WooCommerce price."
+msgstr ""
+"Prijzen per product hebben standaard voorrang op Multipliers. Als er voor "
+"een product een prijs per product is ingesteld voor een rol, dan wordt die "
+"prijs gebruikt. Anders wordt de vermenigvuldiger toegepast op de standaard "
+"WooCommerce-prijs."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:27
+msgid "Can I apply role-based pricing to shipping costs?"
+msgstr "Kan ik rolgebaseerde prijzen toepassen op verzendkosten?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:28
+msgid ""
+"Yes. In Settings → Multipliers, enable the \"Apply to Shipping\" option. "
+"The same multiplier configured for a role's product prices will also be "
+"applied to shipping costs at checkout."
+msgstr ""
+"Ja. Schakel in Instellingen → Vermenigvuldigers de optie \"Toepassen op "
+"verzending\" in. Dezelfde vermenigvuldiger die is geconfigureerd voor de "
+"productprijzen van een rol, wordt ook toegepast op de verzendkosten bij het "
+"afrekenen."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:22
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:32
+msgid "Reset Settings"
+msgstr "Instellingen resetten"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:38
+msgid "Yes, I want to"
+msgstr "Ja, ik wil"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:39
+msgid "No, cancel"
+msgstr "Nee, annuleren"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:41
+msgid ""
+"Are you sure you want to reset this section to default settings? This "
+"cannot be undone."
+msgstr ""
+"Weet je zeker dat je dit gedeelte wilt terugzetten naar de "
+"standaardinstellingen? Dit kan niet ongedaan worden gemaakt."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:13
+msgid "Messages"
+msgstr "Berichten"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:21
+msgid "Configure plugin options and preferences"
+msgstr "Plugin opties en voorkeuren configureren"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:28
+msgid "Read the documentation"
+msgstr "Lees de documentatie"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:14
+msgid "Pricing Rules"
+msgstr "Prijsregels"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:15
+msgid ""
+"Build condition-based rules that automatically apply the right price to the "
+"right products, users, and quantities."
+msgstr ""
+"Stel op voorwaarden gebaseerde regels op die automatisch de juiste prijs "
+"toekennen aan de juiste producten, gebruikers en hoeveelheden."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:17
+msgid "Apply prices per user role, product, or category"
+msgstr "Prijzen toepassen per gebruikersrol, product of categorie"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:18
+msgid "Set percentage or fixed-amount price adjustments"
+msgstr "Prijsaanpassingen op basis van een percentage of een vast bedrag instellen"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:19
+msgid "Quantity-range discounts (e.g. buy 10+ units, get 20% off)"
+msgstr ""
+"Kortingen bij afname van grotere hoeveelheden (bijv. bij aankoop van 10 of "
+"meer stuks krijg je 20% korting)"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:20
+msgid "Multiple rules with priority ordering"
+msgstr "Meerdere regels met prioriteitsvolgorde"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:21
+msgid "Combine role-based and category-based conditions"
+msgstr "Combineer rolgebonden en categoriegebonden voorwaarden"
+
+#: src/admin/components/Alert.js:22
+msgid "Dismiss"
+msgstr "Ontsla"
+
+#~ msgid "Product Prices by User Roles for WooCommerce Pro"
+#~ msgstr "Productprijzen per gebruikersrol voor WooCommerce Pro"
+
+#~ msgid ""
+#~ "Show different product prices to different user roles. Set fixed prices, "
+#~ "percentage adjustments, bulk rules, quantity-range discounts, and "
+#~ "multipliers."
+#~ msgstr ""
+#~ "Toon verschillende productprijzen aan verschillende gebruikersrollen. Stel "
+#~ "vaste prijzen, procentuele aanpassingen, bulkregels, kwantumkortingen en "
+#~ "vermenigvuldigingsfactoren in."
+
+#~ msgid "http://www.tychesoftwares.com"
+#~ msgstr "http://www.tychesoftwares.com"
+
+#~ msgid "Fixed Price"
+#~ msgstr "Vaste prijs"
+
+#~ msgid "Fixed Increase"
+#~ msgstr "Vaste toename"
+
+#~ msgid "Fixed Decrease"
+#~ msgstr "Vast Afname"
+
+#~ msgid "Percentage Increase"
+#~ msgstr "Procentuele toename"
+
+#~ msgid "Percentage Decrease"
+#~ msgstr "Procentuele daling"
+
+#~ msgid "No"
+#~ msgstr "Geen"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "Adjustment Type"
+#~ msgstr "Type aanpassing"
+
+#~ msgid "Min Qty"
+#~ msgstr "Min. aantal"
+
+#~ msgid "Max Qty"
+#~ msgstr "Maximum aantal"
+
+#~ msgid "Please enter a license key."
+#~ msgstr "Voer een licentiesleutel in."
+
+#~ msgid "Could not connect to the license server."
+#~ msgstr "Kan geen verbinding maken met de licentieserver."
+
+#~ msgid "Invalid response from license server."
+#~ msgstr "Ongeldig antwoord van licentieserver."
+
+#~ msgid "License activated successfully."
+#~ msgstr "Licentie succesvol geactiveerd."
+
+#~ msgid "No license key found."
+#~ msgstr "Geen licentiesleutel gevonden."
+
+#~ msgid "License deactivated."
+#~ msgstr "Licentie gedeactiveerd."
+
+#~ msgid "Failed to deactivate license."
+#~ msgstr "Licentie is niet gedeactiveerd."
+
+#~ msgid "Your license key has expired."
+#~ msgstr "Je licentiesleutel is verlopen."
+
+#~ msgid "Your license key has been revoked."
+#~ msgstr "Je licentiesleutel is ingetrokken."
+
+#~ msgid "Invalid license key."
+#~ msgstr "Ongeldige licentiesleutel."
+
+#~ msgid "License key is not valid for this product."
+#~ msgstr "Licentiesleutel is niet geldig voor dit product."
+
+#~ msgid "Your license is not active for this URL."
+#~ msgstr "Je licentie is niet actief voor deze URL."
+
+#~ msgid "License key does not match this product."
+#~ msgstr "Licentiesleutel komt niet overeen met dit product."
+
+#~ msgid "You have reached your license activation limit."
+#~ msgstr "Je hebt de activeringslimiet van je licentie bereikt."
+
+#~ msgid "License activation failed."
+#~ msgstr "Activering licentie mislukt."
+
+#~ msgid "Rule not found."
+#~ msgstr "Regel niet gevonden."
+
+#~ msgid "Rule created."
+#~ msgstr "Regel gemaakt."
+
+#~ msgid "Rule updated."
+#~ msgstr "Regel bijgewerkt."
+
+#~ msgid "Rule deleted."
+#~ msgstr "Regel geschrapt."
+
+#~ msgid "Rule duplicated."
+#~ msgstr "Regel gedupliceerd."
+
+#~ msgid "No rules selected."
+#~ msgstr "Geen regels geselecteerd."
+
+#~ msgid "Unknown action."
+#~ msgstr "Onbekende actie."
+
+#~ msgid "Bulk action applied."
+#~ msgstr "Bulkactie toegepast."
+
+#, php-format
+#~ msgid "Copy of %s"
+#~ msgstr "Kopie van %s"
+
+#~ msgid ""
+#~ "Special offer for {role}s: buy {range} units of {product} to get it at "
+#~ "{price} per unit."
+#~ msgstr ""
+#~ "Speciale aanbieding voor {rol}s: koop {reeks} eenheden van {product} om het "
+#~ "te krijgen voor {prijs} per eenheid."
+
+#~ msgid ""
+#~ "Special offer for {role}s: Add {range} units of {product} to get it at "
+#~ "{price} per unit."
+#~ msgstr ""
+#~ "Speciale aanbieding voor {rol}s: Voeg {bereik} eenheden van {product} toe "
+#~ "om het te krijgen voor {prijs} per eenheid."
+
+#~ msgid ""
+#~ "The Lite version of the plugin has been deactivated automatically. All your "
+#~ "settings have been preserved."
+#~ msgstr ""
+#~ "De Lite versie van de plugin is automatisch gedeactiveerd. Al je "
+#~ "instellingen zijn bewaard gebleven."
+
+#, php-format
+#~ msgid ""
+#~ "The license for Product Prices by User Roles for WooCommerce Pro is not "
+#~ "active. To receive automatic updates & support, please activate the license "
+#~ "%1$shere%2$s."
+#~ msgstr ""
+#~ "De licentie voor Productprijzen per gebruikersrol voor WooCommerce Pro is "
+#~ "niet actief. Om automatische updates en ondersteuning te ontvangen, "
+#~ "activeer je de licentie %1$shere%2$s."
+
+#~ msgid "Role"
+#~ msgstr "Rol"
+
+#~ msgid "Price"
+#~ msgstr "Prijs"
+
+#~ msgid "License"
+#~ msgstr "Licentie"
+
+#~ msgid "Assign prices to a product or rule"
+#~ msgstr "Prijzen toewijzen aan een product of regel"
+
+#~ msgid "Configure price visibility"
+#~ msgstr "Zichtbaarheid van prijzen configureren"
+
+#~ msgid "Plugin Status"
+#~ msgstr "Plugin-status"
+
+#~ msgid "Enabled"
+#~ msgstr "Ingeschakeld"
+
+#~ msgid "Disabled"
+#~ msgstr "Uitgeschakeld"
+
+#~ msgid "Active Rules"
+#~ msgstr "Actieve regels"
+
+#~ msgid "rule configured"
+#~ msgid_plural "rules configured"
+#~ msgstr[0] "regel geconfigureerd"
+#~ msgstr[1] "regels geconfigureerd"
+
+#~ msgid "Active"
+#~ msgstr "Actief"
+
+#~ msgid "Inactive"
+#~ msgstr "Inactief"
+
+#~ msgid "Per-Product"
+#~ msgstr "Per product"
+
+#~ msgid ""
+#~ "Enable the plugin in Settings → General, then use one of three methods: "
+#~ "Multipliers (percentage-based adjustments across all products), Rules "
+#~ "(targeted adjustments by product or category), or Per Product settings "
+#~ "(exact prices set directly on each product's edit page for specific roles)."
+#~ msgstr ""
+#~ "Schakel de plugin in via Instellingen → Algemeen en gebruik vervolgens een "
+#~ "van de drie methoden: Multipliers (procentuele aanpassingen voor alle "
+#~ "producten), Rules (gerichte aanpassingen per product of categorie), of Per "
+#~ "Product instellingen (exacte prijzen direct ingesteld op de "
+#~ "bewerkingspagina van elk product voor specifieke rollen)."
+
+#~ msgid "Can I create pricing rules for specific product categories?"
+#~ msgstr "Kan ik prijsregels maken voor specifieke productcategorieën?"
+
+#~ msgid ""
+#~ "Yes. When creating a Rule, you can target products by category. The rule "
+#~ "will apply the configured price adjustment to all products within those "
+#~ "categories for the selected roles."
+#~ msgstr ""
+#~ "Ja. Wanneer je een regel maakt, kun je producten targeten op categorie. De "
+#~ "regel past de geconfigureerde prijsaanpassing toe op alle producten binnen "
+#~ "die categorieën voor de geselecteerde rollen."
+
+#~ msgid "How does the override option work in Rules?"
+#~ msgstr "Hoe werkt de opheffingsoptie in Regels?"
+
+#~ msgid ""
+#~ "By default, per-product prices take precedence over Rules. Enabling "
+#~ "\"Override product level configuration\" inside a Rule forces the Rule to "
+#~ "apply even when a per-product price is set, giving Rules higher priority."
+#~ msgstr ""
+#~ "Standaard hebben prijzen per product voorrang op regels. Als u "
+#~ "\"Overschrijf configuratie op productniveau\" inschakelt binnen een regel, "
+#~ "wordt de regel toegepast, zelfs als er een prijs per product is ingesteld, "
+#~ "waardoor regels een hogere prioriteit krijgen."
+
+#~ msgid ""
+#~ "When \"Make empty price\" is enabled for a role in Multipliers or Rules, "
+#~ "the product price is hidden entirely for that role. A custom message from "
+#~ "Settings → Messages is shown in its place."
+#~ msgstr ""
+#~ "Als \"Maak lege prijs\" is ingeschakeld voor een rol in Multipliers of "
+#~ "Regels, wordt de productprijs volledig verborgen voor die rol. In plaats "
+#~ "daarvan wordt een aangepast bericht uit Instellingen → Berichten getoond."
+
+#~ msgid "Can I set minimum and maximum quantities for role-based pricing?"
+#~ msgstr "Kan ik minimum- en maximumhoeveelheden instellen voor rolgebaseerde prijzen?"
+
+#~ msgid ""
+#~ "Yes. Rules support quantity ranges, letting you define different prices for "
+#~ "different purchase quantities — for example, a lower price when a customer "
+#~ "buys 10 or more units."
+#~ msgstr ""
+#~ "Ja. Regels ondersteunen hoeveelheidsbereiken, zodat je verschillende "
+#~ "prijzen kunt definiëren voor verschillende aankoophoeveelheden - "
+#~ "bijvoorbeeld een lagere prijs wanneer een klant 10 of meer eenheden koopt."
+
+#~ msgid "How do I exclude certain product categories from role-based pricing?"
+#~ msgstr "Hoe kan ik bepaalde productcategorieën uitsluiten van rolgebaseerde prijzen?"
+
+#~ msgid ""
+#~ "Go to Settings → General and add categories to the \"Exclude Product "
+#~ "Categories\" field. Products in those categories will always show default "
+#~ "WooCommerce prices, regardless of the user's role."
+#~ msgstr ""
+#~ "Ga naar Instellingen → Algemeen en voeg categorieën toe aan het veld "
+#~ "\"Productcategorieën uitsluiten\". Producten in die categorieën zullen "
+#~ "altijd standaard WooCommerce prijzen tonen, ongeacht de rol van de "
+#~ "gebruiker."
+
+#~ msgid "Can I customize the messages shown to customers about special pricing?"
+#~ msgstr ""
+#~ "Kan ik de berichten aanpassen die aan klanten worden getoond over speciale "
+#~ "prijzen?"
+
+#~ msgid ""
+#~ "Yes. Go to Settings → Messages and enable the Messages feature. You can set "
+#~ "custom messages for the product page, cart, and checkout, using "
+#~ "placeholders like {role}, {price}, {product}, and {range}."
+#~ msgstr ""
+#~ "Ja. Ga naar Instellingen → Berichten en schakel de functie Berichten in. Je "
+#~ "kunt aangepaste berichten instellen voor de productpagina, winkelwagen en "
+#~ "kassa, met behulp van plaatsaanduidingen zoals {rol}, {prijs}, {product} en "
+#~ "{bereik}."
+
+#~ msgid "Do I need to activate my license key?"
+#~ msgstr "Moet ik mijn licentiesleutel activeren?"
+
+#~ msgid ""
+#~ "Yes. Activating your license key enables automatic plugin updates and "
+#~ "access to premium support. Go to the License page and enter the key from "
+#~ "your purchase confirmation email or Tyche Softwares account dashboard."
+#~ msgstr ""
+#~ "Ja. Door je licentiesleutel te activeren kun je de plugin automatisch "
+#~ "updaten en krijg je toegang tot premium ondersteuning. Ga naar de Licentie "
+#~ "pagina en voer de sleutel in uit de bevestigingsmail van je aankoop of het "
+#~ "Tyche Softwares account dashboard."

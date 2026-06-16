@@ -1,0 +1,209 @@
+.pbur-metabox {
+    --pbur-accent: var(--wp-admin-theme-color, #2271b1);
+    --pbur-color-text: #1d2327;
+    --pbur-color-secondary: #646970;
+    --pbur-color-muted: #50575e;
+    --pbur-color-border: #e5e7eb;
+    --pbur-color-border-wp: #c3c4c7;
+    --pbur-color-bg-light: #f9fafb;
+    --pbur-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --pbur-radius: 6px;
+
+    font-family: var(--pbur-font);
+    font-size: 0.8125rem;
+    color: var(--pbur-color-text);
+}
+
+/* ── Enable row ──────────────────────────────────────────────── */
+
+.pbur-metabox-enable-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 14px 0 16px;
+    border-bottom: 1px solid var(--pbur-color-border);
+    margin-bottom: 20px;
+    gap: 50px;
+}
+
+.pbur-metabox-enable-label strong {
+    display: block;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--pbur-color-text);
+    margin-bottom: 2px;
+}
+
+.pbur-metabox-enable-label span {
+    font-size: 0.75rem;
+    color: var(--pbur-color-secondary);
+}
+
+.pbur-toggle {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.pbur-toggle input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.pbur-toggle-slider {
+    position: absolute;
+    inset: 0;
+    background: #c3c4c7;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.pbur-toggle-slider::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 3px;
+    top: 3px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.2s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .25);
+}
+
+.pbur-toggle input:checked+.pbur-toggle-slider {
+    background: var(--pbur-accent);
+}
+
+.pbur-toggle input:checked+.pbur-toggle-slider::before {
+    transform: translateX(20px);
+}
+
+.pbur-toggle input:focus-visible+.pbur-toggle-slider {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--pbur-accent);
+}
+
+/* ── Variation header ────────────────────────────────────────── */
+
+.pbur-variation-header {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--pbur-color-muted);
+    padding: 12px 0 8px;
+    margin-top: 8px;
+}
+
+.pbur-variation-block+.pbur-variation-block .pbur-variation-header {
+    border-top: 1px solid var(--pbur-color-border);
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+/* ── Role pricing table ──────────────────────────────────────── */
+
+.pbur-metabox .pbur-role-pricing-table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--pbur-color-border);
+    border-radius: var(--pbur-radius);
+    margin-bottom: 4px;
+}
+
+.pbur-metabox .pbur-role-pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 660px;
+}
+
+.pbur-metabox .pbur-role-pricing-table thead tr {
+    background: var(--pbur-color-bg-light);
+    border-bottom: 1px solid var(--pbur-color-border);
+}
+
+.pbur-metabox .pbur-role-pricing-table th {
+    padding: 10px 10px;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--pbur-color-muted);
+    text-align: left;
+    white-space: nowrap;
+}
+
+.pbur-metabox .pbur-role-pricing-table tbody tr {
+    border-bottom: 1px solid var(--pbur-color-border);
+}
+
+.pbur-metabox .pbur-role-pricing-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.pbur-metabox .pbur-role-pricing-table tbody tr:hover {
+    background: #fafafa;
+}
+
+.pbur-metabox .pbur-role-pricing-table td {
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 0.8125rem;
+    text-align: left;
+}
+
+.pbur-metabox .pbur-role-name {
+    font-weight: 500;
+    color: var(--pbur-color-text);
+    white-space: nowrap;
+}
+
+.pbur-metabox .pbur-role-pricing-table .pbur-col-center {
+    text-align: center;
+}
+
+/* ── Inputs inside table ─────────────────────────────────────── */
+
+.pbur-metabox .pbur-price-input {
+    width: 80px;
+    padding: 6px 8px;
+    border: 1px solid var(--pbur-color-border-wp);
+    border-radius: var(--pbur-radius);
+    font-family: var(--pbur-font);
+    font-size: 0.8125rem;
+    color: var(--pbur-color-text);
+    box-sizing: border-box;
+}
+
+.pbur-metabox .pbur-price-input:focus {
+    outline: none;
+    border-color: var(--pbur-accent);
+    box-shadow: 0 0 0 1px var(--pbur-accent);
+}
+
+
+.pbur-metabox .pbur-adj-select {
+    height: 32px;
+    padding: 4px 20px 4px 8px;
+    border: 1px solid var(--pbur-color-border-wp);
+    border-radius: var(--pbur-radius);
+    font-size: 0.8125rem;
+    color: var(--pbur-color-text);
+    background-color: #fff;
+    min-width: 140px;
+    box-sizing: border-box;
+}
+
+.pbur-metabox .pbur-adj-select:focus {
+    outline: none;
+    border-color: var(--pbur-accent);
+    box-shadow: 0 0 0 1px var(--pbur-accent);
+}
+
+.pbur-role-pricing-table input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: var(--pbur-accent);
+    vertical-align: middle;
+}

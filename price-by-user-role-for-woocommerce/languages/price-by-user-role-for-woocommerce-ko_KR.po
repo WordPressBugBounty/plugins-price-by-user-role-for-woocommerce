@@ -1,0 +1,885 @@
+# Copyright (C) 2026 Tyche Softwares
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Prices by User Roles for WooCommerce Pro 2.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/price-by-user-role-for-woocommerce\n"
+"POT-Creation-Date: 2026-06-16T10:26:32+00:00\n"
+"PO-Revision-Date: 2026-05-12T12:11:34+00:00\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: price-by-user-role-for-woocommerce\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: price-by-user-role-for-woocommerce.php build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:16
+#. Plugin Name of the plugin
+msgid "Product Prices by User Roles for WooCommerce"
+msgstr "WooCommerce의 사용자 역할별 제품 가격"
+
+#: price-by-user-role-for-woocommerce.php
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.tychesoftwares.com"
+msgstr "https://www.tychesoftwares.com"
+
+#: price-by-user-role-for-woocommerce.php
+#. Description of the plugin
+msgid ""
+"Set role-based product prices in WooCommerce. Apply global multipliers or "
+"fixed per-product prices per role. Upgrade to Pro for rules, quantity "
+"discounts, adjustment types, and more."
+msgstr ""
+"WooCommerce에서 역할별 제품 가격을 설정하세요. 역할별로 전체 가격에 적용되는 배율이나 제품별 고정 가격을 적용할 수 "
+"있습니다. Pro 버전으로 업그레이드하면 규칙, 수량 할인, 가격 조정 유형 등의 기능을 추가로 이용할 수 있습니다."
+
+#: price-by-user-role-for-woocommerce.php build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:44
+#. Author of the plugin
+msgid "Tyche Softwares"
+msgstr "Tyche 소프트웨어"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:142
+#: includes/admin/class-backend.php:142
+msgid "Set a user role for this order?"
+msgstr "이 주문에 대한 사용자 역할을 설정하시겠습니까?"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:145
+#: includes/admin/class-backend.php:145
+msgid "Select a role:"
+msgstr "역할을 선택합니다:"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:147
+#: includes/admin/class-backend.php:147
+msgid "Select a role"
+msgstr "역할 선택"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-menu.php:43
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-menu.php:49
+#: includes/admin/class-menu.php:43 includes/admin/class-menu.php:49
+msgid "Product Prices by User Roles"
+msgstr "사용자 역할별 제품 가격"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-notices.php:110
+#: includes/admin/class-notices.php:110
+msgid "Action failed. Please refresh the page and retry."
+msgstr "작업이 실패했습니다. 페이지를 새로고침하고 다시 시도하세요."
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-notices.php:114
+#: includes/admin/class-notices.php:114
+msgid "You don't have the permission to hide the selected notice."
+msgstr "선택한 알림을 숨길 수 있는 권한이 없습니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:55
+#: includes/admin/class-product-meta-box.php:55
+msgid "Product Prices by User Roles: Per Product Settings"
+msgstr "사용자 역할별 제품 가격: 제품 설정별"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:121
+#: includes/admin/class-product-meta-box.php:121
+msgid "Enable per-product pricing"
+msgstr "제품별 가격 책정 사용"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:122
+#: includes/admin/class-product-meta-box.php:122
+msgid "Configure individual role pricing for this product"
+msgstr "이 제품에 대한 개별 역할 가격 구성"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:143
+#: includes/admin/class-product-meta-box.php:143
+msgid "User Role"
+msgstr "사용자 역할"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:144
+#: includes/admin/class-product-meta-box.php:144
+msgid "Regular Price"
+msgstr "일반 가격"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:145
+#: includes/admin/class-product-meta-box.php:145
+msgid "Sale Price"
+msgstr "판매 가격"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:146
+#: includes/admin/class-product-meta-box.php:146
+msgid "Empty Price"
+msgstr "빈 가격"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:323
+#: includes/admin/class-product-meta-box.php:323
+msgid "Any"
+msgstr "어떤"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:360
+#: includes/admin/class-product-meta-box.php:360
+#, php-format
+msgid ""
+"The free version is limited to one product with per-product pricing enabled "
+"at a time. <a href=\"%s\" target=\"_blank\">Upgrade to Pro</a> for "
+"unlimited products."
+msgstr ""
+"무료 버전은 한 번에 하나의 제품만 사용할 수 있으며, 제품별 결제가 활성화되어 있습니다. <a href=\"%s\" "
+"target=\"_blank\">Pro 버전으로 업그레이드</a>하여 무제한 제품을 이용하세요."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:158
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:189
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:250
+#: includes/api/class-settings.php:158 includes/api/class-settings.php:189
+#: includes/api/class-settings.php:250
+msgid "Authentication has failed."
+msgstr "인증에 실패했습니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:168
+#: includes/api/class-settings.php:168
+msgid "Plugin usage tracking has been reset."
+msgstr "플러그인 사용 현황이 초기화되었습니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:203
+#: includes/api/class-settings.php:203
+msgid "Invalid section."
+msgstr "잘못된 섹션입니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:209
+#: includes/api/class-settings.php:209 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:10
+msgid "General"
+msgstr "일반"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:210
+#: includes/api/class-settings.php:210 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:11
+msgid "Multipliers"
+msgstr "승수"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:211
+#: includes/api/class-settings.php:211 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:12
+msgid "Per Product"
+msgstr "제품별"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:230
+#: includes/api/class-settings.php:230
+#. translators: %s: settings section name
+#, php-format
+msgid "%s Settings have been reset to default."
+msgstr "%s 설정이 기본값으로 재설정되었습니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:261
+#: includes/api/class-settings.php:261
+msgid "No data received."
+msgstr "수신된 데이터가 없습니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:280
+#: includes/api/class-settings.php:280
+msgid "Settings saved successfully."
+msgstr "설정이 성공적으로 저장되었습니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:181
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:190
+#: includes/class-price-by-user-role-for-woocommerce.php:181
+#: includes/class-price-by-user-role-for-woocommerce.php:190
+msgid "Not allowed."
+msgstr "허용되지 않습니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:293
+#: includes/class-price-by-user-role-for-woocommerce.php:293
+#. translators: 1. Plugin Name, 2. WordPress Version
+#, php-format
+msgid ""
+"You are using an outdated version of WordPress. %1$s requires WP version "
+"%2$s or higher."
+msgstr "오래된 버전의 워드프레스를 사용하고 있습니다. 1$s에는 WP 버전 %2$s 이상이 필요합니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:299
+#: includes/class-price-by-user-role-for-woocommerce.php:299
+#. translators: 1. Plugin Name, 2. PHP Version
+#, php-format
+msgid ""
+"%1$s requires PHP version %2$s or above. Please update PHP to run this "
+"plugin."
+msgstr "1$s에는 PHP 버전 %2$s 이상이 필요합니다. 이 플러그인을 실행하려면 PHP를 업데이트하세요."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:305
+#: includes/class-price-by-user-role-for-woocommerce.php:305
+#. translators: 1. Plugin Name, 2. WooCommerce Version
+#, php-format
+msgid "WooCommerce not found. %1$s requires WooCommerce v%2$s or higher."
+msgstr "WooCommerce를 찾을 수 없습니다. 1$s에는 WooCommerce v%2$s 이상이 필요합니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:308
+#: includes/class-price-by-user-role-for-woocommerce.php:308
+#. translators: 1. Plugin Name, 2. WooCommerce Version
+#, php-format
+msgid ""
+"You are using an outdated version of WooCommerce. %1$s requires WooCommerce "
+"v%2$s or higher."
+msgstr "오래된 버전의 WooCommerce를 사용하고 있습니다. 1$s에는 WooCommerce v%2$s 이상이 필요합니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:174
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:174
+msgid "I only needed the plugin for a short period."
+msgstr "저는 짧은 기간 동안만 플러그인이 필요했습니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:180
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:180
+msgid "I found a better plugin."
+msgstr "더 좋은 플러그인을 찾았습니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:182
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:182
+msgid "Please let us have the plugin's name so that we can make improvements"
+msgstr "개선할 수 있도록 플러그인 이름을 알려주세요."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:186
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:186
+msgid "The plugin is not working."
+msgstr "플러그인이 작동하지 않습니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:188
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:188
+msgid ""
+"Please share what was faulty with the plugin so that we may get the issue "
+"fixed."
+msgstr "문제를 해결할 수 있도록 플러그인의 결함을 공유해 주세요."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:192
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:192
+msgid "The plugin is causing issues on my site"
+msgstr "플러그인으로 인해 내 사이트에 문제가 발생하고 있습니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:194
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:194
+msgid "We're sorry! Please tell us about the issues so that we can get them fixed."
+msgstr "죄송합니다! 문제를 해결할 수 있도록 문제를 알려주세요."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:198
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:198
+msgid "Some features I need are not working as per my expectations"
+msgstr "필요한 일부 기능이 기대한 대로 작동하지 않습니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:200
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:200
+msgid "Please tell us about these features."
+msgstr "이러한 기능에 대해 알려주세요."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:204
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:204
+msgid "The plugin is not compatible with another plugin/theme"
+msgstr "플러그인이 다른 플러그인/테마와 호환되지 않습니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:206
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:206
+msgid ""
+"We're sorry! We would like you to tell us the plugin/theme so that we can "
+"work on the compatibility."
+msgstr "죄송합니다! 호환성 문제를 해결할 수 있도록 플러그인/테마를 알려주시기 바랍니다."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:210
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:210
+msgid "Other"
+msgstr "기타"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:224
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:224
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "잠시 시간을 내어 비활성화하는 이유를 알려주세요:"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:233
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:233
+msgid "Skip & Deactivate"
+msgstr "건너뛰기 및 비활성화"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:234
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:234
+msgid "Submit & Deactivate"
+msgstr "제출 및 비활성화"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:235
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:235
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:26
+msgid "Cancel"
+msgstr "취소"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:248
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:248
+msgid "Please select a reason for deactivation!"
+msgstr "비활성화 이유를 선택해 주세요!"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-tracking/class-plugin-tracking.php:276
+#: includes/components/plugin-tracking/class-plugin-tracking.php:276
+#. translators: 1: plugin name, 2: link to privacy/tracking info
+#, php-format
+msgid ""
+"Want to help make %1$s even more awesome? Allow %1$s to collect "
+"non-sensitive diagnostic data and usage information and get 20%% off on "
+"your next purchase. <a href=\"%2$s\" target=\"_blank\">Find out more</a>."
+msgstr ""
+"1$를 더욱 멋지게 만드는 데 도움을 주고 싶으신가요? 1$s가 민감하지 않은 진단 데이터 및 사용 정보를 수집하도록 허용하고 다음 "
+"구매 시 20%% 할인을 받으세요. <a href=\"%2$s\" target=\"_blank\">자세히 알아보기</a>."
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:36
+#: includes/core/class-hooks.php:36
+msgid "Go to the settings page"
+msgstr "설정 페이지로 이동"
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:37
+#: includes/core/class-hooks.php:37 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:6 src/admin/pages/settings/index.js:20
+msgid "Settings"
+msgstr "설정"
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:45
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:46
+#: includes/core/class-hooks.php:45 includes/core/class-hooks.php:46
+msgid "Upgrade to Pro"
+msgstr "Pro 버전으로 업그레이드하기"
+
+#: dist/price-by-user-role-for-woocommerce/includes/helpers/class-utils.php:45
+#: dist/price-by-user-role-for-woocommerce/includes/helpers/class-utils.php:217
+#: includes/helpers/class-utils.php:45 includes/helpers/class-utils.php:217
+msgid "Guest"
+msgstr "게스트"
+
+#: dist/price-by-user-role-for-woocommerce/price-by-user-role-for-woocommerce.php:55
+#: price-by-user-role-for-woocommerce.php:55
+msgid ""
+"Product Prices by User Roles for WooCommerce Pro is active. You do not need "
+"the Lite version — please deactivate it to avoid conflicts."
+msgstr ""
+"WooCommerce Pro용 ‘사용자 역할별 제품 가격’ 플러그인이 활성화되어 있습니다. Lite 버전은 필요하지 않으므로, 충돌을 "
+"방지하기 위해 비활성화해 주십시오."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:5
+msgid "Dashboard"
+msgstr "대시보드"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:7
+msgid "Rules"
+msgstr "규칙"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:8
+msgid "FAQs"
+msgstr "자주 묻는 질문"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:17
+msgid "Manage product prices by user roles for WooCommerce"
+msgstr "WooCommerce의 사용자 역할별 제품 가격 관리"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:20
+msgid "Plugin navigation"
+msgstr "플러그인 탐색"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:33 src/admin/components/SubNav.js:19
+msgid "Pro"
+msgstr "프로"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:18
+msgid "Open the support forum for this plugin on WordPress.org"
+msgstr "워드프레스닷컴에서 이 플러그인에 대한 지원 포럼을 엽니다."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:20
+msgid "Need Support?"
+msgstr "지원이 필요하신가요?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:22
+msgid "We're always happy to help you."
+msgstr "언제나 기꺼이 도와드리겠습니다."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:25
+msgid "If this plugin helped you,"
+msgstr "이 플러그인이 도움이 되었다면,"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:30
+msgid "Leave a review for this plugin on WordPress.org"
+msgstr "워드프레스닷컴에 이 플러그인에 대한 리뷰를 남겨주세요."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:32
+msgid "please rate it"
+msgstr "평가해 주세요"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:37
+msgid "Check out more plugins by"
+msgstr "더 많은 플러그인을 확인해보세요."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:42
+msgid "Visit Tyche Softwares to explore more WooCommerce plugins"
+msgstr "타이크 소프트웨어를 방문하여 더 많은 WooCommerce 플러그인을 살펴보세요."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:15
+msgid "Enable the plugin"
+msgstr "플러그인 활성화"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:16
+msgid "Set up at least one pricing method"
+msgstr "하나 이상의 가격 책정 방법 설정"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:17
+msgid "Assign prices to a product"
+msgstr "제품에 가격을 지정하기"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:7
+msgid "How do I set different prices for different user roles?"
+msgstr "사용자 역할에 따라 가격을 다르게 설정하려면 어떻게 해야 하나요?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:8
+msgid ""
+"Enable the plugin in Settings → General, then use one of two methods: "
+"Multipliers (percentage-based adjustments across all products) or Per "
+"Product settings (exact prices set directly on each product's edit page for "
+"specific roles)."
+msgstr ""
+"‘설정’ → ‘일반’에서 플러그인을 활성화한 후, 다음 두 가지 방법 중 하나를 선택하세요: ‘배율(모든 상품에 대해 백분율로 조정)’ "
+"또는 ‘상품별 설정(특정 역할에 대해 각 상품의 편집 페이지에서 직접 정확한 가격을 설정)’."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:11
+msgid "What is the difference between Multipliers and Per Product pricing?"
+msgstr "멀티플라이어와 제품별 가격 책정의 차이점은 무엇인가요?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:12
+msgid ""
+"Multipliers apply a single multiplier value across all products for a given "
+"role. Per Product pricing lets you set exact prices directly on each "
+"product's edit page for specific roles, giving you granular per-product "
+"control."
+msgstr ""
+"승수는 주어진 역할에 대해 모든 제품에 단일 승수 값을 적용합니다. 제품별 가격 책정을 사용하면 특정 역할에 대해 각 제품의 편집 "
+"페이지에서 직접 정확한 가격을 설정할 수 있으므로 제품별로 세밀하게 관리할 수 있습니다."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:15
+msgid "What does 'Make empty price' mean?"
+msgstr "'빈 가격 만들기'는 무슨 뜻인가요?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:16
+msgid ""
+"When \"Make empty price\" is enabled for a role in Multipliers or Per "
+"Product settings, the product price is hidden entirely for that role."
+msgstr ""
+"'Multipliers' 또는 'Per Product' 설정에서 특정 역할에 대해 \"가격 비표시\" 옵션이 활성화되면, 해당 역할의 "
+"사용자에게는 제품 가격이 완전히 숨겨집니다."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:19
+msgid "Why should I disable the plugin for search engine bots?"
+msgstr "검색 엔진 봇용 플러그인을 비활성화해야 하는 이유는 무엇인가요?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:20
+msgid ""
+"Search engines index product prices. If bots see role-specific prices (e.g. "
+"a restricted or empty price), it can affect SEO and how products appear in "
+"search results. Disabling for bots ensures crawlers always see standard "
+"WooCommerce prices."
+msgstr ""
+"검색 엔진은 제품 가격을 색인화합니다. 봇이 역할별 가격(예: 제한 가격 또는 비어 있는 가격)을 보게 되면 SEO 및 검색 결과에 "
+"제품이 표시되는 방식에 영향을 줄 수 있습니다. 봇에 대해 비활성화하면 크롤러가 항상 표준 WooCommerce 가격을 볼 수 있습니다."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:23
+msgid "What happens if I have both Multipliers and Per Product pricing enabled?"
+msgstr "승수와 제품별 가격을 모두 사용하도록 설정하면 어떻게 되나요?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:24
+msgid ""
+"Per Product prices take precedence over Multipliers by default. If a "
+"product has a per-product price set for a role, that price is used. "
+"Otherwise, the Multiplier is applied to the standard WooCommerce price."
+msgstr ""
+"제품별 가격은 기본적으로 승수보다 우선합니다. 제품에 역할에 대한 제품별 가격이 설정되어 있는 경우 해당 가격이 사용됩니다. 그렇지 "
+"않으면 승수가 표준 WooCommerce 가격에 적용됩니다."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:27
+msgid "Can I apply role-based pricing to shipping costs?"
+msgstr "배송비에 역할 기반 가격을 적용할 수 있나요?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:28
+msgid ""
+"Yes. In Settings → Multipliers, enable the \"Apply to Shipping\" option. "
+"The same multiplier configured for a role's product prices will also be "
+"applied to shipping costs at checkout."
+msgstr ""
+"예. 설정 → 승수에서 \"배송에 적용\" 옵션을 사용하도록 설정합니다. 역할의 제품 가격에 대해 구성된 동일한 승수가 결제 시 "
+"배송비에도 적용됩니다."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:22
+msgid "Save Changes"
+msgstr "변경 사항 저장"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:32
+msgid "Reset Settings"
+msgstr "설정 초기화"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:38
+msgid "Yes, I want to"
+msgstr "예, 하고 싶습니다."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:39
+msgid "No, cancel"
+msgstr "아니요, 취소"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:41
+msgid ""
+"Are you sure you want to reset this section to default settings? This "
+"cannot be undone."
+msgstr "이 섹션을 기본 설정으로 재설정하시겠습니까? 이 설정은 되돌릴 수 없습니다."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:13
+msgid "Messages"
+msgstr "메시지"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:21
+msgid "Configure plugin options and preferences"
+msgstr "플러그인 옵션 및 환경 설정 구성"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:28
+msgid "Read the documentation"
+msgstr "문서를 읽어보세요"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:14
+msgid "Pricing Rules"
+msgstr "가격 책정 규칙"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:15
+msgid ""
+"Build condition-based rules that automatically apply the right price to the "
+"right products, users, and quantities."
+msgstr "상황에 따라 적절한 가격을 해당 상품, 사용자 및 수량에 자동으로 적용하는 규칙을 설정하세요."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:17
+msgid "Apply prices per user role, product, or category"
+msgstr "사용자 역할, 제품 또는 카테고리별로 가격 적용"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:18
+msgid "Set percentage or fixed-amount price adjustments"
+msgstr "비율 또는 고정 금액으로 가격 조정 설정"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:19
+msgid "Quantity-range discounts (e.g. buy 10+ units, get 20% off)"
+msgstr "구매 수량에 따른 할인 (예: 10개 이상 구매 시 20% 할인)"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:20
+msgid "Multiple rules with priority ordering"
+msgstr "우선순위가 지정된 여러 규칙"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:21
+msgid "Combine role-based and category-based conditions"
+msgstr "역할 기반 조건과 범주 기반 조건 결합"
+
+#: src/admin/components/Alert.js:22
+msgid "Dismiss"
+msgstr "해지"
+
+#~ msgid "Product Prices by User Roles for WooCommerce Pro"
+#~ msgstr "WooCommerce Pro의 사용자 역할별 제품 가격"
+
+#~ msgid ""
+#~ "Show different product prices to different user roles. Set fixed prices, "
+#~ "percentage adjustments, bulk rules, quantity-range discounts, and "
+#~ "multipliers."
+#~ msgstr "사용자 역할에 따라 서로 다른 제품 가격을 표시합니다. 고정 가격, 백분율 조정, 대량 규칙, 수량 범위 할인 및 승수를 설정하세요."
+
+#~ msgid "http://www.tychesoftwares.com"
+#~ msgstr "http://www.tychesoftwares.com"
+
+#~ msgid "Fixed Price"
+#~ msgstr "고정 가격"
+
+#~ msgid "Fixed Increase"
+#~ msgstr "고정 증가"
+
+#~ msgid "Fixed Decrease"
+#~ msgstr "고정 감소"
+
+#~ msgid "Percentage Increase"
+#~ msgstr "백분율 증가"
+
+#~ msgid "Percentage Decrease"
+#~ msgstr "백분율 감소"
+
+#~ msgid "No"
+#~ msgstr "아니요"
+
+#~ msgid "Yes"
+#~ msgstr "예"
+
+#~ msgid "Adjustment Type"
+#~ msgstr "조정 유형"
+
+#~ msgid "Min Qty"
+#~ msgstr "최소 수량"
+
+#~ msgid "Max Qty"
+#~ msgstr "최대 수량"
+
+#~ msgid "Please enter a license key."
+#~ msgstr "라이선스 키를 입력하세요."
+
+#~ msgid "Could not connect to the license server."
+#~ msgstr "라이선스 서버에 연결할 수 없습니다."
+
+#~ msgid "Invalid response from license server."
+#~ msgstr "라이선스 서버의 잘못된 응답입니다."
+
+#~ msgid "License activated successfully."
+#~ msgstr "라이선스가 성공적으로 활성화되었습니다."
+
+#~ msgid "No license key found."
+#~ msgstr "라이선스 키를 찾을 수 없습니다."
+
+#~ msgid "License deactivated."
+#~ msgstr "라이선스가 비활성화되었습니다."
+
+#~ msgid "Failed to deactivate license."
+#~ msgstr "라이선스를 비활성화하지 못했습니다."
+
+#~ msgid "Your license key has expired."
+#~ msgstr "라이선스 키가 만료되었습니다."
+
+#~ msgid "Your license key has been revoked."
+#~ msgstr "라이선스 키가 해지되었습니다."
+
+#~ msgid "Invalid license key."
+#~ msgstr "라이선스 키가 잘못되었습니다."
+
+#~ msgid "License key is not valid for this product."
+#~ msgstr "이 제품에는 라이선스 키가 유효하지 않습니다."
+
+#~ msgid "Your license is not active for this URL."
+#~ msgstr "이 URL에 대한 라이선스가 활성화되어 있지 않습니다."
+
+#~ msgid "License key does not match this product."
+#~ msgstr "라이선스 키가 이 제품과 일치하지 않습니다."
+
+#~ msgid "You have reached your license activation limit."
+#~ msgstr "라이선스 활성화 한도에 도달했습니다."
+
+#~ msgid "License activation failed."
+#~ msgstr "라이선스 활성화에 실패했습니다."
+
+#~ msgid "Rule not found."
+#~ msgstr "규칙을 찾을 수 없습니다."
+
+#~ msgid "Rule created."
+#~ msgstr "규칙이 만들어졌습니다."
+
+#~ msgid "Rule updated."
+#~ msgstr "규칙이 업데이트되었습니다."
+
+#~ msgid "Rule deleted."
+#~ msgstr "규칙이 삭제되었습니다."
+
+#~ msgid "Rule duplicated."
+#~ msgstr "규칙이 중복되었습니다."
+
+#~ msgid "No rules selected."
+#~ msgstr "선택한 규칙이 없습니다."
+
+#~ msgid "Unknown action."
+#~ msgstr "알 수 없는 작업."
+
+#~ msgid "Bulk action applied."
+#~ msgstr "대량 작업이 적용되었습니다."
+
+#, php-format
+#~ msgid "Copy of %s"
+#~ msgstr "s 복사본"
+
+#~ msgid ""
+#~ "Special offer for {role}s: buy {range} units of {product} to get it at "
+#~ "{price} per unit."
+#~ msgstr "역할}을 위한 특별 혜택: {제품}을 {범위} 단위로 구매하면 단위당 {가격}에 구매할 수 있습니다."
+
+#~ msgid ""
+#~ "Special offer for {role}s: Add {range} units of {product} to get it at "
+#~ "{price} per unit."
+#~ msgstr "역할}을 위한 특별 혜택: 제품}의 {범위} 단위를 추가하면 단위당 {가격}으로 구매할 수 있습니다."
+
+#~ msgid ""
+#~ "The Lite version of the plugin has been deactivated automatically. All your "
+#~ "settings have been preserved."
+#~ msgstr "라이트 버전의 플러그인이 자동으로 비활성화되었습니다. 모든 설정이 보존되었습니다."
+
+#, php-format
+#~ msgid ""
+#~ "The license for Product Prices by User Roles for WooCommerce Pro is not "
+#~ "active. To receive automatic updates & support, please activate the license "
+#~ "%1$shere%2$s."
+#~ msgstr ""
+#~ "WooCommerce Pro의 사용자 역할별 제품 가격에 대한 라이선스가 활성화되어 있지 않습니다. 자동 업데이트 및 지원을 받으려면 "
+#~ "라이선스 %1$여기%2$를 활성화하세요."
+
+#~ msgid "Role"
+#~ msgstr "역할"
+
+#~ msgid "Price"
+#~ msgstr "가격"
+
+#~ msgid "License"
+#~ msgstr "라이선스"
+
+#~ msgid "Assign prices to a product or rule"
+#~ msgstr "제품 또는 규칙에 가격 지정"
+
+#~ msgid "Configure price visibility"
+#~ msgstr "가격 가시성 구성"
+
+#~ msgid "Plugin Status"
+#~ msgstr "플러그인 상태"
+
+#~ msgid "Enabled"
+#~ msgstr "활성화됨"
+
+#~ msgid "Disabled"
+#~ msgstr "장애인"
+
+#~ msgid "Active Rules"
+#~ msgstr "활성 규칙"
+
+#~ msgid "rule configured"
+#~ msgid_plural "rules configured"
+#~ msgstr[0] "규칙 구성"
+
+#~ msgid "Active"
+#~ msgstr "활성"
+
+#~ msgid "Inactive"
+#~ msgstr "비활성"
+
+#~ msgid "Per-Product"
+#~ msgstr "제품별"
+
+#~ msgid ""
+#~ "Enable the plugin in Settings → General, then use one of three methods: "
+#~ "Multipliers (percentage-based adjustments across all products), Rules "
+#~ "(targeted adjustments by product or category), or Per Product settings "
+#~ "(exact prices set directly on each product's edit page for specific roles)."
+#~ msgstr ""
+#~ "설정 → 일반에서 플러그인을 활성화한 다음 세 가지 방법 중 하나를 사용합니다: 승수(모든 제품에 대한 백분율 기반 조정), 규칙(제품 "
+#~ "또는 카테고리별 대상 조정) 또는 제품별 설정(특정 역할에 대해 각 제품의 편집 페이지에서 직접 설정한 정확한 가격)."
+
+#~ msgid "Can I create pricing rules for specific product categories?"
+#~ msgstr "특정 제품 카테고리에 대한 가격 책정 규칙을 만들 수 있나요?"
+
+#~ msgid ""
+#~ "Yes. When creating a Rule, you can target products by category. The rule "
+#~ "will apply the configured price adjustment to all products within those "
+#~ "categories for the selected roles."
+#~ msgstr ""
+#~ "예. 규칙을 만들 때 카테고리별로 제품을 타겟팅할 수 있습니다. 규칙은 선택한 역할에 대해 해당 카테고리 내의 모든 제품에 구성된 가격 "
+#~ "조정을 적용합니다."
+
+#~ msgid "How does the override option work in Rules?"
+#~ msgstr "규칙에서 재정의 옵션은 어떻게 작동하나요?"
+
+#~ msgid ""
+#~ "By default, per-product prices take precedence over Rules. Enabling "
+#~ "\"Override product level configuration\" inside a Rule forces the Rule to "
+#~ "apply even when a per-product price is set, giving Rules higher priority."
+#~ msgstr ""
+#~ "기본적으로 제품별 가격은 규칙보다 우선합니다. 규칙 내에서 \"제품 수준 구성 재정의\"를 사용 설정하면 제품별 가격이 설정되어 있어도 "
+#~ "규칙이 적용되어 규칙의 우선 순위가 높아집니다."
+
+#~ msgid ""
+#~ "When \"Make empty price\" is enabled for a role in Multipliers or Rules, "
+#~ "the product price is hidden entirely for that role. A custom message from "
+#~ "Settings → Messages is shown in its place."
+#~ msgstr ""
+#~ "승수 또는 규칙에서 역할에 대해 '빈 가격 만들기'를 사용 설정하면 해당 역할의 제품 가격이 완전히 숨겨집니다. 설정 → 메시지에서 "
+#~ "사용자 지정 메시지가 그 자리에 표시됩니다."
+
+#~ msgid "Can I set minimum and maximum quantities for role-based pricing?"
+#~ msgstr "역할 기반 요금제의 최소 및 최대 수량을 설정할 수 있나요?"
+
+#~ msgid ""
+#~ "Yes. Rules support quantity ranges, letting you define different prices for "
+#~ "different purchase quantities — for example, a lower price when a customer "
+#~ "buys 10 or more units."
+#~ msgstr ""
+#~ "예. 규칙은 수량 범위를 지원하므로 구매 수량에 따라 서로 다른 가격을 정의할 수 있습니다(예: 고객이 10개 이상 구매 시 더 낮은 "
+#~ "가격)."
+
+#~ msgid "How do I exclude certain product categories from role-based pricing?"
+#~ msgstr "특정 제품 카테고리를 역할 기반 가격 책정에서 제외하려면 어떻게 해야 하나요?"
+
+#~ msgid ""
+#~ "Go to Settings → General and add categories to the \"Exclude Product "
+#~ "Categories\" field. Products in those categories will always show default "
+#~ "WooCommerce prices, regardless of the user's role."
+#~ msgstr ""
+#~ "설정 → 일반으로 이동하여 '제품 카테고리 제외' 필드에 카테고리를 추가합니다. 해당 카테고리의 제품에는 사용자의 역할에 관계없이 항상 "
+#~ "기본 WooCommerce 가격이 표시됩니다."
+
+#~ msgid "Can I customize the messages shown to customers about special pricing?"
+#~ msgstr "특별 가격에 대해 고객에게 표시되는 메시지를 사용자 지정할 수 있나요?"
+
+#~ msgid ""
+#~ "Yes. Go to Settings → Messages and enable the Messages feature. You can set "
+#~ "custom messages for the product page, cart, and checkout, using "
+#~ "placeholders like {role}, {price}, {product}, and {range}."
+#~ msgstr ""
+#~ "예. 설정 → 메시지로 이동하여 메시지 기능을 활성화합니다. 역할}, {가격}, {제품}, {범위} 등의 자리 표시자를 사용하여 제품 "
+#~ "페이지, 카트 및 결제에 대한 사용자 지정 메시지를 설정할 수 있습니다."
+
+#~ msgid "Do I need to activate my license key?"
+#~ msgstr "라이선스 키를 활성화해야 하나요?"
+
+#~ msgid ""
+#~ "Yes. Activating your license key enables automatic plugin updates and "
+#~ "access to premium support. Go to the License page and enter the key from "
+#~ "your purchase confirmation email or Tyche Softwares account dashboard."
+#~ msgstr ""
+#~ "예. 라이선스 키를 활성화하면 자동 플러그인 업데이트와 프리미엄 지원을 이용할 수 있습니다. 라이선스 페이지로 이동하여 구매 확인 "
+#~ "이메일 또는 타이크 소프트웨어 계정 대시보드에서 키를 입력하세요."

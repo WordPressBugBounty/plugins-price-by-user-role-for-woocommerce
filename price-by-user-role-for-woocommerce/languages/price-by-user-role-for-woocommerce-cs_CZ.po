@@ -1,0 +1,941 @@
+# Copyright (C) 2026 Tyche Softwares
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Prices by User Roles for WooCommerce Pro 2.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/price-by-user-role-for-woocommerce\n"
+"POT-Creation-Date: 2026-06-16T10:26:32+00:00\n"
+"PO-Revision-Date: 2026-05-12T12:11:34+00:00\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: price-by-user-role-for-woocommerce\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: price-by-user-role-for-woocommerce.php build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:16
+#. Plugin Name of the plugin
+msgid "Product Prices by User Roles for WooCommerce"
+msgstr "Ceny produktů podle uživatelských rolí pro WooCommerce"
+
+#: price-by-user-role-for-woocommerce.php
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.tychesoftwares.com"
+msgstr "https://www.tychesoftwares.com"
+
+#: price-by-user-role-for-woocommerce.php
+#. Description of the plugin
+msgid ""
+"Set role-based product prices in WooCommerce. Apply global multipliers or "
+"fixed per-product prices per role. Upgrade to Pro for rules, quantity "
+"discounts, adjustment types, and more."
+msgstr ""
+"Nastavte ceny produktů podle rolí v WooCommerce. Použijte globální "
+"násobitele nebo pevné ceny pro jednotlivé produkty podle rolí. Přejděte na "
+"verzi Pro a získejte přístup k pravidlům, množstevním slevám, typům úprav a "
+"dalším funkcím."
+
+#: price-by-user-role-for-woocommerce.php build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:44
+#. Author of the plugin
+msgid "Tyche Softwares"
+msgstr "Tyche Softwares"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:142
+#: includes/admin/class-backend.php:142
+msgid "Set a user role for this order?"
+msgstr "Nastavení role uživatele pro tuto objednávku?"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:145
+#: includes/admin/class-backend.php:145
+msgid "Select a role:"
+msgstr "Vyberte roli:"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:147
+#: includes/admin/class-backend.php:147
+msgid "Select a role"
+msgstr "Výběr role"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-menu.php:43
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-menu.php:49
+#: includes/admin/class-menu.php:43 includes/admin/class-menu.php:49
+msgid "Product Prices by User Roles"
+msgstr "Ceny produktů podle uživatelských rolí"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-notices.php:110
+#: includes/admin/class-notices.php:110
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Akce se nezdařila. Obnovte prosím stránku a zkuste to znovu."
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-notices.php:114
+#: includes/admin/class-notices.php:114
+msgid "You don't have the permission to hide the selected notice."
+msgstr "Nemáte oprávnění skrýt vybrané oznámení."
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:55
+#: includes/admin/class-product-meta-box.php:55
+msgid "Product Prices by User Roles: Per Product Settings"
+msgstr "Ceny produktů podle uživatelských rolí: Nastavení produktu"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:121
+#: includes/admin/class-product-meta-box.php:121
+msgid "Enable per-product pricing"
+msgstr "Povolení tvorby cen na produkt"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:122
+#: includes/admin/class-product-meta-box.php:122
+msgid "Configure individual role pricing for this product"
+msgstr "Konfigurace cen jednotlivých rolí pro tento produkt"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:143
+#: includes/admin/class-product-meta-box.php:143
+msgid "User Role"
+msgstr "Role uživatele"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:144
+#: includes/admin/class-product-meta-box.php:144
+msgid "Regular Price"
+msgstr "Běžná cena"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:145
+#: includes/admin/class-product-meta-box.php:145
+msgid "Sale Price"
+msgstr "Prodejní cena"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:146
+#: includes/admin/class-product-meta-box.php:146
+msgid "Empty Price"
+msgstr "Prázdná cena"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:323
+#: includes/admin/class-product-meta-box.php:323
+msgid "Any"
+msgstr "Jakýkoli"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:360
+#: includes/admin/class-product-meta-box.php:360
+#, php-format
+msgid ""
+"The free version is limited to one product with per-product pricing enabled "
+"at a time. <a href=\"%s\" target=\"_blank\">Upgrade to Pro</a> for "
+"unlimited products."
+msgstr ""
+"Bezplatná verze je omezena na jeden produkt s aktivovanou cenovou kalkulací "
+"pro jednotlivé produkty. <a href=\"%s\" target=\"_blank\">Přejděte na verzi "
+"Pro</a> a získejte neomezený počet produktů."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:158
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:189
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:250
+#: includes/api/class-settings.php:158 includes/api/class-settings.php:189
+#: includes/api/class-settings.php:250
+msgid "Authentication has failed."
+msgstr "Ověření se nezdařilo."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:168
+#: includes/api/class-settings.php:168
+msgid "Plugin usage tracking has been reset."
+msgstr "Sledování používání pluginů bylo vynulováno."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:203
+#: includes/api/class-settings.php:203
+msgid "Invalid section."
+msgstr "Neplatný oddíl."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:209
+#: includes/api/class-settings.php:209 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:10
+msgid "General"
+msgstr "Obecné"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:210
+#: includes/api/class-settings.php:210 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:11
+msgid "Multipliers"
+msgstr "Multiplikátory"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:211
+#: includes/api/class-settings.php:211 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:12
+msgid "Per Product"
+msgstr "Na výrobek"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:230
+#: includes/api/class-settings.php:230
+#. translators: %s: settings section name
+#, php-format
+msgid "%s Settings have been reset to default."
+msgstr "%s Nastavení bylo obnoveno na výchozí hodnoty."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:261
+#: includes/api/class-settings.php:261
+msgid "No data received."
+msgstr "Nebyla přijata žádná data."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:280
+#: includes/api/class-settings.php:280
+msgid "Settings saved successfully."
+msgstr "Nastavení bylo úspěšně uloženo."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:181
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:190
+#: includes/class-price-by-user-role-for-woocommerce.php:181
+#: includes/class-price-by-user-role-for-woocommerce.php:190
+msgid "Not allowed."
+msgstr "Není povoleno."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:293
+#: includes/class-price-by-user-role-for-woocommerce.php:293
+#. translators: 1. Plugin Name, 2. WordPress Version
+#, php-format
+msgid ""
+"You are using an outdated version of WordPress. %1$s requires WP version "
+"%2$s or higher."
+msgstr ""
+"Používáte zastaralou verzi systému WordPress. %1$s vyžaduje verzi WP %2$s "
+"nebo vyšší."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:299
+#: includes/class-price-by-user-role-for-woocommerce.php:299
+#. translators: 1. Plugin Name, 2. PHP Version
+#, php-format
+msgid ""
+"%1$s requires PHP version %2$s or above. Please update PHP to run this "
+"plugin."
+msgstr ""
+"%1$s vyžaduje verzi PHP %2$s nebo vyšší. Pro spuštění tohoto zásuvného "
+"modulu prosím aktualizujte PHP."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:305
+#: includes/class-price-by-user-role-for-woocommerce.php:305
+#. translators: 1. Plugin Name, 2. WooCommerce Version
+#, php-format
+msgid "WooCommerce not found. %1$s requires WooCommerce v%2$s or higher."
+msgstr "WooCommerce nebyl nalezen. %1$s vyžaduje WooCommerce v%2$s nebo vyšší."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:308
+#: includes/class-price-by-user-role-for-woocommerce.php:308
+#. translators: 1. Plugin Name, 2. WooCommerce Version
+#, php-format
+msgid ""
+"You are using an outdated version of WooCommerce. %1$s requires WooCommerce "
+"v%2$s or higher."
+msgstr ""
+"Používáte zastaralou verzi WooCommerce. %1$s vyžaduje WooCommerce v%2$s "
+"nebo vyšší."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:174
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:174
+msgid "I only needed the plugin for a short period."
+msgstr "Zásuvný modul jsem potřeboval pouze na krátkou dobu."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:180
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:180
+msgid "I found a better plugin."
+msgstr "Našel jsem lepší zásuvný modul."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:182
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:182
+msgid "Please let us have the plugin's name so that we can make improvements"
+msgstr "Prosím, sdělte nám název zásuvného modulu, abychom jej mohli vylepšit."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:186
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:186
+msgid "The plugin is not working."
+msgstr "Zásuvný modul nefunguje."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:188
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:188
+msgid ""
+"Please share what was faulty with the plugin so that we may get the issue "
+"fixed."
+msgstr ""
+"Podělte se prosím o to, co bylo v zásuvném modulu chybné, abychom mohli "
+"problém odstranit."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:192
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:192
+msgid "The plugin is causing issues on my site"
+msgstr "Zásuvný modul způsobuje problémy na mém webu"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:194
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:194
+msgid "We're sorry! Please tell us about the issues so that we can get them fixed."
+msgstr ""
+"Omlouváme se! Informujte nás prosím o problémech, abychom je mohli "
+"odstranit."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:198
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:198
+msgid "Some features I need are not working as per my expectations"
+msgstr "Některé funkce, které potřebuji, nefungují podle mých očekávání."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:200
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:200
+msgid "Please tell us about these features."
+msgstr "Povězte nám prosím o těchto funkcích."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:204
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:204
+msgid "The plugin is not compatible with another plugin/theme"
+msgstr "Zásuvný modul není kompatibilní s jiným zásuvným modulem/téma"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:206
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:206
+msgid ""
+"We're sorry! We would like you to tell us the plugin/theme so that we can "
+"work on the compatibility."
+msgstr ""
+"Omlouváme se! Rádi bychom, abyste nám sdělili, o jaký plugin/téma se jedná, "
+"abychom mohli zapracovat na kompatibilitě."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:210
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:210
+msgid "Other"
+msgstr "Další"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:224
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:224
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Pokud máte chvilku času, dejte nám prosím vědět, proč deaktivujete:"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:233
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:233
+msgid "Skip & Deactivate"
+msgstr "Přeskočit a deaktivovat"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:234
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:234
+msgid "Submit & Deactivate"
+msgstr "Odeslání a deaktivace"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:235
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:235
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:26
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:248
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:248
+msgid "Please select a reason for deactivation!"
+msgstr "Vyberte důvod deaktivace!"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-tracking/class-plugin-tracking.php:276
+#: includes/components/plugin-tracking/class-plugin-tracking.php:276
+#. translators: 1: plugin name, 2: link to privacy/tracking info
+#, php-format
+msgid ""
+"Want to help make %1$s even more awesome? Allow %1$s to collect "
+"non-sensitive diagnostic data and usage information and get 20%% off on "
+"your next purchase. <a href=\"%2$s\" target=\"_blank\">Find out more</a>."
+msgstr ""
+"Chcete přispět k tomu, aby byl %1$s ještě úžasnější? Umožněte %1$s "
+"shromažďovat necitlivé diagnostické údaje a informace o používání a "
+"získejte 20% slevu na další nákup. <a href=\"%2$s\" "
+"target=\"_blank\">Zjistěte více</a>."
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:36
+#: includes/core/class-hooks.php:36
+msgid "Go to the settings page"
+msgstr "Přejděte na stránku nastavení"
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:37
+#: includes/core/class-hooks.php:37 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:6 src/admin/pages/settings/index.js:20
+msgid "Settings"
+msgstr "Nastavení"
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:45
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:46
+#: includes/core/class-hooks.php:45 includes/core/class-hooks.php:46
+msgid "Upgrade to Pro"
+msgstr "Přejít na verzi Pro"
+
+#: dist/price-by-user-role-for-woocommerce/includes/helpers/class-utils.php:45
+#: dist/price-by-user-role-for-woocommerce/includes/helpers/class-utils.php:217
+#: includes/helpers/class-utils.php:45 includes/helpers/class-utils.php:217
+msgid "Guest"
+msgstr "Host"
+
+#: dist/price-by-user-role-for-woocommerce/price-by-user-role-for-woocommerce.php:55
+#: price-by-user-role-for-woocommerce.php:55
+msgid ""
+"Product Prices by User Roles for WooCommerce Pro is active. You do not need "
+"the Lite version — please deactivate it to avoid conflicts."
+msgstr ""
+"Plugin „Ceny produktů podle uživatelských rolí pro WooCommerce Pro“ je "
+"aktivní. Verzi Lite již nepotřebujete – deaktivujte ji prosím, abyste "
+"předešli konfliktům."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:5
+msgid "Dashboard"
+msgstr "Přístrojová deska"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:7
+msgid "Rules"
+msgstr "Pravidla"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:8
+msgid "FAQs"
+msgstr "Nejčastější dotazy"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:17
+msgid "Manage product prices by user roles for WooCommerce"
+msgstr "Správa cen produktů podle uživatelských rolí pro WooCommerce"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:20
+msgid "Plugin navigation"
+msgstr "Navigace v zásuvném modulu"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:33 src/admin/components/SubNav.js:19
+msgid "Pro"
+msgstr "Pro"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:18
+msgid "Open the support forum for this plugin on WordPress.org"
+msgstr "Otevřete fórum podpory pro tento plugin na WordPress.org"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:20
+msgid "Need Support?"
+msgstr "Potřebujete podporu?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:22
+msgid "We're always happy to help you."
+msgstr "Vždy vám rádi pomůžeme."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:25
+msgid "If this plugin helped you,"
+msgstr "Pokud vám tento plugin pomohl,"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:30
+msgid "Leave a review for this plugin on WordPress.org"
+msgstr "Zanechte recenzi pro tento plugin na WordPress.org"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:32
+msgid "please rate it"
+msgstr "prosím, ohodnoťte ji"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:37
+msgid "Check out more plugins by"
+msgstr "Podívejte se na další pluginy od"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:42
+msgid "Visit Tyche Softwares to explore more WooCommerce plugins"
+msgstr "Navštivte Tyche Softwares a prozkoumejte další pluginy WooCommerce"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:15
+msgid "Enable the plugin"
+msgstr "Povolení zásuvného modulu"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:16
+msgid "Set up at least one pricing method"
+msgstr "Nastavení alespoň jedné metody tvorby cen"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:17
+msgid "Assign prices to a product"
+msgstr "Přiřadit ceny k produktu"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:7
+msgid "How do I set different prices for different user roles?"
+msgstr "Jak nastavím různé ceny pro různé uživatelské role?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:8
+msgid ""
+"Enable the plugin in Settings → General, then use one of two methods: "
+"Multipliers (percentage-based adjustments across all products) or Per "
+"Product settings (exact prices set directly on each product's edit page for "
+"specific roles)."
+msgstr ""
+"Plugin aktivujte v sekci Nastavení → Obecné a poté použijte jednu ze dvou "
+"metod: Násobitele (procentuální úpravy u všech produktů) nebo Nastavení pro "
+"jednotlivé produkty (přesné ceny nastavené přímo na stránce úprav každého "
+"produktu pro konkrétní role)."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:11
+msgid "What is the difference between Multipliers and Per Product pricing?"
+msgstr "Jaký je rozdíl mezi multiplikátory a cenami za produkt?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:12
+msgid ""
+"Multipliers apply a single multiplier value across all products for a given "
+"role. Per Product pricing lets you set exact prices directly on each "
+"product's edit page for specific roles, giving you granular per-product "
+"control."
+msgstr ""
+"Multiplikátory používají jednu hodnotu multiplikátoru pro všechny produkty "
+"pro danou roli. Ceník za produkt umožňuje nastavit přesné ceny přímo na "
+"stránce úprav každého produktu pro konkrétní role, čímž získáte podrobnou "
+"kontrolu nad jednotlivými produkty."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:15
+msgid "What does 'Make empty price' mean?"
+msgstr "Co znamená \"Make empty price\"?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:16
+msgid ""
+"When \"Make empty price\" is enabled for a role in Multipliers or Per "
+"Product settings, the product price is hidden entirely for that role."
+msgstr ""
+"Je-li v nastavení „Multiplikátory“ nebo „Pro každý produkt“ pro danou roli "
+"povolena možnost „Zobrazit nulovou cenu“, cena produktu se pro tuto roli "
+"zcela skryje."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:19
+msgid "Why should I disable the plugin for search engine bots?"
+msgstr "Proč bych měl zakázat zásuvný modul pro roboty vyhledávačů?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:20
+msgid ""
+"Search engines index product prices. If bots see role-specific prices (e.g. "
+"a restricted or empty price), it can affect SEO and how products appear in "
+"search results. Disabling for bots ensures crawlers always see standard "
+"WooCommerce prices."
+msgstr ""
+"Vyhledávače indexují ceny produktů. Pokud roboti vidí ceny specifické pro "
+"danou roli (např. omezené nebo prázdné ceny), může to mít vliv na SEO a na "
+"to, jak se produkty zobrazují ve výsledcích vyhledávání. Zakázání pro "
+"roboty zajistí, že vyhledávače vždy uvidí standardní ceny WooCommerce."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:23
+msgid "What happens if I have both Multipliers and Per Product pricing enabled?"
+msgstr "Co se stane, když mám povoleny multiplikátory i ceny za produkt?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:24
+msgid ""
+"Per Product prices take precedence over Multipliers by default. If a "
+"product has a per-product price set for a role, that price is used. "
+"Otherwise, the Multiplier is applied to the standard WooCommerce price."
+msgstr ""
+"Ceny za produkt mají ve výchozím nastavení přednost před multiplikátory. "
+"Pokud je u produktu nastavena cena za produkt pro roli, použije se tato "
+"cena. V opačném případě se Multiplikátor použije na standardní cenu "
+"WooCommerce."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:27
+msgid "Can I apply role-based pricing to shipping costs?"
+msgstr "Mohu na náklady na dopravu použít ceny založené na rolích?"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:28
+msgid ""
+"Yes. In Settings → Multipliers, enable the \"Apply to Shipping\" option. "
+"The same multiplier configured for a role's product prices will also be "
+"applied to shipping costs at checkout."
+msgstr ""
+"Ano. V části Nastavení → Násobitele povolte možnost \"Použít na přepravu\". "
+"Stejný násobitel nakonfigurovaný pro ceny produktů v roli se použije i na "
+"náklady na dopravu při placení."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:22
+msgid "Save Changes"
+msgstr "Uložení změn"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:32
+msgid "Reset Settings"
+msgstr "Obnovení nastavení"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:38
+msgid "Yes, I want to"
+msgstr "Ano, chci"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:39
+msgid "No, cancel"
+msgstr "Ne, zrušit"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:41
+msgid ""
+"Are you sure you want to reset this section to default settings? This "
+"cannot be undone."
+msgstr ""
+"Určitě chcete obnovit výchozí nastavení této sekce? Toto nastavení nelze "
+"vrátit zpět."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:13
+msgid "Messages"
+msgstr "Zprávy"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:21
+msgid "Configure plugin options and preferences"
+msgstr "Konfigurace možností a předvoleb zásuvných modulů"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:28
+msgid "Read the documentation"
+msgstr "Přečtěte si dokumentaci"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:14
+msgid "Pricing Rules"
+msgstr "Cenová pravidla"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:15
+msgid ""
+"Build condition-based rules that automatically apply the right price to the "
+"right products, users, and quantities."
+msgstr ""
+"Vytvořte pravidla založená na podmínkách, která automaticky přiřadí "
+"správnou cenu ke správným produktům, uživatelům a množstvím."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:17
+msgid "Apply prices per user role, product, or category"
+msgstr "Použít ceny podle role uživatele, produktu nebo kategorie"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:18
+msgid "Set percentage or fixed-amount price adjustments"
+msgstr "Nastavení procentuálních nebo pevných cenových úprav"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:19
+msgid "Quantity-range discounts (e.g. buy 10+ units, get 20% off)"
+msgstr "Množstevní slevy (např. při nákupu 10 a více kusů získáte slevu 20 %)"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:20
+msgid "Multiple rules with priority ordering"
+msgstr "Více pravidel s pořadím podle priority"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:21
+msgid "Combine role-based and category-based conditions"
+msgstr "Zkombinujte podmínky založené na rolích a na kategoriích"
+
+#: src/admin/components/Alert.js:22
+msgid "Dismiss"
+msgstr "Odmítnout"
+
+#~ msgid "Product Prices by User Roles for WooCommerce Pro"
+#~ msgstr "Ceny produktů podle uživatelských rolí pro WooCommerce Pro"
+
+#~ msgid ""
+#~ "Show different product prices to different user roles. Set fixed prices, "
+#~ "percentage adjustments, bulk rules, quantity-range discounts, and "
+#~ "multipliers."
+#~ msgstr ""
+#~ "Zobrazení různých cen produktů různým uživatelským rolím. Nastavte pevné "
+#~ "ceny, procentuální úpravy, pravidla pro hromadné objednávky, slevy v "
+#~ "množstevním rozmezí a multiplikátory."
+
+#~ msgid "http://www.tychesoftwares.com"
+#~ msgstr "http://www.tychesoftwares.com"
+
+#~ msgid "Fixed Price"
+#~ msgstr "Pevná cena"
+
+#~ msgid "Fixed Increase"
+#~ msgstr "Pevné navýšení"
+
+#~ msgid "Fixed Decrease"
+#~ msgstr "Pevné snížení"
+
+#~ msgid "Percentage Increase"
+#~ msgstr "Procentuální nárůst"
+
+#~ msgid "Percentage Decrease"
+#~ msgstr "Procentuální snížení"
+
+#~ msgid "No"
+#~ msgstr "Ne"
+
+#~ msgid "Yes"
+#~ msgstr "Ano"
+
+#~ msgid "Adjustment Type"
+#~ msgstr "Typ úpravy"
+
+#~ msgid "Min Qty"
+#~ msgstr "Minimální množství"
+
+#~ msgid "Max Qty"
+#~ msgstr "Maximální množství"
+
+#~ msgid "Please enter a license key."
+#~ msgstr "Zadejte licenční klíč."
+
+#~ msgid "Could not connect to the license server."
+#~ msgstr "Nepodařilo se připojit k licenčnímu serveru."
+
+#~ msgid "Invalid response from license server."
+#~ msgstr "Neplatná odpověď z licenčního serveru."
+
+#~ msgid "License activated successfully."
+#~ msgstr "Licence byla úspěšně aktivována."
+
+#~ msgid "No license key found."
+#~ msgstr "Nebyl nalezen žádný licenční klíč."
+
+#~ msgid "License deactivated."
+#~ msgstr "Licence je deaktivována."
+
+#~ msgid "Failed to deactivate license."
+#~ msgstr "Nepodařilo se deaktivovat licenci."
+
+#~ msgid "Your license key has expired."
+#~ msgstr "Platnost vašeho licenčního klíče vypršela."
+
+#~ msgid "Your license key has been revoked."
+#~ msgstr "Váš licenční klíč byl zrušen."
+
+#~ msgid "Invalid license key."
+#~ msgstr "Neplatný licenční klíč."
+
+#~ msgid "License key is not valid for this product."
+#~ msgstr "Licenční klíč není pro tento produkt platný."
+
+#~ msgid "Your license is not active for this URL."
+#~ msgstr "Vaše licence není pro tuto adresu URL aktivní."
+
+#~ msgid "License key does not match this product."
+#~ msgstr "Licenční klíč neodpovídá tomuto produktu."
+
+#~ msgid "You have reached your license activation limit."
+#~ msgstr "Dosáhli jste limitu pro aktivaci licence."
+
+#~ msgid "License activation failed."
+#~ msgstr "Aktivace licence se nezdařila."
+
+#~ msgid "Rule not found."
+#~ msgstr "Pravidlo nebylo nalezeno."
+
+#~ msgid "Rule created."
+#~ msgstr "Vytvořené pravidlo."
+
+#~ msgid "Rule updated."
+#~ msgstr "Aktualizované pravidlo."
+
+#~ msgid "Rule deleted."
+#~ msgstr "Vymazané pravidlo."
+
+#~ msgid "Rule duplicated."
+#~ msgstr "Duplikované pravidlo."
+
+#~ msgid "No rules selected."
+#~ msgstr "Nejsou vybrána žádná pravidla."
+
+#~ msgid "Unknown action."
+#~ msgstr "Neznámá akce."
+
+#~ msgid "Bulk action applied."
+#~ msgstr "Použita hromadná akce."
+
+#, php-format
+#~ msgid "Copy of %s"
+#~ msgstr "Kopie %s"
+
+#~ msgid ""
+#~ "Special offer for {role}s: buy {range} units of {product} to get it at "
+#~ "{price} per unit."
+#~ msgstr ""
+#~ "Speciální nabídka pro {role}: kupte si {rozsah} jednotek {produktu} a "
+#~ "získejte ho za {cenu} za jednotku."
+
+#~ msgid ""
+#~ "Special offer for {role}s: Add {range} units of {product} to get it at "
+#~ "{price} per unit."
+#~ msgstr ""
+#~ "Speciální nabídka pro {role}: Přidejte {rozsah} jednotek {produktu} a "
+#~ "získejte ho za {cenu} za jednotku."
+
+#~ msgid ""
+#~ "The Lite version of the plugin has been deactivated automatically. All your "
+#~ "settings have been preserved."
+#~ msgstr ""
+#~ "Verze zásuvného modulu Lite byla automaticky deaktivována. Všechna vaše "
+#~ "nastavení byla zachována."
+
+#, php-format
+#~ msgid ""
+#~ "The license for Product Prices by User Roles for WooCommerce Pro is not "
+#~ "active. To receive automatic updates & support, please activate the license "
+#~ "%1$shere%2$s."
+#~ msgstr ""
+#~ "Licence pro Ceník produktů podle uživatelských rolí pro WooCommerce Pro "
+#~ "není aktivní. Chcete-li dostávat automatické aktualizace a podporu, "
+#~ "aktivujte prosím licenci %1$shere%2$s."
+
+#~ msgid "Role"
+#~ msgstr "Role"
+
+#~ msgid "Price"
+#~ msgstr "Cena"
+
+#~ msgid "License"
+#~ msgstr "Licence"
+
+#~ msgid "Assign prices to a product or rule"
+#~ msgstr "Přiřazení cen k produktu nebo pravidlu"
+
+#~ msgid "Configure price visibility"
+#~ msgstr "Konfigurace viditelnosti cen"
+
+#~ msgid "Plugin Status"
+#~ msgstr "Stav zásuvného modulu"
+
+#~ msgid "Enabled"
+#~ msgstr "Povoleno"
+
+#~ msgid "Disabled"
+#~ msgstr "Bezbariérový"
+
+#~ msgid "Active Rules"
+#~ msgstr "Aktivní pravidla"
+
+#~ msgid "rule configured"
+#~ msgid_plural "rules configured"
+#~ msgstr[0] "nakonfigurované pravidlo"
+#~ msgstr[1] "nakonfigurovaná pravidla"
+#~ msgstr[2] "nakonfigurovaná pravidla"
+
+#~ msgid "Active"
+#~ msgstr "Aktivní"
+
+#~ msgid "Inactive"
+#~ msgstr "Neaktivní"
+
+#~ msgid "Per-Product"
+#~ msgstr "Na produkt"
+
+#~ msgid ""
+#~ "Enable the plugin in Settings → General, then use one of three methods: "
+#~ "Multipliers (percentage-based adjustments across all products), Rules "
+#~ "(targeted adjustments by product or category), or Per Product settings "
+#~ "(exact prices set directly on each product's edit page for specific roles)."
+#~ msgstr ""
+#~ "Zásuvný modul povolte v Nastavení → Obecné a poté použijte jednu ze tří "
+#~ "metod: Násobitele (procentuální úpravy pro všechny produkty), Pravidla "
+#~ "(cílené úpravy podle produktů nebo kategorií) nebo Nastavení pro jednotlivé "
+#~ "produkty (přesné ceny nastavené přímo na stránce úprav každého produktu pro "
+#~ "konkrétní role)."
+
+#~ msgid "Can I create pricing rules for specific product categories?"
+#~ msgstr "Mohu vytvořit pravidla pro tvorbu cen pro konkrétní kategorie produktů?"
+
+#~ msgid ""
+#~ "Yes. When creating a Rule, you can target products by category. The rule "
+#~ "will apply the configured price adjustment to all products within those "
+#~ "categories for the selected roles."
+#~ msgstr ""
+#~ "Ano. Při vytváření pravidla se můžete zaměřit na produkty podle kategorie. "
+#~ "Pravidlo použije nakonfigurovanou úpravu ceny na všechny produkty v rámci "
+#~ "těchto kategorií pro vybrané role."
+
+#~ msgid "How does the override option work in Rules?"
+#~ msgstr "Jak funguje možnost přepsání v pravidlech?"
+
+#~ msgid ""
+#~ "By default, per-product prices take precedence over Rules. Enabling "
+#~ "\"Override product level configuration\" inside a Rule forces the Rule to "
+#~ "apply even when a per-product price is set, giving Rules higher priority."
+#~ msgstr ""
+#~ "Ve výchozím nastavení mají ceny za produkt přednost před pravidly. Povolení "
+#~ "možnosti \"Přepsat konfiguraci na úrovni produktu\" uvnitř pravidla nutí "
+#~ "pravidlo použít i v případě, že je nastavena cena na produkt, a dává "
+#~ "pravidlům vyšší prioritu."
+
+#~ msgid ""
+#~ "When \"Make empty price\" is enabled for a role in Multipliers or Rules, "
+#~ "the product price is hidden entirely for that role. A custom message from "
+#~ "Settings → Messages is shown in its place."
+#~ msgstr ""
+#~ "Pokud je pro roli povolena možnost \"Vytvořit prázdnou cenu\" v položce "
+#~ "Multiplikátory nebo Pravidla, cena produktu se pro danou roli zcela skryje. "
+#~ "Místo ní se zobrazí vlastní zpráva z nabídky Nastavení → Zprávy."
+
+#~ msgid "Can I set minimum and maximum quantities for role-based pricing?"
+#~ msgstr "Mohu nastavit minimální a maximální množství pro ceny založené na rolích?"
+
+#~ msgid ""
+#~ "Yes. Rules support quantity ranges, letting you define different prices for "
+#~ "different purchase quantities — for example, a lower price when a customer "
+#~ "buys 10 or more units."
+#~ msgstr ""
+#~ "Ano. Pravidla podporují množstevní rozsahy, takže můžete definovat různé "
+#~ "ceny pro různá množství nákupů - například nižší cenu, když zákazník koupí "
+#~ "10 nebo více jednotek."
+
+#~ msgid "How do I exclude certain product categories from role-based pricing?"
+#~ msgstr "Jak mohu vyloučit určité kategorie produktů z tvorby cen na základě rolí?"
+
+#~ msgid ""
+#~ "Go to Settings → General and add categories to the \"Exclude Product "
+#~ "Categories\" field. Products in those categories will always show default "
+#~ "WooCommerce prices, regardless of the user's role."
+#~ msgstr ""
+#~ "Přejděte do Nastavení → Obecné a přidejte kategorie do pole \"Vyloučit "
+#~ "kategorie produktů\". Produkty v těchto kategoriích budou vždy zobrazovat "
+#~ "výchozí ceny WooCommerce bez ohledu na roli uživatele."
+
+#~ msgid "Can I customize the messages shown to customers about special pricing?"
+#~ msgstr "Mohu si přizpůsobit zprávy o speciálních cenách zobrazované zákazníkům?"
+
+#~ msgid ""
+#~ "Yes. Go to Settings → Messages and enable the Messages feature. You can set "
+#~ "custom messages for the product page, cart, and checkout, using "
+#~ "placeholders like {role}, {price}, {product}, and {range}."
+#~ msgstr ""
+#~ "Ano. Přejděte do Nastavení → Zprávy a povolte funkci Zprávy. Můžete "
+#~ "nastavit vlastní zprávy pro stránku produktu, košík a pokladnu pomocí "
+#~ "zástupných znaků jako {role}, {cena}, {produkt} a {rozsah}."
+
+#~ msgid "Do I need to activate my license key?"
+#~ msgstr "Musím svůj licenční klíč aktivovat?"
+
+#~ msgid ""
+#~ "Yes. Activating your license key enables automatic plugin updates and "
+#~ "access to premium support. Go to the License page and enter the key from "
+#~ "your purchase confirmation email or Tyche Softwares account dashboard."
+#~ msgstr ""
+#~ "Ano. Aktivace licenčního klíče umožňuje automatické aktualizace zásuvných "
+#~ "modulů a přístup k prémiové podpoře. Přejděte na stránku Licence a zadejte "
+#~ "klíč z e-mailu s potvrzením nákupu nebo z ovládacího panelu účtu Tyche "
+#~ "Softwares."

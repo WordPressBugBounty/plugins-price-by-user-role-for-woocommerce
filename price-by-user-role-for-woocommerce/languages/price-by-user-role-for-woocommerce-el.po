@@ -1,0 +1,969 @@
+# Copyright (C) 2026 Tyche Softwares
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Prices by User Roles for WooCommerce Pro 2.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/price-by-user-role-for-woocommerce\n"
+"POT-Creation-Date: 2026-06-16T10:26:32+00:00\n"
+"PO-Revision-Date: 2026-05-12T12:11:34+00:00\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: price-by-user-role-for-woocommerce\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: price-by-user-role-for-woocommerce.php build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:16
+#. Plugin Name of the plugin
+msgid "Product Prices by User Roles for WooCommerce"
+msgstr "Τιμές προϊόντων ανά ρόλο χρήστη για το WooCommerce"
+
+#: price-by-user-role-for-woocommerce.php
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.tychesoftwares.com"
+msgstr "https://www.tychesoftwares.com"
+
+#: price-by-user-role-for-woocommerce.php
+#. Description of the plugin
+msgid ""
+"Set role-based product prices in WooCommerce. Apply global multipliers or "
+"fixed per-product prices per role. Upgrade to Pro for rules, quantity "
+"discounts, adjustment types, and more."
+msgstr ""
+"Ορίστε τιμές προϊόντων βάσει ρόλου στο WooCommerce. Εφαρμόστε γενικούς "
+"πολλαπλασιαστές ή σταθερές τιμές ανά προϊόν ανά ρόλο. Αναβαθμίστε στην "
+"έκδοση Pro για κανόνες, εκπτώσεις ποσότητας, τύπους προσαρμογής και πολλά "
+"άλλα."
+
+#: price-by-user-role-for-woocommerce.php build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:44
+#. Author of the plugin
+msgid "Tyche Softwares"
+msgstr "Λογισμικά Tyche"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:142
+#: includes/admin/class-backend.php:142
+msgid "Set a user role for this order?"
+msgstr "Ορισμός ρόλου χρήστη για αυτή την παραγγελία;"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:145
+#: includes/admin/class-backend.php:145
+msgid "Select a role:"
+msgstr "Επιλέξτε έναν ρόλο:"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-backend.php:147
+#: includes/admin/class-backend.php:147
+msgid "Select a role"
+msgstr "Επιλέξτε έναν ρόλο"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-menu.php:43
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-menu.php:49
+#: includes/admin/class-menu.php:43 includes/admin/class-menu.php:49
+msgid "Product Prices by User Roles"
+msgstr "Τιμές προϊόντων ανά ρόλο χρήστη"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-notices.php:110
+#: includes/admin/class-notices.php:110
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Η δράση απέτυχε. Παρακαλούμε ανανεώστε τη σελίδα και προσπαθήστε ξανά."
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-notices.php:114
+#: includes/admin/class-notices.php:114
+msgid "You don't have the permission to hide the selected notice."
+msgstr "Δεν έχετε το δικαίωμα να αποκρύψετε την επιλεγμένη ειδοποίηση."
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:55
+#: includes/admin/class-product-meta-box.php:55
+msgid "Product Prices by User Roles: Per Product Settings"
+msgstr "Τιμές προϊόντων ανά ρόλο χρήστη: Ανά Ρυθμίσεις Προϊόντος"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:121
+#: includes/admin/class-product-meta-box.php:121
+msgid "Enable per-product pricing"
+msgstr "Ενεργοποίηση τιμολόγησης ανά προϊόν"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:122
+#: includes/admin/class-product-meta-box.php:122
+msgid "Configure individual role pricing for this product"
+msgstr "Διαμόρφωση της τιμολόγησης μεμονωμένων ρόλων για αυτό το προϊόν"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:143
+#: includes/admin/class-product-meta-box.php:143
+msgid "User Role"
+msgstr "Ρόλος χρήστη"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:144
+#: includes/admin/class-product-meta-box.php:144
+msgid "Regular Price"
+msgstr "Κανονική τιμή"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:145
+#: includes/admin/class-product-meta-box.php:145
+msgid "Sale Price"
+msgstr "Τιμή πώλησης"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:146
+#: includes/admin/class-product-meta-box.php:146
+msgid "Empty Price"
+msgstr "Κενή τιμή"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:323
+#: includes/admin/class-product-meta-box.php:323
+msgid "Any"
+msgstr "Οποιοδήποτε"
+
+#: dist/price-by-user-role-for-woocommerce/includes/admin/class-product-meta-box.php:360
+#: includes/admin/class-product-meta-box.php:360
+#, php-format
+msgid ""
+"The free version is limited to one product with per-product pricing enabled "
+"at a time. <a href=\"%s\" target=\"_blank\">Upgrade to Pro</a> for "
+"unlimited products."
+msgstr ""
+"Η δωρεάν έκδοση περιορίζεται σε ένα προϊόν τη φορά, με ενεργοποιημένη την "
+"τιμολόγηση ανά προϊόν. <a href=\"%s\" target=\"_blank\">Αναβαθμίστε στην "
+"έκδοση Pro</a> για απεριόριστο αριθμό προϊόντων."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:158
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:189
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:250
+#: includes/api/class-settings.php:158 includes/api/class-settings.php:189
+#: includes/api/class-settings.php:250
+msgid "Authentication has failed."
+msgstr "Ο έλεγχος ταυτότητας απέτυχε."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:168
+#: includes/api/class-settings.php:168
+msgid "Plugin usage tracking has been reset."
+msgstr "Η καταγραφή χρήσης του πρόσθετου έχει μηδενιστεί."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:203
+#: includes/api/class-settings.php:203
+msgid "Invalid section."
+msgstr "Μη έγκυρο τμήμα."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:209
+#: includes/api/class-settings.php:209 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:10
+msgid "General"
+msgstr "Γενικά"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:210
+#: includes/api/class-settings.php:210 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:11
+msgid "Multipliers"
+msgstr "Πολλαπλασιαστές"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:211
+#: includes/api/class-settings.php:211 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:12
+msgid "Per Product"
+msgstr "Ανά προϊόν"
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:230
+#: includes/api/class-settings.php:230
+#. translators: %s: settings section name
+#, php-format
+msgid "%s Settings have been reset to default."
+msgstr "%s Οι ρυθμίσεις έχουν επανέλθει στις προεπιλογές."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:261
+#: includes/api/class-settings.php:261
+msgid "No data received."
+msgstr "Δεν ελήφθησαν δεδομένα."
+
+#: dist/price-by-user-role-for-woocommerce/includes/api/class-settings.php:280
+#: includes/api/class-settings.php:280
+msgid "Settings saved successfully."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν με επιτυχία."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:181
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:190
+#: includes/class-price-by-user-role-for-woocommerce.php:181
+#: includes/class-price-by-user-role-for-woocommerce.php:190
+msgid "Not allowed."
+msgstr "Δεν επιτρέπεται."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:293
+#: includes/class-price-by-user-role-for-woocommerce.php:293
+#. translators: 1. Plugin Name, 2. WordPress Version
+#, php-format
+msgid ""
+"You are using an outdated version of WordPress. %1$s requires WP version "
+"%2$s or higher."
+msgstr ""
+"Χρησιμοποιείτε μια ξεπερασμένη έκδοση του WordPress. Το %1$s απαιτεί την "
+"έκδοση WP %2$s ή νεότερη."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:299
+#: includes/class-price-by-user-role-for-woocommerce.php:299
+#. translators: 1. Plugin Name, 2. PHP Version
+#, php-format
+msgid ""
+"%1$s requires PHP version %2$s or above. Please update PHP to run this "
+"plugin."
+msgstr ""
+"Το %1$s απαιτεί έκδοση PHP %2$s ή μεγαλύτερη. Ενημερώστε την PHP για να "
+"τρέξει αυτό το πρόσθετο."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:305
+#: includes/class-price-by-user-role-for-woocommerce.php:305
+#. translators: 1. Plugin Name, 2. WooCommerce Version
+#, php-format
+msgid "WooCommerce not found. %1$s requires WooCommerce v%2$s or higher."
+msgstr ""
+"Το WooCommerce δεν βρέθηκε. Το %1$s απαιτεί WooCommerce v%2$s ή νεότερη "
+"έκδοση."
+
+#: dist/price-by-user-role-for-woocommerce/includes/class-price-by-user-role-for-woocommerce.php:308
+#: includes/class-price-by-user-role-for-woocommerce.php:308
+#. translators: 1. Plugin Name, 2. WooCommerce Version
+#, php-format
+msgid ""
+"You are using an outdated version of WooCommerce. %1$s requires WooCommerce "
+"v%2$s or higher."
+msgstr ""
+"Χρησιμοποιείτε μια ξεπερασμένη έκδοση του WooCommerce. Το %1$s απαιτεί "
+"WooCommerce v%2$s ή νεότερη έκδοση."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:174
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:174
+msgid "I only needed the plugin for a short period."
+msgstr "Χρειάστηκα το πρόσθετο μόνο για σύντομο χρονικό διάστημα."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:180
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:180
+msgid "I found a better plugin."
+msgstr "Βρήκα ένα καλύτερο πρόσθετο."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:182
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:182
+msgid "Please let us have the plugin's name so that we can make improvements"
+msgstr ""
+"Παρακαλούμε ενημερώστε μας για το όνομα του πρόσθετου ώστε να μπορέσουμε να "
+"κάνουμε βελτιώσεις."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:186
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:186
+msgid "The plugin is not working."
+msgstr "Το πρόσθετο δεν λειτουργεί."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:188
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:188
+msgid ""
+"Please share what was faulty with the plugin so that we may get the issue "
+"fixed."
+msgstr ""
+"Παρακαλούμε μοιραστείτε τι ήταν ελαττωματικό με το πρόσθετο, ώστε να "
+"μπορέσουμε να διορθώσουμε το πρόβλημα."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:192
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:192
+msgid "The plugin is causing issues on my site"
+msgstr "Το πρόσθετο προκαλεί προβλήματα στον ιστότοπό μου"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:194
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:194
+msgid "We're sorry! Please tell us about the issues so that we can get them fixed."
+msgstr ""
+"Λυπούμαστε! Παρακαλούμε ενημερώστε μας για τα προβλήματα, ώστε να "
+"μπορέσουμε να τα διορθώσουμε."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:198
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:198
+msgid "Some features I need are not working as per my expectations"
+msgstr ""
+"Ορισμένες λειτουργίες που χρειάζομαι δεν λειτουργούν σύμφωνα με τις "
+"προσδοκίες μου"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:200
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:200
+msgid "Please tell us about these features."
+msgstr "Πείτε μας για αυτά τα χαρακτηριστικά."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:204
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:204
+msgid "The plugin is not compatible with another plugin/theme"
+msgstr "Το πρόσθετο δεν είναι συμβατό με άλλο πρόσθετο/θέμα"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:206
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:206
+msgid ""
+"We're sorry! We would like you to tell us the plugin/theme so that we can "
+"work on the compatibility."
+msgstr ""
+"Λυπούμαστε! Θα θέλαμε να μας πείτε το πρόσθετο/θέμα, ώστε να μπορέσουμε να "
+"εργαστούμε για τη συμβατότητα."
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:210
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:210
+msgid "Other"
+msgstr "Άλλα"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:224
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:224
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Αν έχετε λίγο χρόνο, ενημερώστε μας για τον λόγο που απενεργοποιείτε:"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:233
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:233
+msgid "Skip & Deactivate"
+msgstr "Παράλειψη & απενεργοποίηση"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:234
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:234
+msgid "Submit & Deactivate"
+msgstr "Υποβολή & απενεργοποίηση"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:235
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:235
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:26
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-deactivation/class-plugin-deactivation.php:248
+#: includes/components/plugin-deactivation/class-plugin-deactivation.php:248
+msgid "Please select a reason for deactivation!"
+msgstr "Παρακαλούμε επιλέξτε έναν λόγο για την απενεργοποίηση!"
+
+#: dist/price-by-user-role-for-woocommerce/includes/components/plugin-tracking/class-plugin-tracking.php:276
+#: includes/components/plugin-tracking/class-plugin-tracking.php:276
+#. translators: 1: plugin name, 2: link to privacy/tracking info
+#, php-format
+msgid ""
+"Want to help make %1$s even more awesome? Allow %1$s to collect "
+"non-sensitive diagnostic data and usage information and get 20%% off on "
+"your next purchase. <a href=\"%2$s\" target=\"_blank\">Find out more</a>."
+msgstr ""
+"Θέλετε να βοηθήσετε να γίνει το %1$s ακόμα πιο φοβερό; Επιτρέψτε στην %1$s "
+"να συλλέγει μη ευαίσθητα διαγνωστικά δεδομένα και πληροφορίες χρήσης και "
+"κερδίστε 20%% έκπτωση στην επόμενη αγορά σας. <a href=\"%2$s\" "
+"target=\"_blank\">Μάθετε περισσότερα</a>."
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:36
+#: includes/core/class-hooks.php:36
+msgid "Go to the settings page"
+msgstr "Μεταβείτε στη σελίδα ρυθμίσεων"
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:37
+#: includes/core/class-hooks.php:37 build/admin.js:1
+#: dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:6 src/admin/pages/settings/index.js:20
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:45
+#: dist/price-by-user-role-for-woocommerce/includes/core/class-hooks.php:46
+#: includes/core/class-hooks.php:45 includes/core/class-hooks.php:46
+msgid "Upgrade to Pro"
+msgstr "Αναβάθμιση σε Pro"
+
+#: dist/price-by-user-role-for-woocommerce/includes/helpers/class-utils.php:45
+#: dist/price-by-user-role-for-woocommerce/includes/helpers/class-utils.php:217
+#: includes/helpers/class-utils.php:45 includes/helpers/class-utils.php:217
+msgid "Guest"
+msgstr "Επισκέπτης"
+
+#: dist/price-by-user-role-for-woocommerce/price-by-user-role-for-woocommerce.php:55
+#: price-by-user-role-for-woocommerce.php:55
+msgid ""
+"Product Prices by User Roles for WooCommerce Pro is active. You do not need "
+"the Lite version — please deactivate it to avoid conflicts."
+msgstr ""
+"Η επέκταση «Τιμές προϊόντων ανά ρόλο χρήστη για το WooCommerce Pro» είναι "
+"ενεργοποιημένη. Δεν χρειάζεστε την έκδοση Lite — παρακαλούμε "
+"απενεργοποιήστε την για να αποφύγετε τυχόν συγκρούσεις."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:5
+msgid "Dashboard"
+msgstr "Ταμπλό"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:7
+msgid "Rules"
+msgstr "Κανόνες"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:8
+msgid "FAQs"
+msgstr "Συχνές ερωτήσεις"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:17
+msgid "Manage product prices by user roles for WooCommerce"
+msgstr "Διαχείριση τιμών προϊόντων ανά ρόλο χρήστη για το WooCommerce"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:20
+msgid "Plugin navigation"
+msgstr "Πλοήγηση στο plugin"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Header.js:33 src/admin/components/SubNav.js:19
+msgid "Pro"
+msgstr "Επαγγελματικό"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:18
+msgid "Open the support forum for this plugin on WordPress.org"
+msgstr "Ανοίξτε το φόρουμ υποστήριξης για αυτό το πρόσθετο στο WordPress.org"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:20
+msgid "Need Support?"
+msgstr "Χρειάζεστε υποστήριξη;"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:22
+msgid "We're always happy to help you."
+msgstr "Είμαστε πάντα ευτυχείς να σας βοηθήσουμε."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:25
+msgid "If this plugin helped you,"
+msgstr "Αν αυτό το πρόσθετο σας βοήθησε,"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:30
+msgid "Leave a review for this plugin on WordPress.org"
+msgstr "Αφήστε μια κριτική για αυτό το πρόσθετο στο WordPress.org"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:32
+msgid "please rate it"
+msgstr "παρακαλώ βαθμολογήστε το"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:37
+msgid "Check out more plugins by"
+msgstr "Ελέγξτε περισσότερα plugins από"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/Footer.js:42
+msgid "Visit Tyche Softwares to explore more WooCommerce plugins"
+msgstr ""
+"Επισκεφθείτε το Tyche Softwares για να εξερευνήσετε περισσότερα plugins "
+"WooCommerce"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:15
+msgid "Enable the plugin"
+msgstr "Ενεργοποιήστε το πρόσθετο"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:16
+msgid "Set up at least one pricing method"
+msgstr "Ρύθμιση τουλάχιστον μιας μεθόδου τιμολόγησης"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/dashboard/index.js:17
+msgid "Assign prices to a product"
+msgstr "Ορισμός τιμών για ένα προϊόν"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:7
+msgid "How do I set different prices for different user roles?"
+msgstr "Πώς μπορώ να ορίσω διαφορετικές τιμές για διαφορετικούς ρόλους χρηστών;"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:8
+msgid ""
+"Enable the plugin in Settings → General, then use one of two methods: "
+"Multipliers (percentage-based adjustments across all products) or Per "
+"Product settings (exact prices set directly on each product's edit page for "
+"specific roles)."
+msgstr ""
+"Ενεργοποιήστε το πρόσθετο από τις Ρυθμίσεις → Γενικά και, στη συνέχεια, "
+"χρησιμοποιήστε μία από τις δύο μεθόδους: Πολλαπλασιαστές (προσαρμογές βάσει "
+"ποσοστού για όλα τα προϊόντα) ή Ρυθμίσεις ανά προϊόν (καθορισμός ακριβών "
+"τιμών απευθείας στη σελίδα επεξεργασίας κάθε προϊόντος για συγκεκριμένους "
+"ρόλους)."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:11
+msgid "What is the difference between Multipliers and Per Product pricing?"
+msgstr ""
+"Ποια είναι η διαφορά μεταξύ των πολλαπλασιαστών και της τιμολόγησης ανά "
+"προϊόν;"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:12
+msgid ""
+"Multipliers apply a single multiplier value across all products for a given "
+"role. Per Product pricing lets you set exact prices directly on each "
+"product's edit page for specific roles, giving you granular per-product "
+"control."
+msgstr ""
+"Οι πολλαπλασιαστές εφαρμόζουν μια ενιαία τιμή πολλαπλασιαστή σε όλα τα "
+"προϊόντα για έναν συγκεκριμένο ρόλο. Η τιμολόγηση ανά προϊόν σας επιτρέπει "
+"να ορίσετε ακριβείς τιμές απευθείας στη σελίδα επεξεργασίας κάθε προϊόντος "
+"για συγκεκριμένους ρόλους, παρέχοντάς σας λεπτομερή έλεγχο ανά προϊόν."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:15
+msgid "What does 'Make empty price' mean?"
+msgstr "Τι σημαίνει 'Make empty price';"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:16
+msgid ""
+"When \"Make empty price\" is enabled for a role in Multipliers or Per "
+"Product settings, the product price is hidden entirely for that role."
+msgstr ""
+"Όταν η επιλογή «Κρύψιμο τιμής» είναι ενεργοποιημένη για έναν ρόλο στις "
+"ρυθμίσεις «Πολλαπλασιαστές» ή «Ανά προϊόν», η τιμή του προϊόντος κρύβεται "
+"εντελώς για τον συγκεκριμένο ρόλο."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:19
+msgid "Why should I disable the plugin for search engine bots?"
+msgstr ""
+"Γιατί πρέπει να απενεργοποιήσω το πρόσθετο για τα bots των μηχανών "
+"αναζήτησης;"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:20
+msgid ""
+"Search engines index product prices. If bots see role-specific prices (e.g. "
+"a restricted or empty price), it can affect SEO and how products appear in "
+"search results. Disabling for bots ensures crawlers always see standard "
+"WooCommerce prices."
+msgstr ""
+"Οι μηχανές αναζήτησης ευρετηριάζουν τις τιμές των προϊόντων. Εάν τα bots "
+"βλέπουν τιμές που αφορούν συγκεκριμένο ρόλο (π.χ. μια περιορισμένη ή κενή "
+"τιμή), αυτό μπορεί να επηρεάσει το SEO και τον τρόπο με τον οποίο "
+"εμφανίζονται τα προϊόντα στα αποτελέσματα αναζήτησης. Η απενεργοποίηση για "
+"bots διασφαλίζει ότι οι ανιχνευτές βλέπουν πάντα τις τυπικές τιμές του "
+"WooCommerce."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:23
+msgid "What happens if I have both Multipliers and Per Product pricing enabled?"
+msgstr ""
+"Τι συμβαίνει εάν έχω ενεργοποιήσει τόσο τις πολλαπλασιαστές όσο και την "
+"τιμολόγηση ανά προϊόν;"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:24
+msgid ""
+"Per Product prices take precedence over Multipliers by default. If a "
+"product has a per-product price set for a role, that price is used. "
+"Otherwise, the Multiplier is applied to the standard WooCommerce price."
+msgstr ""
+"Οι τιμές ανά προϊόν υπερισχύουν των πολλαπλασιαστών από προεπιλογή. Εάν για "
+"ένα προϊόν έχει οριστεί τιμή ανά προϊόν για έναν ρόλο, χρησιμοποιείται αυτή "
+"η τιμή. Διαφορετικά, ο Πολλαπλασιαστής εφαρμόζεται στην τυπική τιμή του "
+"WooCommerce."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:27
+msgid "Can I apply role-based pricing to shipping costs?"
+msgstr "Μπορώ να εφαρμόσω τιμολόγηση βάσει ρόλων στα έξοδα αποστολής;"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/faqs/index.js:28
+msgid ""
+"Yes. In Settings → Multipliers, enable the \"Apply to Shipping\" option. "
+"The same multiplier configured for a role's product prices will also be "
+"applied to shipping costs at checkout."
+msgstr ""
+"Ναι. Στις Ρυθμίσεις → Πολλαπλασιαστές, ενεργοποιήστε την επιλογή \"Εφαρμογή "
+"στην αποστολή\". Ο ίδιος πολλαπλασιαστής που έχει ρυθμιστεί για τις τιμές "
+"των προϊόντων ενός ρόλου θα εφαρμόζεται και στα έξοδα αποστολής κατά την "
+"ολοκλήρωση της πληρωμής."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:22
+msgid "Save Changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:32
+msgid "Reset Settings"
+msgstr "Επαναφορά ρυθμίσεων"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:38
+msgid "Yes, I want to"
+msgstr "Ναι, θέλω να"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:39
+msgid "No, cancel"
+msgstr "Όχι, ακυρώστε"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/components/form/SaveBar.js:41
+msgid ""
+"Are you sure you want to reset this section to default settings? This "
+"cannot be undone."
+msgstr ""
+"Είστε σίγουροι ότι θέλετε να επαναφέρετε αυτό το τμήμα στις προεπιλεγμένες "
+"ρυθμίσεις; Αυτό δεν μπορεί να αναιρεθεί."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:13
+msgid "Messages"
+msgstr "Μηνύματα"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:21
+msgid "Configure plugin options and preferences"
+msgstr "Ρύθμιση επιλογών και προτιμήσεων του πρόσθετου"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/pages/settings/index.js:28
+msgid "Read the documentation"
+msgstr "Διαβάστε την τεκμηρίωση"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:14
+msgid "Pricing Rules"
+msgstr "Κανόνες τιμολόγησης"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:15
+msgid ""
+"Build condition-based rules that automatically apply the right price to the "
+"right products, users, and quantities."
+msgstr ""
+"Δημιουργήστε κανόνες βάσει συνθηκών που εφαρμόζουν αυτόματα τη σωστή τιμή "
+"στα κατάλληλα προϊόντα, χρήστες και ποσότητες."
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:17
+msgid "Apply prices per user role, product, or category"
+msgstr "Εφαρμογή τιμών ανά ρόλο χρήστη, προϊόν ή κατηγορία"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:18
+msgid "Set percentage or fixed-amount price adjustments"
+msgstr "Ορισμός αναπροσαρμογών τιμών ως ποσοστό ή ως σταθερό ποσό"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:19
+msgid "Quantity-range discounts (e.g. buy 10+ units, get 20% off)"
+msgstr ""
+"Εκπτώσεις βάσει ποσότητας (π.χ. αγοράστε 10+ τεμάχια και κερδίστε έκπτωση "
+"20%)"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:20
+msgid "Multiple rules with priority ordering"
+msgstr "Πολλαπλοί κανόνες με σειρά προτεραιότητας"
+
+#: build/admin.js:1 dist/price-by-user-role-for-woocommerce/build/admin.js:1
+#: src/admin/routes.js:21
+msgid "Combine role-based and category-based conditions"
+msgstr "Συνδυάστε προϋποθέσεις βάσει ρόλου και βάσει κατηγορίας"
+
+#: src/admin/components/Alert.js:22
+msgid "Dismiss"
+msgstr "Απορρίψτε το"
+
+#~ msgid "Product Prices by User Roles for WooCommerce Pro"
+#~ msgstr "Τιμές προϊόντων ανά ρόλο χρήστη για το WooCommerce Pro"
+
+#~ msgid ""
+#~ "Show different product prices to different user roles. Set fixed prices, "
+#~ "percentage adjustments, bulk rules, quantity-range discounts, and "
+#~ "multipliers."
+#~ msgstr ""
+#~ "Εμφάνιση διαφορετικών τιμών προϊόντων σε διαφορετικούς ρόλους χρηστών. "
+#~ "Ορίστε σταθερές τιμές, ποσοστιαίες αναπροσαρμογές, κανόνες για χύμα "
+#~ "προϊόντα, εκπτώσεις σε εύρος ποσοτήτων και πολλαπλασιαστές."
+
+#~ msgid "http://www.tychesoftwares.com"
+#~ msgstr "http://www.tychesoftwares.com"
+
+#~ msgid "Fixed Price"
+#~ msgstr "Σταθερή τιμή"
+
+#~ msgid "Fixed Increase"
+#~ msgstr "Σταθερή αύξηση"
+
+#~ msgid "Fixed Decrease"
+#~ msgstr "Σταθερή μείωση"
+
+#~ msgid "Percentage Increase"
+#~ msgstr "Ποσοστιαία αύξηση"
+
+#~ msgid "Percentage Decrease"
+#~ msgstr "Ποσοστιαία μείωση"
+
+#~ msgid "No"
+#~ msgstr "Όχι"
+
+#~ msgid "Yes"
+#~ msgstr "Ναι"
+
+#~ msgid "Adjustment Type"
+#~ msgstr "Τύπος ρύθμισης"
+
+#~ msgid "Min Qty"
+#~ msgstr "Ελάχιστη ποσότητα"
+
+#~ msgid "Max Qty"
+#~ msgstr "Μέγιστη ποσότητα"
+
+#~ msgid "Please enter a license key."
+#~ msgstr "Παρακαλώ εισάγετε ένα κλειδί άδειας χρήσης."
+
+#~ msgid "Could not connect to the license server."
+#~ msgstr "Δεν ήταν δυνατή η σύνδεση με το διακομιστή αδειών."
+
+#~ msgid "Invalid response from license server."
+#~ msgstr "Μη έγκυρη απάντηση από τον διακομιστή αδειών."
+
+#~ msgid "License activated successfully."
+#~ msgstr "Η άδεια χρήσης ενεργοποιήθηκε με επιτυχία."
+
+#~ msgid "No license key found."
+#~ msgstr "Δεν βρέθηκε κλειδί άδειας χρήσης."
+
+#~ msgid "License deactivated."
+#~ msgstr "Η άδεια απενεργοποιήθηκε."
+
+#~ msgid "Failed to deactivate license."
+#~ msgstr "Απέτυχε η απενεργοποίηση της άδειας."
+
+#~ msgid "Your license key has expired."
+#~ msgstr "Το κλειδί άδειας χρήσης έχει λήξει."
+
+#~ msgid "Your license key has been revoked."
+#~ msgstr "Το κλειδί της άδειας χρήσης σας έχει ανακληθεί."
+
+#~ msgid "Invalid license key."
+#~ msgstr "Μη έγκυρο κλειδί άδειας χρήσης."
+
+#~ msgid "License key is not valid for this product."
+#~ msgstr "Το κλειδί άδειας χρήσης δεν ισχύει για αυτό το προϊόν."
+
+#~ msgid "Your license is not active for this URL."
+#~ msgstr "Η άδειά σας δεν είναι ενεργή για αυτή τη διεύθυνση URL."
+
+#~ msgid "License key does not match this product."
+#~ msgstr "Το κλειδί άδειας χρήσης δεν ταιριάζει με αυτό το προϊόν."
+
+#~ msgid "You have reached your license activation limit."
+#~ msgstr "Έχετε φτάσει στο όριο ενεργοποίησης της άδειάς σας."
+
+#~ msgid "License activation failed."
+#~ msgstr "Η ενεργοποίηση της άδειας απέτυχε."
+
+#~ msgid "Rule not found."
+#~ msgstr "Κανόνας δεν βρέθηκε."
+
+#~ msgid "Rule created."
+#~ msgstr "Δημιουργήθηκε κανόνας."
+
+#~ msgid "Rule updated."
+#~ msgstr "Ο κανόνας ενημερώθηκε."
+
+#~ msgid "Rule deleted."
+#~ msgstr "Ο κανόνας διαγράφεται."
+
+#~ msgid "Rule duplicated."
+#~ msgstr "Κανόνας που επαναλαμβάνεται."
+
+#~ msgid "No rules selected."
+#~ msgstr "Δεν έχουν επιλεγεί κανόνες."
+
+#~ msgid "Unknown action."
+#~ msgstr "Άγνωστη δράση."
+
+#~ msgid "Bulk action applied."
+#~ msgstr "Εφαρμογή μαζικής δράσης."
+
+#, php-format
+#~ msgid "Copy of %s"
+#~ msgstr "Αντίγραφο του %s"
+
+#~ msgid ""
+#~ "Special offer for {role}s: buy {range} units of {product} to get it at "
+#~ "{price} per unit."
+#~ msgstr ""
+#~ "Ειδική προσφορά για {ρόλους}: αγοράστε {σειρά} μονάδες {προϊόν} για να το "
+#~ "αποκτήσετε στην {τιμή} ανά μονάδα."
+
+#~ msgid ""
+#~ "Special offer for {role}s: Add {range} units of {product} to get it at "
+#~ "{price} per unit."
+#~ msgstr ""
+#~ "Ειδική προσφορά για {role}s: Προσθέστε {σειρά} μονάδες του {προϊόντος} για "
+#~ "να το αποκτήσετε στην {τιμή} ανά μονάδα."
+
+#~ msgid ""
+#~ "The Lite version of the plugin has been deactivated automatically. All your "
+#~ "settings have been preserved."
+#~ msgstr ""
+#~ "Η έκδοση Lite του πρόσθετου έχει απενεργοποιηθεί αυτόματα. Όλες οι "
+#~ "ρυθμίσεις σας έχουν διατηρηθεί."
+
+#, php-format
+#~ msgid ""
+#~ "The license for Product Prices by User Roles for WooCommerce Pro is not "
+#~ "active. To receive automatic updates & support, please activate the license "
+#~ "%1$shere%2$s."
+#~ msgstr ""
+#~ "Η άδεια χρήσης για τις Τιμές προϊόντων ανά ρόλο χρήστη για το WooCommerce "
+#~ "Pro δεν είναι ενεργή. Για να λαμβάνετε αυτόματες ενημερώσεις και "
+#~ "υποστήριξη, ενεργοποιήστε την άδεια %1$shere%2$s."
+
+#~ msgid "Role"
+#~ msgstr "Ρόλος"
+
+#~ msgid "Price"
+#~ msgstr "Τιμή"
+
+#~ msgid "License"
+#~ msgstr "Άδεια"
+
+#~ msgid "Assign prices to a product or rule"
+#~ msgstr "Εκχώρηση τιμών σε ένα προϊόν ή κανόνα"
+
+#~ msgid "Configure price visibility"
+#~ msgstr "Διαμόρφωση ορατότητας τιμών"
+
+#~ msgid "Plugin Status"
+#~ msgstr "Κατάσταση plugin"
+
+#~ msgid "Enabled"
+#~ msgstr "Ενεργοποιημένο"
+
+#~ msgid "Disabled"
+#~ msgstr "Άτομα με ειδικές ανάγκες"
+
+#~ msgid "Active Rules"
+#~ msgstr "Ενεργοί κανόνες"
+
+#~ msgid "rule configured"
+#~ msgid_plural "rules configured"
+#~ msgstr[0] "ρυθμισμένος κανόνας"
+#~ msgstr[1] "κανόνες που έχουν ρυθμιστεί"
+
+#~ msgid "Active"
+#~ msgstr "Ενεργό"
+
+#~ msgid "Inactive"
+#~ msgstr "Ανενεργό"
+
+#~ msgid "Per-Product"
+#~ msgstr "Ανά προϊόν"
+
+#~ msgid ""
+#~ "Enable the plugin in Settings → General, then use one of three methods: "
+#~ "Multipliers (percentage-based adjustments across all products), Rules "
+#~ "(targeted adjustments by product or category), or Per Product settings "
+#~ "(exact prices set directly on each product's edit page for specific roles)."
+#~ msgstr ""
+#~ "Ενεργοποιήστε το πρόσθετο στις Ρυθμίσεις → Γενικά και, στη συνέχεια, "
+#~ "χρησιμοποιήστε μία από τις τρεις μεθόδους: Κανόνες (στοχευμένες προσαρμογές "
+#~ "ανά προϊόν ή κατηγορία) ή Ρυθμίσεις ανά προϊόν (ακριβείς τιμές που "
+#~ "καθορίζονται απευθείας στη σελίδα επεξεργασίας κάθε προϊόντος για "
+#~ "συγκεκριμένους ρόλους)."
+
+#~ msgid "Can I create pricing rules for specific product categories?"
+#~ msgstr ""
+#~ "Μπορώ να δημιουργήσω κανόνες τιμολόγησης για συγκεκριμένες κατηγορίες "
+#~ "προϊόντων;"
+
+#~ msgid ""
+#~ "Yes. When creating a Rule, you can target products by category. The rule "
+#~ "will apply the configured price adjustment to all products within those "
+#~ "categories for the selected roles."
+#~ msgstr ""
+#~ "Ναι. Κατά τη δημιουργία ενός Κανόνα, μπορείτε να στοχεύσετε προϊόντα ανά "
+#~ "κατηγορία. Ο κανόνας θα εφαρμόσει τη ρυθμισμένη προσαρμογή τιμής σε όλα τα "
+#~ "προϊόντα εντός αυτών των κατηγοριών για τους επιλεγμένους ρόλους."
+
+#~ msgid "How does the override option work in Rules?"
+#~ msgstr "Πώς λειτουργεί η επιλογή παράκαμψης στους κανόνες;"
+
+#~ msgid ""
+#~ "By default, per-product prices take precedence over Rules. Enabling "
+#~ "\"Override product level configuration\" inside a Rule forces the Rule to "
+#~ "apply even when a per-product price is set, giving Rules higher priority."
+#~ msgstr ""
+#~ "Από προεπιλογή, οι τιμές ανά προϊόν υπερισχύουν των Κανόνων. Η ενεργοποίηση "
+#~ "της επιλογής \"Παράκαμψη της διαμόρφωσης σε επίπεδο προϊόντος\" μέσα σε "
+#~ "έναν Κανόνα αναγκάζει τον Κανόνα να εφαρμόζεται ακόμη και όταν έχει οριστεί "
+#~ "τιμή ανά προϊόν, δίνοντας στους Κανόνες μεγαλύτερη προτεραιότητα."
+
+#~ msgid ""
+#~ "When \"Make empty price\" is enabled for a role in Multipliers or Rules, "
+#~ "the product price is hidden entirely for that role. A custom message from "
+#~ "Settings → Messages is shown in its place."
+#~ msgstr ""
+#~ "Όταν είναι ενεργοποιημένη η επιλογή \"Κάντε κενή τιμή\" για έναν ρόλο στους "
+#~ "Πολλαπλασιαστές ή τους Κανόνες, η τιμή του προϊόντος αποκρύπτεται εντελώς "
+#~ "για τον συγκεκριμένο ρόλο. Στη θέση της εμφανίζεται ένα προσαρμοσμένο "
+#~ "μήνυμα από τις Ρυθμίσεις → Μηνύματα."
+
+#~ msgid "Can I set minimum and maximum quantities for role-based pricing?"
+#~ msgstr "Μπορώ να ορίσω ελάχιστες και μέγιστες ποσότητες για τιμολόγηση βάσει ρόλων;"
+
+#~ msgid ""
+#~ "Yes. Rules support quantity ranges, letting you define different prices for "
+#~ "different purchase quantities — for example, a lower price when a customer "
+#~ "buys 10 or more units."
+#~ msgstr ""
+#~ "Ναι. Οι κανόνες υποστηρίζουν εύρος ποσοτήτων, επιτρέποντάς σας να ορίσετε "
+#~ "διαφορετικές τιμές για διαφορετικές ποσότητες αγοράς - για παράδειγμα, "
+#~ "χαμηλότερη τιμή όταν ένας πελάτης αγοράζει 10 ή περισσότερες μονάδες."
+
+#~ msgid "How do I exclude certain product categories from role-based pricing?"
+#~ msgstr ""
+#~ "Πώς μπορώ να αποκλείσω ορισμένες κατηγορίες προϊόντων από την τιμολόγηση "
+#~ "βάσει ρόλων;"
+
+#~ msgid ""
+#~ "Go to Settings → General and add categories to the \"Exclude Product "
+#~ "Categories\" field. Products in those categories will always show default "
+#~ "WooCommerce prices, regardless of the user's role."
+#~ msgstr ""
+#~ "Μεταβείτε στις Ρυθμίσεις → Γενικά και προσθέστε κατηγορίες στο πεδίο "
+#~ "\"Εξαίρεση κατηγοριών προϊόντων\". Τα προϊόντα σε αυτές τις κατηγορίες θα "
+#~ "εμφανίζουν πάντα τις προεπιλεγμένες τιμές του WooCommerce, ανεξάρτητα από "
+#~ "το ρόλο του χρήστη."
+
+#~ msgid "Can I customize the messages shown to customers about special pricing?"
+#~ msgstr ""
+#~ "Μπορώ να προσαρμόσω τα μηνύματα που εμφανίζονται στους πελάτες σχετικά με "
+#~ "τις ειδικές τιμές;"
+
+#~ msgid ""
+#~ "Yes. Go to Settings → Messages and enable the Messages feature. You can set "
+#~ "custom messages for the product page, cart, and checkout, using "
+#~ "placeholders like {role}, {price}, {product}, and {range}."
+#~ msgstr ""
+#~ "Ναι. Μεταβείτε στις Ρυθμίσεις → Μηνύματα και ενεργοποιήστε τη λειτουργία "
+#~ "Μηνύματα. Μπορείτε να ορίσετε προσαρμοσμένα μηνύματα για τη σελίδα του "
+#~ "προϊόντος, το καλάθι και το ταμείο, χρησιμοποιώντας πλαστότητες όπως "
+#~ "{role}, {price}, {product} και {range}."
+
+#~ msgid "Do I need to activate my license key?"
+#~ msgstr "Χρειάζεται να ενεργοποιήσω το κλειδί άδειας χρήσης μου;"
+
+#~ msgid ""
+#~ "Yes. Activating your license key enables automatic plugin updates and "
+#~ "access to premium support. Go to the License page and enter the key from "
+#~ "your purchase confirmation email or Tyche Softwares account dashboard."
+#~ msgstr ""
+#~ "Ναι. Η ενεργοποίηση του κλειδιού άδειας χρήσης σας επιτρέπει αυτόματες "
+#~ "ενημερώσεις του πρόσθετου και πρόσβαση σε premium υποστήριξη. Μεταβείτε στη "
+#~ "σελίδα Άδεια χρήσης και εισαγάγετε το κλειδί από το email επιβεβαίωσης της "
+#~ "αγοράς σας ή από το ταμπλό του λογαριασμού Tyche Softwares."
