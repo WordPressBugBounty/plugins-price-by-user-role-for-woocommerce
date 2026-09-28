@@ -26,7 +26,7 @@ final class Price_By_User_Role_For_WooCommerce {
 	 *
 	 * @var string
 	 */
-	protected static $plugin_version = '2.0.0';
+	protected static $plugin_version = '2.1.0';
 
 	/**
 	 * Minimum version of WordPress required.

@@ -41,7 +41,6 @@ class Product_Meta_Box {
 		add_action( 'add_meta_boxes', array( $this, 'add_meta_box' ) );
 		add_action( 'save_post_product', array( $this, 'save_meta_box' ), PHP_INT_MAX, 1 );
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
-		add_action( 'admin_notices', array( $this, 'admin_notices_lite' ) );
 	}
 
 	/**
@@ -211,23 +210,6 @@ class Product_Meta_Box {
 			? sanitize_key( wp_unslash( $_POST['alg_wc_price_by_user_role_per_product_settings_enabled'] ) )
 			: 'no';
 
-		if ( 'yes' === $enabled ) {
-			$args = array(
-				'post_type'      => 'product',
-				'post_status'    => 'any',
-				'posts_per_page' => 1,
-				'meta_key'       => '_alg_wc_price_by_user_role_per_product_settings_enabled', // phpcs:ignore WordPress.DB.SlowDBQuery
-				'meta_value'     => 'yes', // phpcs:ignore WordPress.DB.SlowDBQuery
-				'post__not_in'   => array( $post_id ),
-				'fields'         => 'ids',
-			);
-			$loop = new \WP_Query( $args );
-			if ( $loop->found_posts >= 1 ) {
-				add_filter( 'redirect_post_location', array( $this, 'add_notice_query_var_lite' ), 99 );
-				$enabled = 'no';
-			}
-		}
-
 		update_post_meta( $post_id, '_alg_wc_price_by_user_role_per_product_settings_enabled', $enabled );
 
 		$product  = wc_get_product( $post_id );
@@ -332,33 +314,5 @@ class Product_Meta_Box {
 		}
 
 		return implode( ', ', $parts );
-	}
-
-	/**
-	 * Append the upgrade-notice query var to the post-save redirect URL.
-	 *
-	 * @param string $location Redirect URL.
-	 * @return string
-	 * @since 2.0
-	 */
-	public function add_notice_query_var_lite( string $location ): string {
-		remove_filter( 'redirect_post_location', array( $this, 'add_notice_query_var_lite' ), 99 );
-		return add_query_arg( array( 'pbur_per_product_limit' => '1' ), $location );
-	}
-
-	/**
-	 * Show admin notice when the Lite per-product product limit is reached.
-	 *
-	 * @since 2.0
-	 */
-	public function admin_notices_lite() {
-		if ( ! isset( $_GET['pbur_per_product_limit'] ) ) { // phpcs:ignore WordPress.Security.NonceVerification
-			return;
-		}
-		?>
-		<div class="notice notice-error">
-			<p><?php echo wp_kses_post( sprintf( __( 'The free version is limited to one product with per-product pricing enabled at a time. <a href="%s" target="_blank">Upgrade to Pro</a> for unlimited products.', 'price-by-user-role-for-woocommerce' ), esc_url( 'https://www.tychesoftwares.com/products/product-prices-by-user-roles-for-woocommerce/' ) ) ); ?></p>
-		</div>
-		<?php
 	}
 }

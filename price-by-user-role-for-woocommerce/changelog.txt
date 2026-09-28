@@ -1,5 +1,8 @@
 *** Product Prices by User Roles for WooCommerce ***
 
+2026-09-28 - version 2.1.0
+* Enhancement - Removed the one-product limit for product-level role-based pricing in the free version. You can now set role-based prices on any number of products.
+
 2026-06-16 - version 2.0.0
 * Dev - Full plugin rewrite with a modern, namespaced PHP architecture for improved reliability and maintainability.
 * Dev - New React-based admin interface for all settings pages.

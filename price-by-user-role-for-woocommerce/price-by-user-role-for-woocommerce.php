@@ -11,15 +11,15 @@
  * Plugin Name:  Product Prices by User Roles for WooCommerce
  * Plugin URI:   https://www.tychesoftwares.com
  * Description:  Set role-based product prices in WooCommerce. Apply global multipliers or fixed per-product prices per role. Upgrade to Pro for rules, quantity discounts, adjustment types, and more.
- * Version:      2.0.0
+ * Version:      2.1.0
  * Author:       Tyche Softwares
  * Author URI:   https://www.tychesoftwares.com
  * Text Domain:  price-by-user-role-for-woocommerce
  * Domain Path:  /languages
  * Requires PHP: 7.4
  * WC requires at least: 5.0.0
- * WC tested up to: 10.8.0
- * Tested up to: 7.0
+ * WC tested up to: 11.1.2
+ * Tested up to: 7.1.2
  * Requires Plugins: woocommerce
  * License: GPLv3
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
