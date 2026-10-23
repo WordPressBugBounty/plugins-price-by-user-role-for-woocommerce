@@ -131,19 +131,19 @@ Assign a separate pricing rule to your wholesale user role using global price mu
 
 = Can I show different prices for different user roles? =
 
-Yes. The plugin displays different product prices based on WooCommerce user roles.
+Yes. You can set different prices for WooCommerce user roles, such as wholesale customers, retailers, members, and subscribers. Each role can have its own pricing rules.
 
 = Can I apply role-based pricing across my entire store? =
 
-Yes. Global price multipliers allow you to adjust prices across all products for each user role.
+Yes. Use global price multipliers to increase or decrease prices across your store for specific user roles without editing each product individually.
 
-= Can I set an exact price for an individual product? =
+= Can I set an exact price for multiple products? =
 
-Yes. The Lite version supports exact pricing for one product. Upgrade to the Pro version if you need to configure pricing for multiple products.
+Yes. The Lite version lets you set role-based prices for any number of individual products. You can assign exact prices to products based on customer roles.
 
 = Does the plugin support variable products? =
 
-Yes. Role-based pricing works with WooCommerce variable products.
+Yes. You can set role-based prices for WooCommerce variable products, including individual variations. If a variation doesn't have its own role-based price, the plugin can fall back to the price configured for the parent product.
 
 = Can I hide prices from selected user roles? =
 
