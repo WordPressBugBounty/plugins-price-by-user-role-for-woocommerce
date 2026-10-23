@@ -29,7 +29,7 @@ For example, you can offer wholesale customers a discounted price while retail c
 ### Set Product-Specific Prices
 Need more control over selected products? Override your global pricing by assigning an exact price for an individual product based on the selected user role.
 
-The Lite version allows you to configure role-based pricing for one product, making it easy to evaluate the plugin before upgrading to the Pro version for unlimited product pricing.
+With the Lite version, you can configure role-based prices for any number of products. This is useful when you want to offer special prices on selected products while keeping your regular pricing rules for the rest of your store.
 
 ### Compatible with Variable Products
 Apply role-based pricing to WooCommerce variable products so customers continue to receive the correct pricing regardless of the variation they choose.
@@ -55,7 +55,7 @@ If you find the plugin useful, a **⭐ 5-star rating** is always appreciated —
 
 = Looking for More Advanced Pricing Features? =
 
-Upgrade to [Product Prices by User Roles for WooCommerce Pro](https://www.tychesoftwares.com/products/woocommerce-price-user-role-plugin/?utm_source=wprepo&utm_medium=prolink&utm_campaign=ProductPricesByUserRoles) to unlock additional pricing options, including unlimited product-level pricing, bulk pricing rules, quantity-based pricing, category-based pricing, shipping charges based on user roles, and more.
+Upgrade to [Product Prices by User Roles for WooCommerce Pro](https://www.tychesoftwares.com/products/woocommerce-price-user-role-plugin/?utm_source=wprepo&utm_medium=prolink&utm_campaign=ProductPricesByUserRoles) to unlock additional pricing options, bulk pricing rules, quantity-based pricing, category-based pricing, shipping charges based on user roles, and more.
 
 See the complete Lite vs Pro comparison: [https://www.tychesoftwares.com/differences-between-pro-and-lite-versions-of-product-prices-by-user-roles-for-woocommerce-plugin/](https://www.tychesoftwares.com/differences-between-pro-and-lite-versions-of-product-prices-by-user-roles-for-woocommerce-plugin/)
 
